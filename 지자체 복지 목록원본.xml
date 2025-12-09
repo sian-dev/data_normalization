@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wantedList>
+    <totalCount>33</totalCount>
+    <pageNo>1</pageNo>
+    <numOfRows>100</numOfRows>
+    <resultCode>0</resultCode>
+    <resultMessage>SUCCESS</resultMessage>
+    <servList>
+        <servId>WLF00006169</servId>
+        <servNm>교통약자 이동지원 확대 사업</servNm>
+        <bizChrDeptNm>울산광역시 교통국 교통기획과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>1. 교통약자 이동편의 증진 및 이동권 보장
+    2. 저출산·고령화에 따른 인구감소·지역소멸 위기 대응
+    3. 바우처 택시 활용에 따른 지역운송사업 및 지역경제 활성화  </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 노년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>감면, 기타</srvPvsnNm>
+        <aplyMtdNm>팩스, 전화</aplyMtdNm>
+        <inqNum>798</inqNum>
+        <lastModYmd>20250904</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004892</servId>
+        <servNm>울주군 학대피해아동 아이돌봄서비스 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>아동학대 사건으로 인해 갑작스럽게 발생한 양육공백을 해소하여 피해아동의 심리적 안정 및 신속한 일상 회복 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004892&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급, 프로그램/서비스(서비스)</srvPvsnNm>
+        <aplyMtdNm>우편, 방문, E-mail, 팩스</aplyMtdNm>
+        <inqNum>564</inqNum>
+        <lastModYmd>20250813</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004348</servId>
+        <servNm>셋째이상 자녀 입학축하금 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>셋째 이상 자녀가 있는 다자녀가정을 우대 및 지원하여 양육부담을 경감하고 출산장려 분위기를 조성하여 아이 낳고 키우기 좋은 정주 여건을 강화하고자 합니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004348&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>956</inqNum>
+        <lastModYmd>20250813</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004079</servId>
+        <servNm>울주군 출산장려금 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>출산장려</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004079&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <inqNum>4402</inqNum>
+        <lastModYmd>20250813</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001576</servId>
+        <servNm>출산축하용품 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>출산장려</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001576&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <inqNum>994</inqNum>
+        <lastModYmd>20250813</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00002834</servId>
+        <servNm>행려자 관리</servNm>
+        <bizChrDeptNm>울산광역시 남구 복지교육국 복지지원과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>남구</sggNm>
+        <servDgst>사회복지 수혜 사각지역에 있는 행려자의 기본적인 삶의 질 향상을 목적으로 함 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002834&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 아동, 노년, 청년, 중장년, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>3523</inqNum>
+        <lastModYmd>20250805</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00003820</servId>
+        <servNm>아동급식비 지원(학기중 토공휴일)</servNm>
+        <bizChrDeptNm>울산광역시 남구 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>남구</sggNm>
+        <servDgst>저소득 가정의 아동들이 건강하게 자랄 수 있도록 급식지원 등을 통해 결식예방 및 영양개선</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003820&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+        <intrsThemaNmArray>일자리, 안전·위기</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+        <aplyMtdNm>방문, 인터넷, 우편</aplyMtdNm>
+        <inqNum>12097</inqNum>
+        <lastModYmd>20250711</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001831</servId>
+        <servNm>출산축하용품 지원</servNm>
+        <bizChrDeptNm>울산광역시 북구 복지환경국 가족정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>북구</sggNm>
+        <servDgst>출산장려 분위기를 조성하고 산모의 건강한 산후조리에 도움이 되는 지역특산물(한우, 미역)을 출산 축하용품로 지원하여 지역 경제를 활성화 시키고 건강한 출산 환경을 조성하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001831&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>임신 · 출산, 영유아, 아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>753</inqNum>
+        <lastModYmd>20250627</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004440</servId>
+        <servNm>출산지원금 지급</servNm>
+        <bizChrDeptNm>울산광역시 북구 복지환경국 가족정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>북구</sggNm>
+        <servDgst>출산장려 분위기를 조성하고 임신·출산·양육으로 인한 부담을 경감시켜 아이낳고 키우기 좋은 여건을 조성하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004440&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 아동, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <inqNum>3089</inqNum>
+        <lastModYmd>20250627</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00006055</servId>
+        <servNm>달빛어린이병원 운영 지원</servNm>
+        <bizChrDeptNm>울산광역시 시민건강국 식의약안전과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>- 응급실 외 휴일(토,일,공휴일) 소아경증환자에게 외래 진료를 통해 신속한 의료서비스 제공
+    - 국고보조금(운영비) 지우너 기준에 미달되는 지정 의료기관에 대하여, 향후 진료시간 확대를 통해 국비 지원 기준을 충족하기 전 까지 시비를 지원하여 안정적인 운영 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006055&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>122</inqNum>
+        <lastModYmd>20250625</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005987</servId>
+        <servNm>달빛어린이병원 등 장려금 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 보건소 보건과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>달빛어린이병원의 안정적인 운영 지원을 통해 소아경증환자가 심야 및 공휴일에 외래에서 진료를 통한 의료 편의성과 비용부담 감소</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005987&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>청소년, 영유아, 아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 신체건강</intrsThemaNmArray>
+        <sprtCycNm>반기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>133</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005968</servId>
+        <servNm>방과후학교 자유수강권</servNm>
+        <bizChrDeptNm>울산광역시교육청 행정국 재정복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>저소득, 다자녀 가정 학생 등에 대한 지속적이고 실질적인 지원을 통한 교육기회 확대 및 계층 간 교육격차 완화
+    </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005968&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray>보훈대상자, 한부모·조손, 저소득</trgterIndvdlNmArray>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>감면</srvPvsnNm>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <inqNum>643</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005280</servId>
+        <servNm>사립유치원 무상교육비 지원</servNm>
+        <bizChrDeptNm>울산광역시교육청 교육국 유아특수교육과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>사립유치원 교육과정운영 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005280&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <inqNum>1090</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005277</servId>
+        <servNm>저소득층 학생 교육정보화(PC) 지원</servNm>
+        <bizChrDeptNm>울산광역시교육청 행정국 재정복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>ㅇ정보화 지원을 통한 정보 소외계층의 정보 접근 환경 개선으로 교육복지 실현
+    ㅇ「교육기본법」 제4조(교육의 기회균등) 및 제23조(교육의 정보화)</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005277&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+        <intrsThemaNmArray />
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <inqNum>1000</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004928</servId>
+        <servNm>초등학교 입학준비금</servNm>
+        <bizChrDeptNm>울산광역시교육청 행정국 재정복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>초등학교 입학생 학부모의 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004928&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>413</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00002957</servId>
+        <servNm>학교 밖 청소년 교통비 지원</servNm>
+        <bizChrDeptNm>울산광역시교육청 교육국 민주시민교육과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>학교 밖 청소년의 기본적인 교육복지 여건 조성  </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002957&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>1177</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004490</servId>
+        <servNm>수학여행비 지원</servNm>
+        <bizChrDeptNm>울산광역시교육청 행정국 재정복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울산광역시교육청</sggNm>
+        <servDgst>
+    교육복지 확대를 통한 학부모 교육비 부담 경감 및 교육의 공공성 강화, 저소득층 및 다자녀 학생 가정 학생들에게 고른 체험학습 기회 제공 및 출산 장려 정책에 부응</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004490&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>3294</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00002547</servId>
+        <servNm>저소득층 맞춤형지원 사업</servNm>
+        <bizChrDeptNm>울산광역시 동구 복지문화국 복지지원과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>동구</sggNm>
+        <servDgst>동구주민으로서 질병, 실직, 노령, 장애, 이혼 등으로 생활에 어려움을 겪고 있는 저소득층에 대하여 기본적인 생계유지를 위해 맞춤형으로 지원함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002547&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>노년, 아동, 영유아, 청소년, 중장년, 청년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>9701</inqNum>
+        <lastModYmd>20250606</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004267</servId>
+        <servNm>임산부, 난임부부 교통비 지원</servNm>
+        <bizChrDeptNm>울산광역시 울주군 보건소 건강관리과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>울주군</sggNm>
+        <servDgst>산전 진료와 분만 및 난임부부의 시술을 위해 관외로 이동 시 경제적 부담 경감 출산장려 정책 필요</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004267&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>중장년, 임신 · 출산, 청년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 임신·출산, 주거, 입양·위탁, 보호·돌봄</intrsThemaNmArray>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>4255</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005883</servId>
+        <servNm>울산아이문화패스</servNm>
+        <bizChrDeptNm>울산광역시 문화관광체육국 문화예술과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst> ○ 문화예술시장의 잠재적 수요층인 아동(초등학생 연령)을 대상으로  문화예술 활동 지원 통한 문화예술 향유기회 제공 및 문화격차 완화
+    ○ 문화예술‧체육 분야 및 예체능 학원 등에 사용 가능한 선불카드(지원금) 지원하여 지역 경제 활성화 도모
+    ○ 저출산 시대 아동 양육 가구의 경제적 부담 경감 통한 인구감소 대응
+    ○ 산업, 문화의 축에 ‘시민생활’을 포함하여 시민이 일상에서 변화를 체감하고 울산사람의 자부심을 느낄 수 있는 ‘생활체감형’ 사업 추진</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005883&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <inqNum>325</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005861</servId>
+        <servNm>울부심 생활+ 조부모 손주 돌봄 수당</servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>부모급여를 받는 0~1세 영아와 보육을 받는 3~5세 유아 사이의 양육 공백을 해소하여 아이 낳고 기르기 좋은 울산의 아동 양육 환경을 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005861&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>7872</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00005068</servId>
+        <servNm>임산부 및 영아동반자 교통비 지원-맘편한교통비</servNm>
+        <bizChrDeptNm>울산광역시 남구 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>남구</sggNm>
+        <servDgst>임산부 및 영아동반 가정에 대한 교통비 지원을 통해 교통약자의 이동편의성을 증대하고 경제적 부담을 경감하고자 합니다.
+    저출산 극복 및 출산 친화적 사회분위기를 조성하고자 합니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005068&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>3080</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004509</servId>
+        <servNm>출산양육장려금품 지원사업</servNm>
+        <bizChrDeptNm>울산광역시 남구 복지교육국 여성가족과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>남구</sggNm>
+        <servDgst>출산장려</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004509&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급, 현물지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>1731</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004283</servId>
+        <servNm>어린이집 보육료 차액 지원</servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>어린이집 입소 중인 3~5세 아동의 부모부담 보육료 차액 지원으로 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004283&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>교육, 입양·위탁, 보호·돌봄, 주거</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>1020</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001579</servId>
+        <servNm>가정위탁아동 양육보조금 지원 </servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>가정위탁아동 양육보조금 지원으로 보호대상 아동이  가정적인 분위기에서 건전한 사회인으로 성장될 수 있도록 지원함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001579&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>572</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001283</servId>
+        <servNm>아동급식 지원 </servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>저소득 가정의 아동들이 건강하게 자랄 수 있도록 급식지원을 통해 결식예방 및 영양개선 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001283&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+        <intrsThemaNmArray>안전·위기</intrsThemaNmArray>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>817</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004080</servId>
+        <servNm>출산지원금 지원</servNm>
+        <bizChrDeptNm>울산광역시 중구 복지환경국 가족복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>중구</sggNm>
+        <servDgst>저출산 극복 및 출산친화적 사회분위기 조성을 위하여 출산가정에 출산비용을 지원함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004080&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>795</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001010</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>장애인 출산가정의 산모와 신생아의 건강한 육아 환경을 향상시키기 위하여 출산비용을 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001010&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <inqNum>385</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00002836</servId>
+        <servNm>무연고사망자 지원</servNm>
+        <bizChrDeptNm>울산광역시 동구 복지문화국 복지지원과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>동구</sggNm>
+        <servDgst>무연고 사망자의 사체 수습을 효율적으로 하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002836&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>노년, 영유아, 아동, 중장년, 청년, 청소년</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문, 전화, 우편</aplyMtdNm>
+        <inqNum>1396</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00004343</servId>
+        <servNm>장애인활동지원 울산시 시비추가지원사업</servNm>
+        <bizChrDeptNm>울산광역시 복지여성국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>중증장애인 활동보조 서비스 시간 부족에 따라 시비추가 지원사업을 통하여 생활불편 해소</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004343&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>청소년, 청년, 아동, 중장년, 노년</lifeNmArray>
+        <trgterIndvdlNmArray>저소득, 장애인</trgterIndvdlNmArray>
+        <intrsThemaNmArray />
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>1631</inqNum>
+        <lastModYmd>20240615</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00001303</servId>
+        <servNm>어린이날 행사 </servNm>
+        <bizChrDeptNm>울산광역시 복지보훈여성국 복지정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm />
+        <servDgst>아동의 안전, 복지 등 아동의 권리 증진을 위한 어린이날 행사</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001303&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray />
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <aplyMtdNm />
+        <inqNum>355</inqNum>
+        <lastModYmd>20240604</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00002550</servId>
+        <servNm>출산장려금 지원사업</servNm>
+        <bizChrDeptNm>울산광역시 동구 복지문화국 가족정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>동구</sggNm>
+        <servDgst>저출산 극복 및 출산장려 분위기를 조성하고, 임신, 출산, 양육으로 인한 부담을 경감시키믕로써 "아이 낳고 키우기 좋은 동구" 만들기에 동참하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002550&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <trgterIndvdlNmArray />
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>922</inqNum>
+        <lastModYmd>20230704</lastModYmd>
+    </servList>
+    <servList>
+        <servId>WLF00000906</servId>
+        <servNm>소년소녀가정 및 가정위탁아동 문화활동 지원</servNm>
+        <bizChrDeptNm>가족정책과</bizChrDeptNm>
+        <ctpvNm>울산광역시</ctpvNm>
+        <sggNm>동구</sggNm>
+        <servDgst>문화상품권 지원을 통해 아동복지증진 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000906&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <lifeNmArray>아동</lifeNmArray>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+        <intrsThemaNmArray>입양·위탁, 안전·위기, 문화·여가</intrsThemaNmArray>
+        <sprtCycNm>반기</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <inqNum>747</inqNum>
+        <lastModYmd>20220711</lastModYmd>
+    </servList>
+</wantedList>
