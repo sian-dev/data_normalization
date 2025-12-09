@@ -693,8 +693,8 @@ if __name__ == '__main__':
     parser = StrictGPTParser(api_key=API_KEY)
     
     results = parser.batch_parse_xml(
-        './울산/중앙부 복지 목록.xml',
-        # './울산/지자체 복지 목록 울산.xml',
+        '../중앙부/중앙부 복지 목록.xml',
+        # '../울산/지자체 복지 목록 울산.xml',
         limit=300
     )
     
@@ -704,8 +704,8 @@ if __name__ == '__main__':
     timestamp = now.strftime("%m%d_%H%M") # %m=월, %d=일, %H=시, %M=분
 
     # 2. 파일 이름을 동적으로 생성합니다.
-    base_name = 'parsed_strict_gpt중앙부'
-    # base_name = 'parsed_strict_gpt울산'
+    base_name = '정형화데이터_중앙부'
+    # base_name = '정형화데이터_울산'
     file_name = f"{base_name}_{timestamp}.json" # f-string 사용
 
     # 3. 파일 저장 함수 호출

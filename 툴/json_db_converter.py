@@ -284,13 +284,13 @@ if __name__ == '__main__':
     # 중앙부처 JSON → DB
     print("\n[1단계] 중앙부처 복지 변환")
     converter.batch_insert_from_json(
-        json_path='parsed_strict_gpt중앙부.json'
+        json_path='정형화데이터_중앙부.json'
     )
     
     # 울산시 JSON → DB
     print("\n[2단계] 울산시 복지 변환")
     converter.batch_insert_from_json(
-        json_path='parsed_strict_gpt울산.json'
+        json_path='정형화데이터_울산.json'
     )
     
     # 통계

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>복지 정보 간편 조사</title>
+    <style>
+      /* 변수 설정: 모바일 친화적인 Soft Gold 계열 메인 색상 */
+      :root {
+        --primary-color: #fec86c; /* Warm Gold/Orange */
+        --primary-hover: #e0ac5b;
+        --accent-color: #4caf50; /* 결과 확인 버튼 컬러 */
+        --bg-color: #ffffff; /* 깨끗한 흰색 배경 */
+        --container-bg: #ffffff;
+        --border-color: #f0f0f0; /* 아주 연한 경계선 */
+        --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.05);
+        --transition-speed: 0.3s;
+      }
+
+      body {
+        font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif;
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 0; /* 모바일에서 좌우 여백을 CSS로 처리 */
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 500px; /* 모바일 최대 너비에 가깝게 조정 */
+        margin-top: 0;
+        background: var(--container-bg);
+        padding: 20px; /* 모바일 친화적인 적당한 여백 */
+        border-radius: 0; /* 모바일 앱처럼 화면 전체를 덮도록 */
+        box-shadow: none;
+        /* 데스크톱 환경 대비를 위해 중앙 컨테이너에만 그림자 적용 */
+        box-shadow: 0 0 0 1px #eee;
+        min-height: 100vh;
+      }
+      @media (min-width: 501px) {
+        .container {
+          margin-top: 30px;
+          border-radius: 16px; /* 데스크톱에서는 카드 형태로 */
+          box-shadow: var(--shadow-soft);
+          min-height: auto;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+        margin: 20px 0 30px 0;
+        font-weight: 700;
+      }
+
+      /* --- 진행 표시줄 (Progress Bar) --- */
+      .progress-container {
+        padding: 0 10px; /* 좌우 여백 추가 */
+        margin-bottom: 30px;
+      }
+      .progress-bar {
+        height: 8px;
+        background-color: var(--border-color);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        width: 20%;
+        background-color: var(--primary-color);
+        transition: width var(--transition-speed) ease-in-out;
+      }
+      .step-indicators {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #999;
+        font-weight: 500;
+      }
+      .step-indicators span {
+        text-align: center;
+        flex-grow: 1;
+        position: relative;
+      }
+      .step-indicators span.active {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      /* --- 폼 섹션 및 입력 필드 --- */
+      .step h3 {
+        font-size: 18px;
+        color: #333;
+        border-left: none; /* 깔끔하게 제거 */
+        padding-left: 0;
+        margin-bottom: 25px;
+        font-weight: 700; /* 제목을 더 굵게 */
+      }
+      .form-group {
+        margin-bottom: 20px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #444;
+        font-size: 15px;
+      }
+      input[type="text"],
+      input[type="date"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 14px 12px; /* 터치 영역 증가 */
+        min-height: 50px; /* 최소 높이 확보 */
+        border: 1px solid var(--border-color);
+        border-radius: 10px; /* 더 둥글게 */
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #333;
+        transition: border-color var(--transition-speed),
+          box-shadow var(--transition-speed);
+      }
+      input:focus,
+      select:focus,
+      textarea:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 0 1px var(--primary-color);
+      }
+
+      /* 자녀 정보 섹션 스타일 */
+      .child-item {
+        border: 1px solid #eee; /* 점선 대신 얇은 실선 */
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fafafa;
+      }
+      .child-item h4 {
+        margin-top: 0;
+        color: #555;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      #add_child_btn {
+        background-color: var(--primary-color);
+        color: #333; /* 버튼 배경이 밝으므로 텍스트는 어둡게 */
+        padding: 12px 18px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      #add_child_btn:hover {
+        background-color: var(--primary-hover);
+      }
+
+      /* --- 버튼 그룹 --- */
+      .button-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px; /* 간격 줄이기 */
+        margin-top: 40px;
+      }
+      .button-group button {
+        flex-grow: 1;
+        padding: 16px 20px; /* 버튼 높이 크게 */
+        min-height: 52px;
+        border: none;
+        border-radius: 12px; /* 버튼을 가장 둥글게 */
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 700;
+        transition: background-color var(--transition-speed);
+      }
+      .next-btn {
+        background-color: var(--primary-color);
+        color: #333; /* 텍스트 색상 변경 */
+      }
+      .next-btn:hover {
+        background-color: var(--primary-hover);
+      }
+      .prev-btn {
+        background-color: #e0e0e0; /* 이전 버튼은 연한 회색 */
+        color: #666;
+      }
+      .prev-btn:hover {
+        background-color: #d0d0d0;
+      }
+      .submit-btn {
+        background-color: var(--accent-color);
+        color: white;
+      }
+      .submit-btn:hover {
+        background-color: #40a044;
+      }
+
+      /* 2단계 정보 박스 스타일 */
+      .form-group[style*="background-color"] {
+        background-color: #fffaf0 !important; /* 연한 배경색으로 변경 */
+        padding: 15px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>맞춤형 복지 정보 진단</h2>
+
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-bar-fill"></div>
+        </div>
+        <div class="step-indicators" id="step-indicators">
+          <span data-indicator="1" class="active">1. 기본</span>
+          <span data-indicator="2">2. 경제</span>
+          <span data-indicator="3">3. 자녀</span>
+          <span data-indicator="4">4. 보호자</span>
+          <span data-indicator="5">5. 특수</span>
+        </div>
+      </div>
+
+      <form id="multiStepForm">
+        <div class="step active" data-step="1">
+          <h3>1. 가구 기본 정보</h3>
+          <div class="form-group">
+            <label for="residence_city">거주지 (시도 → 시군구)</label>
+            <div style="display: flex; gap: 10px">
+              <select id="residence_city" name="residence_city" style="flex: 1">
+                <option value="">시/도 선택</option>
+                <option value="Seoul">서울특별시</option>
+                <option value="Gyeonggi">경기도</option>
+                <option value="Busan">부산광역시</option>
+                <option value="Incheon">인천광역시</option>
+              </select>
+              <select
+                id="residence_district"
+                name="residence_district"
+                style="flex: 1"
+              >
+                <option value="">시/군/구 선택</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="residence_start_date">거주 시작일 (전입일)</label>
+            <input
+              type="date"
+              id="residence_start_date"
+              name="residence_start_date"
+            />
+          </div>
+          <div class="form-group">
+            <label>가구 형태 선택</label>
+            <select id="household_type" name="household_type">
+              <option value="일반">일반 가구</option>
+              <option value="한부모">한부모 가구</option>
+              <option value="조손">조손 가구</option>
+              <option value="다문화">다문화 가구</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="step" data-step="2">
+          <h3>2. 경제 상황 정보</h3>
+          <div class="form-group">
+            <label for="monthly_income">월 가구소득 입력 (세전, 원)</label>
+            <input
+              type="text"
+              id="monthly_income"
+              name="monthly_income"
+              placeholder="예: 3500000 (쉼표 없이 숫자만 입력)"
+            />
+          </div>
+          <div class="form-group">
+            <label>맞벌이 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="double_income" value="Y" /> 예</label
+              >
+              <label
+                ><input type="radio" name="double_income" value="N" checked />
+                아니오</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="housing_type">주거 형태</label>
+            <select id="housing_type" name="housing_type">
+              <option value="자가">자가</option>
+              <option value="전세">전세 (보증금 있음)</option>
+              <option value="월세">월세 (보증금/월세 입력 필요)</option>
+              <option value="무료임차">무료 임차</option>
+            </select>
+          </div>
+          <div
+            class="form-group"
+            style="
+              background-color: var(--info-bg);
+              padding: 15px;
+              border-radius: 8px;
+            "
+          >
+            <label style="color: #d89614; font-weight: 700"
+              >▶ 중위소득 % 자동 계산 (예시)</label
+            >
+            <p
+              id="median_income_display"
+              style="margin: 0; font-weight: 500; font-size: 14px; color: #555"
+            >
+              (입력하신 소득을 바탕으로 중위소득 대비 비율을 실시간 계산합니다.)
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-step="3">
+          <h3>3. 자녀 상세 정보</h3>
+          <div id="child_input_area">
+            <div class="child-item" data-child="1">
+              <h4>자녀 1</h4>
+              <div class="form-group">
+                <label for="child1_birth_date">출생일 (or 예정일)</label>
+                <input
+                  type="date"
+                  id="child1_birth_date"
+                  name="child1_birth_date"
+                />
+              </div>
+              <div class="form-group">
+                <label>출생 순서</label>
+                <input type="text" value="첫째 (자동 추천)" disabled />
+              </div>
+              <div class="form-group">
+                <label>출산 특이사항 (다중선택)</label>
+                <select
+                  multiple
+                  size="3"
+                  id="child1_special"
+                  name="child1_special[]"
+                >
+                  <option value="none">해당 없음</option>
+                  <option value="premature">미숙아</option>
+                  <option value="congenital">선천성 이상아</option>
+                  <option value="multiple">다태아 (쌍둥이 등)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="child1_disability">장애 여부 및 등급</label>
+                <select id="child1_disability" name="child1_disability">
+                  <option value="N">없음</option>
+                  <option value="Y_severe">장애인 (심한 정도)</option>
+                  <option value="Y_mild">장애인 (심하지 않은 정도)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="child1_health">건강 상태</label>
+                <select id="child1_health" name="child1_health">
+                  <option value="healthy">건강</option>
+                  <option value="chronic">만성질환</option>
+                  <option value="rare">희귀/중증 질환</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="child1_school">재학 상태</label>
+                <select id="child1_school" name="child1_school">
+                  <option value="preschool">
+                    미취학 (어린이집/유치원 포함)
+                  </option>
+                  <option value="elementary">초등학교</option>
+                  <option value="middle">중학교</option>
+                  <option value="high">고등학교</option>
+                  <option value="university">대학교</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <button type="button" id="add_child_btn" style="float: right">
+            + 자녀 추가
+          </button>
+          <div style="clear: both"></div>
+        </div>
+
+        <div class="step" data-step="4">
+          <h3>4. 부모/보호자 상세 정보</h3>
+          <div class="form-group">
+            <label for="parent_disability">부모/보호자 장애 여부</label>
+            <select id="parent_disability" name="parent_disability">
+              <option value="N">없음</option>
+              <option value="Y">있음</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="parent_leave">육아휴직 여부 및 기간</label>
+            <select id="parent_leave" name="parent_leave">
+              <option value="N">사용 안 함</option>
+              <option value="Y_current">사용 중</option>
+              <option value="Y_past">최근 1년 이내 사용 완료</option>
+              <option value="P">사용 예정</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>조부모 양육 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="grandparent_care" value="Y" />
+                예</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="grandparent_care"
+                  value="N"
+                  checked
+                />
+                아니오</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label>다문화/탈북민 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="multi_cultural" value="Y" />
+                예</label
+              >
+              <label
+                ><input type="radio" name="multi_cultural" value="N" checked />
+                아니오</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="step" data-step="5">
+          <h3>5. 특수 상황 (선택 사항)</h3>
+          <div class="form-group">
+            <label>가정 폭력 피해 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="violence_victim" value="Y" />
+                예</label
+              >
+              <label
+                ><input type="radio" name="violence_victim" value="N" checked />
+                아니오</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="etc_situation">기타 상황 (자유 서술)</label>
+            <textarea
+              id="etc_situation"
+              name="etc_situation"
+              rows="5"
+              placeholder="가구의 특이사항이나 기타 지원이 필요한 상황을 간략히 서술해 주세요. (예: 주 소득자 실직, 장기 입원 등)"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button
+            type="button"
+            class="prev-btn"
+            id="prevBtn"
+            style="display: none"
+          >
+            이전
+          </button>
+          <button type="button" class="next-btn" id="nextBtn">다음 단계</button>
+          <button
+            type="submit"
+            class="submit-btn"
+            id="submitBtn"
+            style="display: none"
+          >
+            ✅ 결과 확인
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      const form = document.getElementById("multiStepForm");
+      const steps = document.querySelectorAll(".step");
+      const progressFill = document.getElementById("progress-bar-fill");
+      const stepIndicators = document
+        .getElementById("step-indicators")
+        .querySelectorAll("span");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const submitBtn = document.getElementById("submitBtn");
+      const addChildBtn = document.getElementById("add_child_btn");
+      const childInputArea = document.getElementById("child_input_area");
+      const residenceCitySelect = document.getElementById("residence_city");
+      const residenceDistrictSelect =
+        document.getElementById("residence_district");
+
+      let currentStep = 1;
+      let childCount = 1;
+
+      // --- 데이터 정의 (시/도별 시/군/구 옵션) ---
+      const districtData = {
+        Seoul: ["종로구", "중구", "용산구", "성동구", "광진구", "기타 서울"],
+        Gyeonggi: [
+          "수원시",
+          "성남시",
+          "고양시",
+          "용인시",
+          "화성시",
+          "기타 경기",
+        ],
+        Busan: ["중구", "서구", "동구", "영도구", "부산진구", "기타 부산"],
+        Incheon: ["중구", "동구", "미추홀구", "연수구", "남동구", "기타 인천"],
+      };
+
+      // --- 폼 네비게이션 함수 ---
+
+      function showStep(stepNum) {
+        // 모든 단계를 숨김
+        steps.forEach((step) => step.classList.remove("active"));
+
+        // 해당 단계만 보임
+        const targetStep = document.querySelector(
+          `.step[data-step="${stepNum}"]`
+        );
+        if (targetStep) {
+          targetStep.classList.add("active");
+          window.scrollTo({ top: 0, behavior: "smooth" }); // 페이지 상단으로 스크롤
+        }
+
+        // 진행바 업데이트
+        const totalSteps = steps.length;
+        const progressPercent = (stepNum / totalSteps) * 100;
+        progressFill.style.width = `${progressPercent}%`;
+
+        // 지표 업데이트
+        stepIndicators.forEach((indicator) => {
+          indicator.classList.remove("active");
+          if (parseInt(indicator.dataset.indicator) === stepNum) {
+            indicator.classList.add("active");
+          }
+        });
+
+        // 버튼 가시성 및 텍스트 업데이트
+        prevBtn.style.display = stepNum === 1 ? "none" : "block";
+        nextBtn.style.display = stepNum === totalSteps ? "none" : "block";
+        submitBtn.style.display = stepNum === totalSteps ? "block" : "none";
+
+        // 3단계에서는 자녀 추가 버튼 표시
+        addChildBtn.style.display = stepNum === 3 ? "block" : "none";
+
+        // 버튼 텍스트 단순화 (모바일)
+        prevBtn.textContent = "이전";
+        nextBtn.textContent = stepNum < steps.length - 1 ? "다음 단계" : "다음";
+      }
+
+      // 다음 버튼 클릭 핸들러
+      nextBtn.addEventListener("click", () => {
+        // 유효성 검사 로직 (간단한 예시)
+        if (currentStep === 1) {
+          if (!residenceCitySelect.value || !residenceDistrictSelect.value) {
+            alert("거주지를 선택해 주세요.");
+            return;
+          }
+        }
+
+        if (currentStep < steps.length) {
+          currentStep++;
+          showStep(currentStep);
+        }
+      });
+
+      // 이전 버튼 클릭 핸들러
+      prevBtn.addEventListener("click", () => {
+        if (currentStep > 1) {
+          currentStep--;
+          showStep(currentStep);
+        }
+      });
+
+      // --- 시/도 선택에 따른 시/군/구 옵션 동적 변경 ---
+      residenceCitySelect.addEventListener("change", (e) => {
+        const selectedCity = e.target.value;
+        // 기존 옵션 제거
+        residenceDistrictSelect.innerHTML =
+          '<option value="">시/군/구 선택</option>';
+
+        if (selectedCity && districtData[selectedCity]) {
+          districtData[selectedCity].forEach((district) => {
+            const option = document.createElement("option");
+            option.value = district;
+            option.textContent = district;
+            residenceDistrictSelect.appendChild(option);
+          });
+        }
+      });
+
+      // --- 자녀 추가 기능 ---
+      function createChildInput(count) {
+        const title =
+          count === 1 ? "첫째" : count === 2 ? "둘째" : `${count}째`;
+        return `
+            <div class="child-item" data-child="${count}">
+                <h4>자녀 ${count}</h4>
+                <div class="form-group"><label for="child${count}_birth_date">출생일 (or 예정일)</label>
+                    <input type="date" id="child${count}_birth_date" name="child${count}_birth_date"></div>
+                <div class="form-group"><label>출생 순서</label><input type="text" value="${title} (자동 추천)" disabled></div>
+                <div class="form-group"><label>출산 특이사항 (다중선택)</label>
+                    <select multiple size="3" id="child${count}_special" name="child${count}_special[]">
+                        <option value="none">해당 없음</option><option value="premature">미숙아</option><option value="congenital">선천성 이상아</option><option value="multiple">다태아 (쌍둥이 등)</option>
+                    </select></div>
+                <div class="form-group"><label for="child${count}_disability">장애 여부 및 등급</label>
+                    <select id="child${count}_disability" name="child${count}_disability"><option value="N">없음</option><option value="Y_severe">장애인 (심한 정도)</option><option value="Y_mild">장애인 (심하지 않은 정도)</option></select></div>
+                <div class="form-group"><label for="child${count}_health">건강 상태</label>
+                    <select id="child${count}_health" name="child${count}_health"><option value="healthy">건강</option><option value="chronic">만성질환</option><option value="rare">희귀/중증 질환</option></select></div>
+                <div class="form-group"><label for="child${count}_school">재학 상태</label>
+                    <select id="child${count}_school" name="child${count}_school"><option value="preschool">미취학 (어린이집/유치원 포함)</option><option value="elementary">초등학교</option><option value="middle">중학교</option><option value="high">고등학교</option><option value="university">대학교</option></select></div>
+            </div>
+        `;
+      }
+
+      addChildBtn.addEventListener("click", () => {
+        childCount++;
+        childInputArea.insertAdjacentHTML(
+          "beforeend",
+          createChildInput(childCount)
+        );
+        alert(`자녀 ${childCount}째 입력란이 추가되었습니다.`);
+      });
+
+      // --- 초기화 ---
+      document.addEventListener("DOMContentLoaded", () => {
+        showStep(currentStep);
+      });
+
+      // --- 폼 제출 (최종 데이터 수집) ---
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        // 최종 데이터 수집 및 서버 전송 로직 구현
+        const formData = new FormData(form);
+        const data = {};
+        formData.forEach((value, key) => {
+          // 다중 선택(Select multiple) 처리
+          if (key.endsWith("[]")) {
+            const baseKey = key.slice(0, -2);
+            if (!data[baseKey]) data[baseKey] = [];
+            data[baseKey].push(value);
+          } else {
+            data[key] = value;
+          }
+        });
+
+        console.log("최종 수집 데이터:", data);
+        alert("모든 정보 입력 완료! 결과를 분석 중입니다.");
+      });
+    </script>
+  </body>
+</html>
