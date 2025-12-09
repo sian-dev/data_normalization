@@ -1,13 +1,17 @@
 import requests
 import xml.etree.ElementTree as ET
 import os
+from dotenv import load_dotenv
 
+# .env 파일에서 환경 변수를 로드합니다.
+load_dotenv()
+API_KEY = 
 # --- 1. API 및 파일 상수 정의 ---
 
-API_URL = "https://apis.data.go.kr/B554287/LocalGovernmentWelfareInformations/LcgvWelfaredetailed"
+API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"
 # 사용자 제공 Service Key
-# SERVICE_KEY = "a982cc39246fc808d76003ef21e3b0997b4d8f3b2c68b5dc0a304b0ed5004315" # 카카오톡 로그인
-SERVICE_KEY = "f1294f00c98f2644b045fdf819708f7aec2efd2d8d5a73b102f92d0130dce6c0" #  회원 로그인
+# SERVICE_KEY = os.getenv('SERVICE_KEY_KAKAO') #  카카오톡 로그인
+SERVICE_KEY = os.getenv('SERVICE_KEY_USER') #  회원 로그인
 
 # 입출력 파일 이름 설정
 # ⚠️ 중요: 이 변수에 이전 실행 결과 파일(부분적으로 업데이트된 파일) 이름을 지정하세요.
