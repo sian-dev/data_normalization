@@ -1,0 +1,82 @@
+[
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": []
+    }
+  },
+  {
+    "service_id": "WLF00004892",
+    "service_name": "울주군 학대피해아동 아이돌봄서비스 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004892&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "어린이집, 유치원에서 학대 피해를 입은 아동(7명)",
+      "criteria_text": "112(또는 아동보호팀)에 어린이집 또는 유치원에서 학대피해를 입은 아동으로 신고되어 아동학대전담공무원이 조사중인 만5세 이하 아동\n\n",
+      "support_text": "한시적 아이돌봄서비스 지원"
+    },
+    "parsed_data": {
+      "benefits": []
+    }
+  },
+  {
+    "service_id": "WLF00004348",
+    "service_name": "셋째이상 자녀 입학축하금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004348&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "셋째 이상 자녀가 초·중·고등학교 입학 시 입학축하금 30만원 지급",
+      "criteria_text": "* 모두 충족 시 지원\n- 초·중·고등학교 입학\n- 신청 학생 및 부 또는 모가 입학일 이전부터 6개월 이상 울주군 거주(주민등록 등재 필수)\n  ※ 입학일 이전 울주군에 전입 하였으나 전입 기간이 6개월이 되지 않은 경우, 6개월 경과 시점에 신청 가능",
+      "support_text": "- 지급방법: 보호자 계좌 입금\n- 지급절차: 지급요건 검토 후, 신청일 기준 다음 달 말일 지급"
+    },
+    "parsed_data": {
+      "benefits": []
+    }
+  },
+  {
+    "service_id": "WLF00004079",
+    "service_name": "울주군 출산장려금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004079&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울주군 출산가정",
+      "criteria_text": "영아의 출생일을 기준으로 6개월 이전부터 계속하여 군에 주소를 두고 실제 거주하며, 출생일부터 12개월 이내에 출산장려금을 신청하는 영아의 부모",
+      "support_text": "출산장려금 : 첫째아 70만원(일시금) / 둘째아250만원(5회분할) / 셋째아500만원(10회분할) 지급"
+    },
+    "parsed_data": {
+      "benefits": []
+    }
+  },
+  {
+    "service_id": "WLF00001576",
+    "service_name": "출산축하용품 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001576&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울주군에 출생신고한 출생아",
+      "criteria_text": "영아의 출생일 전부터 군에 주소를 두고, 출생일부터 12개월 이내에 출산축하용품을 신청하는 영아의 부모",
+      "support_text": "울주군 출산축하용품 사이트 내 10만 포인트 지원"
+    },
+    "parsed_data": {
+      "benefits": []
+    }
+  }
+]

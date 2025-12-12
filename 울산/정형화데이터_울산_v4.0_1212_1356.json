@@ -1,0 +1,1612 @@
+[
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000,
+          "amount_type": "회",
+          "benefit_type": "교통편의",
+          "description": "교통약자 이동지원 확대 사업을 통해 제공되는 교통편의 서비스입니다.",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 1020,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "target_group": [
+              "임산부",
+              "영아",
+              "85세 이상 고령자"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004892",
+    "service_name": "울주군 학대피해아동 아이돌봄서비스 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004892&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "어린이집, 유치원에서 학대 피해를 입은 아동(7명)",
+      "criteria_text": "112(또는 아동보호팀)에 어린이집 또는 유치원에서 학대피해를 입은 아동으로 신고되어 아동학대전담공무원이 조사중인 만5세 이하 아동\n\n",
+      "support_text": "한시적 아이돌봄서비스 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": "한시적",
+          "benefit_type": "아이돌봄서비스",
+          "description": "울주군 학대피해아동 아이돌봄서비스 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 60,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004348",
+    "service_name": "셋째이상 자녀 입학축하금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004348&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "셋째 이상 자녀가 초·중·고등학교 입학 시 입학축하금 30만원 지급",
+      "criteria_text": "* 모두 충족 시 지원\n- 초·중·고등학교 입학\n- 신청 학생 및 부 또는 모가 입학일 이전부터 6개월 이상 울주군 거주(주민등록 등재 필수)\n  ※ 입학일 이전 울주군에 전입 하였으나 전입 기간이 6개월이 되지 않은 경우, 6개월 경과 시점에 신청 가능",
+      "support_text": "- 지급방법: 보호자 계좌 입금\n- 지급절차: 지급요건 검토 후, 신청일 기준 다음 달 말일 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 300000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "셋째 이상 자녀가 초·중·고등학교 입학 시 입학축하금 지급",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 96,
+            "childcare_type": "학교",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004079",
+    "service_name": "울주군 출산장려금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004079&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울주군 출산가정",
+      "criteria_text": "영아의 출생일을 기준으로 6개월 이전부터 계속하여 군에 주소를 두고 실제 거주하며, 출생일부터 12개월 이내에 출산장려금을 신청하는 영아의 부모",
+      "support_text": "출산장려금 : 첫째아 70만원(일시금) / 둘째아250만원(5회분할) / 셋째아500만원(10회분할) 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 700000,
+          "amount_type": "일시금",
+          "benefit_type": "현금",
+          "description": "첫째아 출산장려금 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        },
+        {
+          "amount": 2500000,
+          "amount_type": "5회분할",
+          "benefit_type": "현금",
+          "description": "둘째아 출산장려금 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        },
+        {
+          "amount": 5000000,
+          "amount_type": "10회분할",
+          "benefit_type": "현금",
+          "description": "셋째아 출산장려금 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001576",
+    "service_name": "출산축하용품 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001576&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울주군에 출생신고한 출생아",
+      "criteria_text": "영아의 출생일 전부터 군에 주소를 두고, 출생일부터 12개월 이내에 출산축하용품을 신청하는 영아의 부모",
+      "support_text": "울주군 출산축하용품 사이트 내 10만 포인트 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 100000,
+          "amount_type": "포인트",
+          "benefit_type": "물품",
+          "description": "울주군 출산축하용품 사이트 내 10만 포인트 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002834",
+    "service_name": "행려자 관리",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002834&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "남구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": " 1) 지원대상\n    - 일반행려자, 행려환자, 행려사망자\n   \n 2) 선정기준\n    - 일방행려자 : 주거지가 아닌 타지방을 여행하던 중 숙식능력이 없는 자\n    - 행려환자\n      ☞ 일정한 거소가 없는 자, 행정관서(경찰서, 소방서 등)에 의해 병원에 이송된 자\n      ☞ 『응급의료에 관한 법』 제2조 제1호 내지 제3호 규정에 의한 응급환자\n      ☞ 부양의무자가 없거나 있어도 부양능력이 없거나 부양을 기피하는 자\n    - 행려사망자 : 연고자가 없는 경우",
+      "criteria_text": "무연고자 및 신원확인 불가능자",
+      "support_text": " 1) 일반행려자 : 귀가여비 지급(주민등록지, 등록기준지 기준)\n\n   \n\n 2) 행려환자 : 행려 1종 의료급여\n\n    \n\n 3) 행려사망자(무연고 사망자) : 영안실안치료, 장제비, 납골당안치료 등"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 0,
+          "amount_type": "회",
+          "benefit_type": "귀가여비",
+          "description": "일반행려자에게 지급되는 귀가여비",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 0,
+          "amount_type": "회",
+          "benefit_type": "행려 1종 의료급여",
+          "description": "행려환자에게 제공되는 의료급여",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 0,
+          "amount_type": "회",
+          "benefit_type": "장제비 및 영안실안치료",
+          "description": "행려사망자(무연고 사망자)에게 제공되는 장제비 및 영안실안치료",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00003820",
+    "service_name": "아동급식비 지원(학기중 토공휴일)",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003820&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "남구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 지원연령: 18세 미만의 취학 및 미취학 아동, 다만 18세 이상인 경우에도 초중등교육법 제2조에 \n따른 학교에 재학중인 아동을 포함하며, 학교를 다니지 않는 18세 미만 아동의 경우에도 지원\n\n2) 지원대상\n(1) 아래의 어느 하나에 해당하는 아동으로서 결식우려가 있는 아동\n  ※ 단, 아동복지법 제15조에 따라 생활시설 및 가정위탁으로 보호조치된 아동 제외 \n① 국민기초생활보장법 제2조제2호에 따른 수급자 가구의 아동, 차상위 계층 아동\n② 한부모가족지원법 제5조에 따른 지원대상자가 양육하는 아동\n③ 긴급복지지원법에 따른 긴급복지 지원대상 가구의 아동\n④ 보호자가 사망, 가출, 행방불명, 구금시설에 수용되는 등의 사유로 보호가 필요한 아동\n⑤ 보호자의 사고, 급성질환, 만성질환 등 사유로 보호자의 양육능력이 미약한 가구의 아동\n⑥ 기준중위소득 52% 이하인 가구의 아동\n⑦ 위 각호에는 해당되지 않으나 최저 건강보험료 납부 가구 아동 또는 담임교사, 사회복지사, 이·통반장, 시·군·구 담당공무원 등이 추천하는 아동으로서 아동급식위원회에서 급식지원이 필요하다고 결정한 아동\n ※ 다만, 담임교사 등이 추천한 아동 중 급식지원기준에 적합하여 위원회의 판단이 필요없는 경우에는 위원회 결정 불요\n(2) 지역아동센터, 사회복지관 등의 아동복지프로그램 이용아동\n(3) 외국 국적 중 (1), (2)의 지원기준에 해당하는 아동   ",
+      "criteria_text": "1) 지원연령: 18세 미만의 취학 및 미취학 아동, 다만 18세 이상인 경우에도 초중등교육법 제2조에 \n\n따른 학교에 재학중인 아동을 포함하며, 학교를 다니지 않는 18세 미만 아동의 경우에도 지원\n\n2) 지원대상\n\n(1) 아래의 어느 하나에 해당하는 아동으로서 결식우려가 있는 아동\n\n  ※ 단, 아동복지법 제15조에 따라 생활시설 및 가정위탁으로 보호조치된 아동 제외 \n\n① 국민기초생활보장법 제2조제2호에 따른 수급자 가구의 아동, 차상위 계층 아동\n\n② 한부모가족지원법 제5조에 따른 지원대상자가 양육하는 아동\n\n③ 긴급복지지원법에 따른 긴급복지 지원대상 가구의 아동\n\n④ 보호자가 사망, 가출, 행방불명, 구금시설에 수용되는 등의 사유로 보호가 필요한 아동\n\n⑤ 보호자의 사고, 급성질환, 만성질환 등 사유로 보호자의 양육능력이 미약한 가구의 아동\n\n⑥ 기준중위소득 52% 이하인 가구의 아동\n\n⑦ 위 각호에는 해당되지 않으나 최저 건강보험료 납부 가구 아동 또는 담임교사, 사회복지사, 이·통반장, 시·군·구 담당공무원 등이 추천하는 아동으로서 아동급식위원회에서 급식지원이 필요하다고 결정한 아동\n\n ※ 다만, 담임교사 등이 추천한 아동 중 급식지원기준에 적합하여 위원회의 판단이 필요없는 경우에는 위원회 결정 불요\n\n(2) 지역아동센터, 사회복지관 등의 아동복지프로그램 이용아동\n\n(3) 외국 국적 중 (1), (2)의 지원기준에 해당하는 아동   ",
+      "support_text": "1) 서비스내용\n\n  - 학기중 토,일,공휴일 중식지원: 시도교육비 특별회계를 지원받아 지방자치단체에서 실시\n\n  - 평일 석식, 방학중 중식지원: 지방자치단체에서 실시\n\n2) 급식지원방법\n\n  - 아동급식 전자카드이용 : 급식전자카드를 이용 남구 내 가맹점을 방문 결재\n\n  - 부식배달 : 부식을 가정으로 직접배달\n\n  - 지역아동센터: 이용등록 후 방과후 학습지원서비스와 급식을 제공"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": "급식지원",
+          "description": "학기중 토,일,공휴일 중식지원 및 평일 석식, 방학중 중식지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 215,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층",
+              "한부모가족",
+              "긴급복지지원대상",
+              "보호가 필요한 아동",
+              "양육능력이 미약한 가구",
+              "기준중위소득 52% 이하",
+              "추천 아동"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001831",
+    "service_name": "출산축하용품 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001831&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "북구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "출생아의 부 또는 모가 출생일 전후 1개월 이상 울산 북구에 주민등록을 두고 거주",
+      "criteria_text": "부모 중 1명이 출생일 전후 1개월 이상 울산 북구에 거주하고 주민등록상 등재되어 있어야 함.",
+      "support_text": "10만원 상당 출산축하용품(지역생산품)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 100000,
+          "amount_type": "일시",
+          "benefit_type": "물품",
+          "description": "10만원 상당 출산축하용품(지역생산품)",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004440",
+    "service_name": "출산지원금 지급",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004440&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "북구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "출산가정 : 부모 중 1명이 출생일 전후 1개월 이상 울산 북구에 거주하고 주민등록상 등재되어 있어야 함. ",
+      "criteria_text": "부모 중 1명이 출생일 전후 1개월 이상 울산 북구에 거주하고 주민등록상 등재되어 있어야 함.",
+      "support_text": "1자녀 출산가정 : 60만원\n2자녀 이상 출산가정 : 100만원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 600000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "1자녀 출산가정에 대한 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "2자녀 이상 출산가정에 대한 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00006055",
+    "service_name": "달빛어린이병원 운영 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006055&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "(지원대상 선정기준)\n\n2023년도 소아 야간.휴일 진료기관(달빛어린이병원) 운영 지침(보건복지부)\n- 진료실적 및 의료기관 역량, 사업계획의 적절성,  기타(사업수행 의지 등)\n- 만 18세 이하 소아.청소년 경증환자 외래진료 의료기관(병원)",
+      "criteria_text": "(지원대상 선정기준)\n\n2023년도 소아 야간.휴일 진료기관(달빛어린이병원) 운영 지침(보건복지부)\n- 진료실적 및 의료기관 역량, 사업계획의 적절성,  기타(사업수행 의지 등)\n- 만 18세 이하 소아.청소년 경증환자 외래진료 의료기관(병원)",
+      "support_text": "달빛어린이병원 운영비 지원\n\n주18시간 42백만원/개소 ~ 주25시간 58백만원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 42000000,
+          "amount_type": "년",
+          "benefit_type": "운영비 지원",
+          "description": "달빛어린이병원 운영비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 216,
+            "childcare_type": "병원",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 58000000,
+          "amount_type": "년",
+          "benefit_type": "운영비 지원",
+          "description": "달빛어린이병원 운영비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 216,
+            "childcare_type": "병원",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005987",
+    "service_name": "달빛어린이병원 등 장려금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005987&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "관내 달빛어린이병원 및 협력약국",
+      "criteria_text": "울주군 달빛어린이병원 및 협력약국\n*중복된 지원을 받는 경우 감액",
+      "support_text": "  기    간 : 2025. 1. 1. ~ 12. 31. \n  대    상 : 관내 달빛어린이병원 및 협력약국\n  사업내용 : 운영 장려금 지원 \n  지원내용 : 진료(조제)건수×현재 야간의료수가의 1/10\n  ⇒ 달빛어린이병원 지원금 : 건당 1,158원\n  ⇒ 협력약국 지원금 : 건당 398원\n   ※ 1회추경 완료, 2025년 1월 1일부터 소급 지급\n   ※ 반기별 취합하여 지급 하되 12월 말기준 건수는 다음년도 지급\n  소요예산 : 13,226천원(군비 100%), (1,158+398)×8,500*=13,226,000원  \n* 2023년 기준 주말 소아환자 진료수 : 8,568건(≒8,500건)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1158,
+          "amount_type": "건당",
+          "benefit_type": "현금",
+          "description": "달빛어린이병원 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 84,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 398,
+          "amount_type": "건당",
+          "benefit_type": "현금",
+          "description": "협력약국 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 84,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005968",
+    "service_name": "방과후학교 자유수강권",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005968&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "(1순위) 법정수급자: 기초생활수급자(생계·의료·주거·교육급여), 한부모가족 보호대상자, 법정 차상위대상자\n(2순위) 소득에 따른 지원 대상자: 법정수급자(1순위)를 제외하고, 기준 중위소득* 80% 이하 범위에 속하는 자 \n(3순위) 학교장 추천자: 교육비 심사결과 1~2순위 선정 기준을 충족하지 못하고 탈락하였으나, 증빙이 곤란한 경제적 어려움으로 교육비 지원이 필요한 경우 학교장 추천\n ※단, 교육비 지원을 신청할 수 없는 경우는 예외적으로 교육비 신청 없이 학교장 추천 가능\n(기타):  국가보훈대상자, 법무부장관이 교육비 지원을 추천한 난민 인정자 및 아프간 등 국적의 특별기여자 또는 그자녀, 다자녀가정 자녀(셋째이후), 육아기 근로시간 단축 활용 가정 자녀(해당자녀) ",
+      "criteria_text": "1. 법정지원대상자(기초생활수급자, 법정한부모가족보호대상자, 법정차상위대상자)\n2. 중위소득 80%이하 \n3. 학교장추천\n4. 기타(법무부 장관이 추천한는 난민인정자 및 아프간 등 국적의 특별기여자 또는 그 자녀, 다자녀가정의 자녀(셋째이후부터), 보훈대상자자녀, 육아기 근로시간 단축활용가정자녀(해당자녀))",
+      "support_text": "\n방과후학교 프로그램 수강료(수익자부담분) 지원(학생 1인당 연간 60만원 내외)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 600000,
+          "amount_type": "연간",
+          "benefit_type": "현금",
+          "description": "방과후학교 프로그램 수강료 지원(학생 1인당 연간 60만원 내외)",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 96,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income": [
+              "기초생활수급자",
+              "차상위계층",
+              "기준중위소득 80% 이하"
+            ],
+            "recommendation": [
+              "학교장 추천",
+              "기타"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005280",
+    "service_name": "사립유치원 무상교육비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005280&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "사립유치원 재원 유아 1인당 지원",
+      "criteria_text": "울산광역시 소재 사립유치원 재원 모든 원아",
+      "support_text": "사립유치원 재원 원아 1인당 지원금 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": "현금",
+          "description": "사립유치원 재원 원아 1인당 지원금 지급",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 84,
+            "childcare_type": "사립유치원",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005277",
+    "service_name": "저소득층 학생 교육정보화(PC) 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005277&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "ㅇ기초생활수급자(생계, 의료, 주거, 교육)",
+      "criteria_text": "기초생활수급대상자(생계, 의료, 주거, 교육)",
+      "support_text": "교육정보화(PC)지원(초1~고1) 가구당 1대(예산 범위 내 심사 후 선정)\n"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": "교육정보화(PC) 지원",
+          "description": "저소득층 학생을 위한 교육정보화(PC) 지원(초1~고1) 가구당 1대(예산 범위 내 심사 후 선정)",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 96,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": [
+              "기초생활수급자"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004928",
+    "service_name": "초등학교 입학준비금",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004928&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "초등학교 입학생",
+      "criteria_text": "초등학교 입학생",
+      "support_text": "초등학교 입학생 입학준비금"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "초등학교 입학생 입학준비금",
+          "and_conditions": {
+            "age_min_months": 60,
+            "age_max_months": 96,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002957",
+    "service_name": "학교 밖 청소년 교통비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002957&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "중1~고3 학교 밖 청소년",
+      "criteria_text": "울산광역시 거주 9세~18세 학교 밖 청소년",
+      "support_text": "초등학생 나이 월 5만원, 중등(중학교, 고등학교) 나이 월 5만원\n해당금액 교통카드 매월 충전"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 50000,
+          "amount_type": "월",
+          "benefit_type": "교통비",
+          "description": "중1~고3 학교 밖 청소년을 위한 교통비 지원",
+          "and_conditions": {
+            "age_min_months": 84,
+            "age_max_months": 216,
+            "childcare_type": "학교 밖 청소년",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 50000,
+          "amount_type": "월",
+          "benefit_type": "교통비",
+          "description": "초등학생 나이를 위한 교통비 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 83,
+            "childcare_type": "학교 밖 청소년",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004490",
+    "service_name": "수학여행비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004490&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울산광역시교육청",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "초·중·고 일반학생(기준금액 지원) 전체, 초·중·고등학생 소득인정액 중위소득 60% 및 다자녀(전액지원)",
+      "criteria_text": "초·중·고 일반학생(초 15만원, 중 20만원, 고 30만원 이내 실비 지원) 전체, 초·중·고등학생 소득인정액 중위소득 60% 및 다자녀(전액지원)",
+      "support_text": "수학여행비 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 150000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "초등학생 수학여행비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": [
+              "기준중위소득"
+            ]
+          }
+        },
+        {
+          "amount": 200000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "중학생 수학여행비 지원",
+          "and_conditions": {
+            "age_min_months": 12,
+            "age_max_months": 23,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": [
+              "기준중위소득"
+            ]
+          }
+        },
+        {
+          "amount": 300000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "고등학생 수학여행비 지원",
+          "and_conditions": {
+            "age_min_months": 24,
+            "age_max_months": 35,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": [
+              "기준중위소득"
+            ]
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "다자녀 및 중위소득 60% 이하 학생 전액 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 35,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002547",
+    "service_name": "저소득층 맞춤형지원 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002547&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "동구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 지원대상\n\n   - 기초생활보장 수급자·차상위계층 및 중위소득 80%이하 가구\n\n   - 재산 135백만원 이하, 금융 5백만원 이하 가구   \n\n2) 선정기준\n\n   - 긴급복지지원 대상 가구 가운데 추가적 보호가 필요한 가구\n\n   - 그 밖에 질병, 실직, 노령, 장애, 이혼 등으로 생활에 어려움을 겪고 있는 사람      \n\n   - 그 외 구청장이 지원이 필요하다고 인정한 사람",
+      "criteria_text": "기준 중위소득 80%이하 / 재산 13,500만원 이하/  금융 500만원이하",
+      "support_text": "1) 전기요금\n   - 지원대상자의 연체된 전기요금으로 단전이 되어 1개월이 경과된 때\n   - 50만원 범위에서 한 차례만 지원\n \n2) 상·하수도요금\n   - 지원대상자의 연체된 상·하수도요금으로 단수가 되어 1개월이 경과된 때\n   - 50만원 범위에서 한 차례만 지원\n \n3) 난방비\n   - 겨울철(10~3월)에 한정해서 가구당 월 10만원 정액지급\n   - 가구당 최대 3개월의 범위에서 지원\n \n4) 의료비\n   - 중한 질병 또는 부상으로 인하여 발생한 본인부담금 및 비급여 의료비\n   - 한 차례에 한정하여 200만원 범위에서 지원\n \n5) 임대보증금\n   - 주거가 일정하지 않은 취약계층과 비닐하우스, 판자촌, 쪽방 등 거주자 전세·월세보증금\n   - 한 차례에 한정하여 200만원 범위에서 지원\n \n6) 교육비\n   - 초·중·고등학생의 수업료, 입학금, 학교운영지원비,  급식비 등 필요한 비용\n   - 중·고등학교 교복비(연 30만원 범위 내)\n   - 수업료·학교운영지원비(최대 2분기), 급식비(최대 3개월)\n \n7) 기술습득비\n   - 지역실업자훈련기관에서 직업훈련을 받고 있는 실직자\n   - 1명 월 20만원 범위에서 최대 6개월까지 지원\n \n8) 해산비 및 장제비\n   - 조산 및 분만 후의 필요한 조치와 보호를 위한 해산비\n   - 가족이 없거나 관계 단절된 자의 사망 시 장제비\n   - 한 차례 50만원 정액지급\n \n9) 생활지원비\n   - 주거용 월세, 자활을 위한 소규모 점포 임대료\n   - 화재 등으로 인한 일시적 생활 곤란자의 생계비\n   - 1회에 한정하여 100만원 이내 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 50000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "연체된 전기요금으로 단전이 되어 1개월이 경과된 때 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 50000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "연체된 상·하수도요금으로 단수가 되어 1개월이 경과된 때 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 100000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "겨울철(10~3월)에 한정해서 가구당 월 10만원 정액지급, 가구당 최대 3개월 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 2000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "중한 질병 또는 부상으로 인하여 발생한 본인부담금 및 비급여 의료비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 2000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "주거가 일정하지 않은 취약계층과 비닐하우스, 판자촌, 쪽방 등 거주자 전세·월세보증금 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 3000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "초·중·고등학생의 수업료, 입학금, 학교운영지원비, 급식비 등 필요한 비용 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 1200000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "지역실업자훈련기관에서 직업훈련을 받고 있는 실직자 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 500000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "조산 및 분만 후의 필요한 조치와 보호를 위한 해산비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "주거용 월세, 자활을 위한 소규모 점포 임대료 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "기초생활수급자",
+              "차상위계층"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004267",
+    "service_name": "임산부, 난임부부 교통비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004267&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "임신확인일이나 난임시술 지원신청일 기준으로 6개월 이전부터 계속하여 울주군에 주민등록을 두고 보건소에 임산부 등록이나 난임시술 지원신청(부인기준)을 한 사람",
+      "criteria_text": "울주군 전입 6개월 이상이며, 임산부는 임신 16주부터 출산일까지 임신관련 진료 시 최대 10회, 난임으로 시술을 받는 사람은 회계연도 내 난임시술 관련 진료 시 최대 10회 지원가능.",
+      "support_text": "주민등록상 울주군 거주 6개월 이상된 임산부 및 난임부부(여성)로 1회 10만원 최대 10회 교통비 지원 \n- 임산부 : 16주 이후 출산일까지\n- 난임부부 : 회계연도 내 난임시술 관련 진료 시"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "임산부 및 난임부부 교통비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005883",
+    "service_name": "울산아이문화패스",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005883&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": " ○ 지원대상 : 신청일 기준 울산광역시에 주민등록을 둔 초등학생 연령대(7~12세) 아동\n     ※ 아동연령이 12세(6학년)까지 매년 신청 가능\n",
+      "criteria_text": " ○ 지원대상 : 신청일 기준 울산광역시에 주민등록을 둔 초등학생 연령대(7~12세) 아동\n     ※ 아동연령이 12세(6학년)까지 매년 신청 가능",
+      "support_text": " ○ 지원내용 : 울산아이문화패스(10만원권 선불카드) 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 100000,
+          "amount_type": "회",
+          "benefit_type": "선불카드",
+          "description": "울산아이문화패스(10만원권 선불카드) 지급",
+          "and_conditions": {
+            "age_min_months": 84,
+            "age_max_months": 144,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005861",
+    "service_name": "울부심 생활+ 조부모 손주 돌봄 수당",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005861&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": " ○ 지원대상 : 부모를 대신해 2세 영아 손자녀를 돌보는 (외)조부모\n ○ 지원기준 : 아래의 요건 모두 충족   \n   - 주소기준 : 아동이 주민등록상 울산시 거주 및 돌봄제공 지역 울산\n   - 소득기준 : 아동 가구 기준 중위소득 150% 이하 \n   - 양육공백 기준 : 맞벌이, 한부모, 다자녀 등 ※ 아이돌봄지원사업 준용  \n   - 중복 지원제외 : 보육료, 종일제 아이돌봄 등 미이용자\n ○ 지원금액 : 월 300천원(40시간 돌봄기준)\n   - 지원방법 : 10시간 미만 시 미지원, 40시간 미만 시 시간당 계산, 조부모 계좌 이체  ※ 조부모 울산시민 아닐 시 부모계좌 지급",
+      "criteria_text": "연령(24개월~36개월), 아동 가구 중위소득 150% 이하, 양육공백 증빙, 보육료, 종일제 아이돌봄 등 미이용자",
+      "support_text": "월 최대 300천원(40시간 돌봄기준) \n* 2명 450천원, 3명 이상 600천원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 300000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "조부모가 2세 영아 손자녀를 돌보는 경우 지원되는 수당입니다.",
+          "and_conditions": {
+            "age_min_months": 24,
+            "age_max_months": 36,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "맞벌이",
+              "한부모",
+              "다자녀"
+            ]
+          }
+        },
+        {
+          "amount": 450000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "조부모가 2명 이상의 손자녀를 돌보는 경우 지원되는 수당입니다.",
+          "and_conditions": {
+            "age_min_months": 24,
+            "age_max_months": 36,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "맞벌이",
+              "한부모",
+              "다자녀"
+            ]
+          }
+        },
+        {
+          "amount": 600000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "조부모가 3명 이상의 손자녀를 돌보는 경우 지원되는 수당입니다.",
+          "and_conditions": {
+            "age_min_months": 24,
+            "age_max_months": 36,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "맞벌이",
+              "한부모",
+              "다자녀"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005068",
+    "service_name": "임산부 및 영아동반자 교통비 지원-맘편한교통비",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005068&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "남구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "임산부(16주부터 출산일까지) 및 영아(12개월이하) 동반 가정을 지원합니다.\n2023.1.1.이후 출산자 및 출생영아를 기준으로 지원합니다.\n신청일 기준 남구 주소 여부와 1개월 이상 남구 거주 여부를 확인합니다.",
+      "criteria_text": "1. 임산부 유형(모든 조건 충족시 지원대상)\n  가. 2023.1.1.이후 출산(예정)자\n  나. 임신16주~출산일까지의 임산부\n  다. 임산부가 신청일 당시 1개월이상 남구에 주민등록\n  라. 임산부가 신청일 당시 남구주소\n     (단, 출산일 기준 위 조건 충족시, 출산 후 3개월까지 신청 가능)\n\n2. 영아동반 유형(모든 조건 충족시 지원대상)\n  가. 2023.1.1.이후 출생 영아\n  나. 12개월 이하 영아\n  다. 부모 중 1명이 1개월이상 남구에 주민등록\n      (12개월 이하 영아의 남구 주소 신규 전입시, 1개월 경과 후 신청 가능)\n  라. 영아가 신청일 당시 남구 주소",
+      "support_text": "유형별 교통비 현금10만원 1회 지급합니다.\n1. 임산부 유형: 임산부 1명당 10만원\n2. 영아동반 유형: 영아 1명당 10만원\n\nex) 쌍둥이 출산시, 임산부 10만원, 영아1명당 10만원, 총 30만원 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 100000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "임산부 및 영아동반자 교통비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 100000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "임산부 교통비 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": null,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004509",
+    "service_name": "출산양육장려금품 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004509&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "남구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "\n\n- 울산광역시 남구에 출생 신고한 출산 가정\n- 출생아의 부 또는 모가 출생일 현재 1개월 전부터 울산광역시 남구에 실제로 거주하고 주민등록상 등재\n- 출생일 기준 3개월 이내에 신청\n\n",
+      "criteria_text": "-울산광역시 남구 주민등록 여부 및 거주기간 확인\n-출생일로부터 3개월 이내 신청\n\n",
+      "support_text": "출산양육장려금품\n-출산양육지원금\n (첫째아 60만원 , 둘째아 100만원 , 셋째아 이상 100만원)\n-출산축하용품(10만원 상당 한우미역세트)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 600000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "첫째아 출산양육지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "둘째아 출산양육지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "셋째아 이상 출산양육지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 100000,
+          "amount_type": "회",
+          "benefit_type": "물품",
+          "description": "출산축하용품(한우미역세트)",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004283",
+    "service_name": "어린이집 보육료 차액 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004283&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울산광역시에 주민등록이 되어 있는 3~5세 정부미지원어린이집 이용 아동",
+      "criteria_text": "3~5세 정부미지원 어린이집 이용 아동\n이용아동의 주소지 및 시설 소재지가 울산광역시로 동일",
+      "support_text": "울산광역시장이 결정고시한 연령별 보육료 지원단가 중 정부지원 보육료를 제외한 차액보육료"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": "차액",
+          "benefit_type": "현금",
+          "description": "울산광역시장이 결정고시한 연령별 보육료 지원단가 중 정부지원 보육료를 제외한 차액보육료",
+          "and_conditions": {
+            "age_min_months": 36,
+            "age_max_months": 59,
+            "childcare_type": "어린이집",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001579",
+    "service_name": "가정위탁아동 양육보조금 지원 ",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001579&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "가정위탁 보호아동 ",
+      "criteria_text": "가정위탁 보호아동",
+      "support_text": "- 지급방법 : 위탁가정 소재지 시군구에서 가정위탁보호결정일이 포함된 달부터 매월 전액 지급하며, 종결 및 중지사유가 발생한 달까지 지급함이 원칙\n- 지급계좌 : 1세대 1계좌 원칙(아동계좌)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "가정위탁아동 양육보조금 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 84,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001283",
+    "service_name": "아동급식 지원 ",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001283&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "18세 미만 저소득 가정 결식우려 아동 및 지역아동센터 등록 아동",
+      "criteria_text": "소년소녀가정아동, 한부모 가정, 장애인 및 맞벌이 가정으로 중위소득 52% 이하 가정, 지역아동센터 이용아동 ",
+      "support_text": "방학중 중식 및 평일 석식 제공 "
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": null,
+          "description": "방학중 중식 및 평일 석식 제공",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 215,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "소년소녀가정",
+              "한부모",
+              "장애인",
+              "맞벌이"
+            ],
+            "income_type": "기준중위소득"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004080",
+    "service_name": "출산지원금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004080&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "중구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "출생아의 부 또는 모가 출생일 기준으로 1개월 전부터 울산광역시 중구에 거주하고 주민등록상 등재(중구에 출생신고한 가정)\nㅁ 첫째자녀 출산지원금  70만원\nㅁ 둘째자녀 이상 출산지원금  100만원\n",
+      "criteria_text": "출생일 1개월 전부터 부 또는 모가 울산시 중구에 주민등록을 두고 거주(중구에 출생신고한 가정)\n(단, 부 또는 모가 출생일 기준으로 울산시 중구에 거주한 기간이 1개월 미만인 경우에는 거주 후 1개월이 경과한 날부터 지원대상)\n",
+      "support_text": "ㅁ 첫째자녀 출산지원금 70만원\nㅁ 둘째자녀이상 출산지원금 100만원\n"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 700000,
+          "amount_type": "현금",
+          "benefit_type": "출산지원금",
+          "description": "첫째자녀 출산지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "현금",
+          "benefit_type": "출산지원금",
+          "description": "둘째자녀 이상 출산지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001010",
+    "service_name": "장애인가정 출산지원금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001010&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "출생아의 부 또는 모가 장애인복지법 제32조에 따른 등록 장애인인 출산가정(심한장애, 심하지 않은 장애)\n",
+      "criteria_text": "출생아의 부 또는 모가 장애인복지법 제32조에 따른 등록 장애인인 출산가정(심한장애, 심하지 않은 장애)",
+      "support_text": "심한 장애 100만원\n\n심하지 않은 장애 70만원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "심한 장애인 출산가정에 대한 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 700000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "심하지 않은 장애인 출산가정에 대한 지원금",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002836",
+    "service_name": "무연고사망자 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002836&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "동구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "연고자가 없는 시체, 연고자를 알 수 없는 시체, 연고자가 있으나 시체 인수를 거부, 기피하는 등의 시체",
+      "criteria_text": "연고자를 알 수 없거나 연고자가 있으나 시신 인수를 거부·기피하는 국내·외국인 사망자의 장례서비스 지원",
+      "support_text": "고인 이송비, 장례용품 구입비, 염습비, 시설사용료(장례식장, 화장시설, 봉안시설), 봉안용기 구입비"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": "장례서비스",
+          "description": "연고자가 없는 시체, 연고자를 알 수 없는 시체, 연고자가 있으나 시체 인수를 거부, 기피하는 등의 시체에 대한 장례서비스 지원",
+          "and_conditions": {
+            "age_min_months": null,
+            "age_max_months": null,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004343",
+    "service_name": "장애인활동지원 울산시 시비추가지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004343&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 지원대상\n  - 만6세 이상 만65세 미만 중 장애인복지법 상 등록한 장애의 정도가 심한 장애인 중\n    활동지원(국비) 대상자로서 추가 시간이 필요한 자\n    기존 지원대상 중 만65세 이상으로 장기요양 등급외 판정을 받은 장애의 정도가 심한 장애인(1~3급)은 계속 지원\n  - 만65세 이상 보전급여 대상자 중 장애의 정도가 심한 장애인\n\n2) 선정기준\n  - 신청된 서류를 검토하여 서비스 시간 결정(읍·면·동→구·군→시)\n  - 지원대상별 해당 항목에 적합할 경우 서비스 시간 결정(10~392시간)",
+      "criteria_text": "장애인활동지원 인정점수 360점 이상인 자 중 사지마비 와상환자\n1인가구 또는 취약가구\n본인이 사회활동을 하는 경우 \n상시 혼자서 이동이 불가능 한 경우\n최근 6개월 이내 시설퇴소자, 장애인 자립지원주택 입소자\n중복장애 또는 희귀성 난치병\n최중증 국비지원 장애인 ‘1인가구’로 상시 인공호흡기가 필요한 희귀난치성 환자 또는 와상장애로 24시간 활동지원이 필요한 자 등",
+      "support_text": "○ 활동보조시간 제공\n\n  - 지원기준에 의거 1인당 10시간~90시간 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 0,
+          "amount_type": "시간",
+          "benefit_type": "활동보조",
+          "description": "장애인활동지원 울산시 시비추가지원사업에 따른 활동보조시간 제공",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 780,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "1인가구",
+              "취약가구"
+            ]
+          }
+        },
+        {
+          "amount": 0,
+          "amount_type": "시간",
+          "benefit_type": "활동보조",
+          "description": "장애인활동지원 울산시 시비추가지원사업에 따른 활동보조시간 제공",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 780,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "중복장애",
+              "희귀성 난치병"
+            ]
+          }
+        },
+        {
+          "amount": 0,
+          "amount_type": "시간",
+          "benefit_type": "활동보조",
+          "description": "장애인활동지원 울산시 시비추가지원사업에 따른 활동보조시간 제공",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 780,
+            "childcare_type": null,
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": [
+              "사회활동",
+              "상시 혼자 이동 불가능"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001303",
+    "service_name": "어린이날 행사 ",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001303&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울산시민 누구나",
+      "criteria_text": "기준 없음",
+      "support_text": "어린이날(5. 5) 및 어린이주간(5. 1 ~ 5. 7)을 맞이하여 \n가족과 함께 아이들이 행복한 시간을 갖고 모범어린이 및 유공자 발굴․포상으로 아동의 권리증진 도모 "
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "benefit_type": "행사",
+          "description": "어린이날(5. 5) 및 어린이주간(5. 1 ~ 5. 7)을 맞이하여 가족과 함께 아이들이 행복한 시간을 갖고 모범어린이 및 유공자 발굴․포상으로 아동의 권리증진 도모",
+          "and_conditions": {},
+          "or_conditions": {
+            "household_type": [],
+            "age_min_months": null,
+            "age_max_months": null
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002550",
+    "service_name": "출산장려금 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002550&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "동구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "울산광역시 동구에 출생 신고한 모든 출산가정\n\n  - 출생아의 부 또는 모가 대한민국 국적자로 출생일 기준으로 1개월 전부터 울산광역시 동구에 거주 및 주민등록상에 등재되어 있어야 함.",
+      "criteria_text": "- 출생일 기준 1개월 전부터 울산광역시 동구 거주 및 주민등록 등재, 부모 중 한 명이상이 대한민국 국적\n\n  * 1개월 미만인 경우, 동구에 주민등록을 두고 계속 거주한 기간이 1개월이 되는 날부터 신청 가능",
+      "support_text": "출산가정 출산장려금 지원 : 1자녀 60만원, 2자녀 100만원, 3자녀 이상 100만원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 600000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "출산가정 출산장려금 지원: 1자녀",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "출산가정 출산장려금 지원: 2자녀",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 1000000,
+          "amount_type": "회",
+          "benefit_type": "현금",
+          "description": "출산가정 출산장려금 지원: 3자녀 이상",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 11,
+            "childcare_type": "가정",
+            "birth_within_months": 12
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00000906",
+    "service_name": "소년소녀가정 및 가정위탁아동 문화활동 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000906&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "동구",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "소년소녀가정 및 가정위탁아동 중 문화누리카드 대상자가 아닌 가정위탁아동\n*문화누리카드 대상: 기초생활수급자 및 차상위계층 6세 이상",
+      "criteria_text": "가정위탁아동 중 문화누리카드대상 제외 아동 1인 ,월10,000원지급\n60천원/인/연2회 문화상품권 지원\n",
+      "support_text": "매월 10,000원 상당의 문화상품권을 대상아동에게 반기별(6매) 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 10000,
+          "amount_type": "월",
+          "benefit_type": "현금",
+          "description": "가정위탁아동에게 매월 10,000원 상당의 문화상품권 지급",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 96,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        },
+        {
+          "amount": 60000,
+          "amount_type": "연",
+          "benefit_type": "문화상품권",
+          "description": "연 2회 60,000원 상당의 문화상품권 지급",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 96,
+            "childcare_type": "가정",
+            "birth_within_months": null
+          },
+          "or_conditions": {
+            "household_type": []
+          }
+        }
+      ]
+    }
+  }
+]

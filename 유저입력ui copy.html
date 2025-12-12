@@ -1,0 +1,1543 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>복지 정보 간편 조사 (DB 키 100% 일치)</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+
+    <style>
+      /* 변수 설정: 메인 색상 #ff6000 (선명한 오렌지) 적용 */
+      :root {
+        --primary-color: #ff6000;
+        --primary-hover: #e65600;
+        --light-orange-hover: #ffe5db;
+        --accent-color: #4caf50;
+        --bg-color: #ffffff;
+        --border-color: #f0f0f0;
+        --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.05);
+        --transition-speed: 0.3s;
+      }
+
+      body {
+        font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif;
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 500px;
+        margin-top: 0;
+        background: var(--bg-color);
+        padding: 20px 24px;
+        border-radius: 0;
+        box-shadow: none;
+        min-height: 100vh;
+      }
+      @media (min-width: 501px) {
+        .container {
+          margin-top: 30px;
+          border-radius: 16px;
+          box-shadow: var(--shadow-soft);
+          min-height: auto;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+        margin: 20px 0 30px 0;
+        font-weight: 700;
+      }
+
+      /* --- Flatpickr Styles (유지) --- */
+      .flatpickr-months .flatpickr-month {
+        height: 52px;
+      }
+      .flatpickr-current-month .flatpickr-monthDropdown-months {
+        height: 40px;
+        min-height: 40px;
+      }
+      .flatpickr-current-month input.cur-year {
+        height: 40px;
+        min-height: 40px;
+      }
+      .flatpickr-calendar .flatpickr-current-month {
+        height: 47px !important;
+        padding-top: 5px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .flatpickr-calendar .flatpickr-months .flatpickr-prev-month,
+      .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+        display: flex;
+        align-items: center;
+      }
+
+      .flatpickr-day.selected,
+      .flatpickr-day.selected:hover,
+      .flatpickr-day.today.selected,
+      .flatpickr-day.today.selected:hover,
+      .flatpickr-day.startRange,
+      .flatpickr-day.endRange,
+      .flatpickr-day.startRange:hover,
+      .flatpickr-day.endRange:hover,
+      .flatpickr-day.inRange {
+        background: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        color: #fff !important;
+      }
+      .flatpickr-day:hover,
+      .flatpickr-day:focus,
+      .flatpickr-day.prevMonthDay:hover,
+      .flatpickr-day.nextMonthDay:hover,
+      .flatpickr-day.prevMonthDay:focus,
+      .flatpickr-day.nextMonthDay:focus {
+        background: var(--light-orange-hover) !important;
+        border-color: var(--light-orange-hover) !important;
+        color: #333 !important;
+      }
+      .flatpickr-day.today {
+        border-color: var(--primary-color) !important;
+      }
+      .flatpickr-current-month .flatpickr-monthDropdown-months,
+      .flatpickr-month,
+      .flatpickr-current-month .numInputWrapper span.arrowUp:after,
+      .flatpickr-current-month .numInputWrapper span.arrowDown:after {
+        color: var(--primary-color) !important;
+      }
+      .flatpickr-calendar .flatpickr-months .flatpickr-prev-month svg path,
+      .flatpickr-calendar .flatpickr-months .flatpickr-next-month svg path {
+        fill: var(--primary-color) !important;
+      }
+
+      /* --- 일반 CSS (유지) --- */
+      .progress-container {
+        padding: 0;
+        margin-bottom: 30px;
+      }
+      .progress-bar {
+        height: 8px;
+        background-color: var(--border-color);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        width: 20%;
+        background-color: var(--primary-color);
+        transition: width var(--transition-speed) ease-in-out;
+      }
+      .step-indicators {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #999 !important;
+        font-weight: 500;
+      }
+      .step-indicators span.active {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      .step h3 {
+        font-size: 18px;
+        color: #333;
+        padding-left: 0;
+        margin-bottom: 25px;
+        font-weight: 700;
+      }
+      .form-group {
+        margin-bottom: 24px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #444;
+        font-size: 15px;
+      }
+      input[type="text"],
+      input[type="number"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 14px 16px;
+        min-height: 52px;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #333;
+        transition: border-color var(--transition-speed),
+          box-shadow var(--transition-speed);
+      }
+
+      input.flatpickr-input:focus,
+      input[type="text"]:focus,
+      input[type="number"]:focus,
+      select:focus,
+      textarea:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 0 1px var(--primary-color);
+      }
+
+      .chip-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .chip-group input[type="checkbox"] {
+        display: none;
+      }
+      .chip-group label.chip {
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #555;
+        background-color: #f7f7f7;
+        transition: all 0.2s;
+        user-select: none;
+        text-align: center;
+      }
+      .chip-group input[type="checkbox"]:checked + label.chip {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: white;
+        font-weight: 600;
+      }
+
+      /* 🚨 추가: 차상위 계층 체크박스 스타일 */
+      .checkbox-group {
+        display: flex;
+        align-items: center;
+        background-color: #f7f7f7;
+        padding: 15px;
+        border-radius: 12px;
+        border: 1px solid #eee;
+      }
+      .checkbox-group input[type="checkbox"] {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        accent-color: var(--primary-color);
+        display: inline-block;
+      }
+      .checkbox-group label {
+        margin: 0;
+        font-weight: 600;
+        color: #333;
+        font-size: 15px;
+      }
+
+      .child-item {
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fafafa;
+      }
+      .child-item h4 {
+        margin-top: 10px;
+        color: var(--primary-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      .delete-child-btn {
+        float: right;
+        background: #fff;
+        color: #ff4d4d;
+        border: 1px solid #ff4d4d;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+
+      #add_child_btn {
+        background-color: #f7f7f7;
+        color: #333;
+        padding: 12px 18px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .button-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+      }
+      .button-group button {
+        flex-grow: 1;
+        padding: 16px 20px;
+        min-height: 54px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 700;
+        transition: background-color var(--transition-speed);
+      }
+      .next-btn {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .next-btn:hover {
+        background-color: var(--primary-hover);
+      }
+      .prev-btn {
+        background-color: #e0e0e0;
+        color: #666;
+      }
+      .prev-btn:hover {
+        background-color: #d0d0d0;
+      }
+      .submit-btn {
+        background-color: var(--accent-color);
+        color: white;
+      }
+
+      .step {
+        display: none;
+        animation: fadeIn 0.5s ease-out;
+      }
+      .step.active {
+        display: block;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      .input-error {
+        border: 2px solid #ff4d4d !important;
+      }
+      .radio-group label {
+        margin-right: 15px;
+        display: inline-block;
+        font-weight: 400;
+      }
+
+      /* ======================================= */
+      /* 🚨 768px 미만 모바일 화면 반응형 최적화 */
+      /* ======================================= */
+      @media (max-width: 767px) {
+        .container {
+          padding: 20px 16px; /* 좌우 여백 줄이기 */
+        }
+
+        /* Step Indicators: 글자 크기 조정 및 간격 줄이기 */
+        .step-indicators {
+          font-size: 11px;
+          gap: 5px;
+        }
+        .step-indicators span {
+          flex: 1 1 0;
+          text-align: center;
+        }
+
+        /* Form Group: 여백 줄이기 */
+        .form-group {
+          margin-bottom: 18px;
+        }
+
+        /* 제목 폰트 크기 조정 */
+        .step h3 {
+          font-size: 17px;
+          margin-bottom: 20px;
+        }
+
+        /* Input/Select/Textarea: 높이 약간 줄이고 폰트 크기 조정 */
+        input[type="text"],
+        input[type="number"],
+        select,
+        textarea {
+          padding: 12px 14px;
+          min-height: 48px;
+          font-size: 15px;
+          border-radius: 10px;
+        }
+
+        /* Chip Group: 칩 텍스트 크기 조정 및 패딩 줄이기 */
+        .chip-group label.chip {
+          padding: 8px 12px;
+          font-size: 13px;
+        }
+
+        /* 버튼 그룹: 패딩 조정 */
+        .button-group {
+          gap: 8px;
+          margin-top: 30px;
+        }
+        .button-group button {
+          padding: 14px 18px;
+          min-height: 50px;
+          font-size: 16px;
+        }
+
+        /* Checkbox Group (차상위 계층): 패딩 줄이기 */
+        .checkbox-group {
+          padding: 12px;
+        }
+        .checkbox-group label {
+          font-size: 14px;
+        }
+
+        /* 자녀 항목 패딩 줄이기 */
+        .child-item {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>지원금 계산기</h2>
+
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-bar-fill"></div>
+        </div>
+        <div class="step-indicators" id="step-indicators">
+          <span data-indicator="1" class="active">1. 기본/거주</span>
+          <span data-indicator="2">2. 경제 정보</span>
+          <span data-indicator="3">3. 자녀 정보</span>
+          <span data-indicator="4">4. 보호자 정보</span>
+          <span data-indicator="5">5. 특수 상황</span>
+        </div>
+      </div>
+
+      <form id="multiStepForm">
+        <div class="step active" data-step="1">
+          <h3>
+            1. 가구 기본 정보
+            <span style="font-size: 13px; color: #ff6000">(필수 입력)</span>
+          </h3>
+          <div class="form-group">
+            <label for="sido">거주지 (시도 → 시군구)</label>
+            <div style="display: flex; gap: 10px">
+              <select
+                id="sido"
+                name="sido"
+                data-required="true"
+                style="flex: 1"
+              >
+                <option value="">시/도 선택</option>
+                <option value="서울특별시">서울특별시</option>
+                <option value="경기도">경기도</option>
+                <option value="부산광역시">부산광역시</option>
+                <option value="인천광역시">인천광역시</option>
+                <option value="울산광역시">울산광역시</option>
+              </select>
+              <select
+                id="sigungu"
+                name="sigungu"
+                data-required="true"
+                style="flex: 1"
+              >
+                <option value="">시/군/구 선택</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="residence_start_date"
+              >거주 시작일 (전입일)
+              <!-- - 기간 계산용 -->
+            </label>
+            <input
+              type="text"
+              id="residence_start_date"
+              name="residence_start_date"
+              data-required="true"
+              class="flatpickr-input"
+              placeholder="YYYY-MM-DD"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="residence_min_months"
+              >실제 거주 기간 (개월)
+              <!-- - DB 컬럼명 (숫자 타입으로 변환됨) -->
+            </label>
+            <input
+              type="number"
+              id="residence_min_months"
+              name="residence_min_months"
+              data-required="true"
+              min="1"
+              placeholder="예: 12 (1년 거주 시)"
+            />
+          </div>
+
+          <div class="form-group">
+            <label
+              >가구 형태 선택
+              <!-- (DB 컬럼: household_type - 배열로 변환됨) -->
+            </label>
+            <div class="chip-group">
+              <input
+                type="checkbox"
+                id="household_single_parent"
+                name="household_type[]"
+                value="한부모가족"
+              />
+              <label for="household_single_parent" class="chip"
+                >한부모가족</label
+              >
+              <input
+                type="checkbox"
+                id="household_grandchild"
+                name="household_type[]"
+                value="조손가족"
+              />
+              <label for="household_grandchild" class="chip">조손가족</label>
+              <input
+                type="checkbox"
+                id="household_multiculture"
+                name="household_type[]"
+                value="다문화가족"
+              />
+              <label for="household_multiculture" class="chip"
+                >다문화가족</label
+              >
+              <input
+                type="checkbox"
+                id="household_double_income"
+                name="household_type[]"
+                value="맞벌이"
+              />
+              <label for="household_double_income" class="chip">맞벌이</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="step" data-step="2">
+          <h3>
+            2. 경제 상황 정보
+            <span style="font-size: 13px; color: #ff6000">(필수 입력)</span>
+          </h3>
+
+          <div class="form-group">
+            <label for="household_members_count"
+              >총 가구원 수
+              <!-- (소득 기준 계산에 사용) -->
+            </label>
+            <input
+              type="number"
+              id="household_members_count"
+              name="household_members_count"
+              data-required="true"
+              min="1"
+              placeholder="가구원 수 (1~7인)"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="monthly_income">월 가구소득 입력 (세전, 원)</label>
+            <input
+              type="text"
+              id="monthly_income"
+              name="monthly_income"
+              data-required="true"
+              placeholder="예: 3500000 (쉼표 없이 숫자만 입력)"
+            />
+          </div>
+
+          <div class="form-group">
+            <label
+              >차상위계층 해당 여부
+              <!-- (선택 시 소득 기준 50% 이하일 경우 **차상위**로 분류됨) -->
+            </label>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                id="is_near_poverty"
+                name="is_near_poverty"
+                value="true"
+              />
+              <label for="is_near_poverty"
+                >현재 차상위 계층에 해당합니다.</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="housing_type"
+              >주거 형태
+              <!-- (DB 컬럼: housing_type) -->
+            </label>
+            <select id="housing_type" name="housing_type" data-required="true">
+              <option value="">주거 형태 선택</option>
+              <option value="자가">자가</option>
+              <option value="전세">전세</option>
+              <option value="월세">월세</option>
+              <option value="무료임차">무료 임차</option>
+            </select>
+          </div>
+
+          <div
+            class="form-group"
+            style="
+              background-color: #fff8f5 !important;
+              padding: 15px;
+              border-radius: 10px;
+            "
+          >
+            <label>▶ 소득 조건 매핑 결과 (자동 계산 및 정규화)</label>
+            <p
+              style="margin: 0; font-weight: 500; font-size: 14px; color: #555"
+            >
+              (입력 소득, 가구원 수, 차상위계층 여부를 바탕으로 소득분위가
+              <!-- **`income_type`** 및 **`income_max_percent`**가 정확히 -->
+              추정됩니다.)
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-step="3">
+          <h3>
+            3. 자녀 상세 정보
+            <span style="font-size: 13px; color: #ff6000"
+              >(모든 자녀 필수 입력)</span
+            >
+          </h3>
+
+          <div class="form-group">
+            <label
+              >▶ 임신/출산 상황
+              <!-- (DB 컬럼: pregnancy_weeks_min/max, birth_within_months, birth_special) -->
+            </label>
+            <div class="chip-group" id="pregnancy_chips">
+              <input
+                type="checkbox"
+                id="pregnancy_current"
+                name="pregnancy_status[]"
+                value="current"
+              />
+              <label for="pregnancy_current" class="chip">현재 임신 중</label>
+              <input
+                type="checkbox"
+                id="pregnancy_recent"
+                name="pregnancy_status[]"
+                value="recent"
+              />
+              <label for="pregnancy_recent" class="chip"
+                >최근 출산 (1년 이내)</label
+              >
+              <input
+                type="checkbox"
+                id="pregnancy_multiple"
+                name="pregnancy_status[]"
+                value="multiple"
+              />
+              <label for="pregnancy_multiple" class="chip"
+                >다태아/특수출생</label
+              >
+            </div>
+          </div>
+
+          <div id="child_input_area">
+            <div class="child-item" data-child="1">
+              <div style="clear: both"></div>
+              <h4>
+                자녀 1
+                <!-- (대표 자녀로 조건 매핑) -->
+              </h4>
+
+              <div class="form-group">
+                <label for="child1_birth_date">출생일 (YYYY-MM-DD)</label>
+                <input
+                  type="text"
+                  id="child1_birth_date"
+                  name="child1_birth_date"
+                  data-required-group="child"
+                  class="flatpickr-input"
+                  placeholder="YYYY-MM-DD"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="child1_school"
+                  >재학/교육 상태
+                  <!-- (DB 컬럼: education_level, is_enrolled) -->
+                </label>
+                <select id="child1_school" name="child1_school">
+                  <option value="newborn">미등록/영유아 (만 0~2세)</option>
+                  <option value="preschool">
+                    미취학 (어린이집/유치원 재원)
+                  </option>
+                  <option value="elementary">초등</option>
+                  <option value="middle">중등</option>
+                  <option value="high">고등</option>
+                  <option value="university">대학교</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="child1_disability"
+                  >장애 여부
+                  <!-- (DB 컬럼: requires_disability, disability_level) -->
+                </label>
+                <select id="child1_disability" name="child1_disability">
+                  <option value="N">해당 없음</option>
+                  <option value="Y_severe">장애인 (중증)</option>
+                  <option value="Y_mild">장애인 (경증)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label
+                  >아동 질환
+                  <!-- (DB 컬럼: child_has_*_disease) -->
+                </label>
+                <div class="chip-group" id="child1_health_chips">
+                  <input
+                    type="checkbox"
+                    id="child1_health_none"
+                    name="child1_health[]"
+                    value="none"
+                    checked
+                  />
+                  <label for="child1_health_none" class="chip">해당 없음</label>
+
+                  <input
+                    type="checkbox"
+                    id="child1_health_serious"
+                    name="child1_health[]"
+                    value="serious"
+                  />
+                  <label for="child1_health_serious" class="chip"
+                    >중증 질환</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_health_rare"
+                    name="child1_health[]"
+                    value="rare"
+                  />
+                  <label for="child1_health_rare" class="chip">희귀 질환</label>
+
+                  <input
+                    type="checkbox"
+                    id="child1_health_chronic"
+                    name="child1_health[]"
+                    value="chronic"
+                  />
+                  <label for="child1_health_chronic" class="chip"
+                    >난치 질환</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_health_cancer"
+                    name="child1_health[]"
+                    value="cancer"
+                  />
+                  <label for="child1_health_cancer" class="chip"
+                    >암/백혈병</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_health_infertility"
+                    name="child1_health[]"
+                    value="infertility"
+                  />
+                  <label for="child1_health_infertility" class="chip"
+                    >난임 (극히 드묾)</label
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" id="add_child_btn" style="float: right">
+            + 자녀 추가
+          </button>
+          <div style="clear: both"></div>
+        </div>
+
+        <div class="step" data-step="4">
+          <h3>4. 부모/보호자 상세 정보</h3>
+          <div class="form-group">
+            <label for="parent_disability"
+              >부모/보호자 장애 여부
+              <!-- (DB 컬럼: requires_parent_disability, parent_disability_level) -->
+            </label>
+            <select id="parent_disability" name="parent_disability">
+              <option value="N">없음</option>
+              <option value="Y_severe">장애인 (중증)</option>
+              <option value="Y_mild">장애인 (경증)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label
+              >부모/보호자 질환
+              <!-- (DB 컬럼: parent_has_*_disease) -->
+            </label>
+            <div class="chip-group" id="parent_health_chips">
+              <input
+                type="checkbox"
+                id="parent_health_none"
+                name="parent_health[]"
+                value="none"
+                checked
+              />
+              <label for="parent_health_none" class="chip">해당 없음</label>
+              <input
+                type="checkbox"
+                id="parent_health_serious"
+                name="parent_health[]"
+                value="serious"
+              />
+              <label for="parent_health_serious" class="chip">중증 질환</label>
+              <input
+                type="checkbox"
+                id="parent_health_rare"
+                name="parent_health[]"
+                value="rare"
+              />
+              <label for="parent_health_rare" class="chip">희귀 질환</label>
+              <input
+                type="checkbox"
+                id="parent_health_chronic"
+                name="parent_health[]"
+                value="chronic"
+              />
+              <label for="parent_health_chronic" class="chip">난치 질환</label>
+              <input
+                type="checkbox"
+                id="parent_health_cancer"
+                name="parent_health[]"
+                value="cancer"
+              />
+              <label for="parent_health_cancer" class="chip">암</label>
+              <input
+                type="checkbox"
+                id="parent_health_infertility"
+                name="parent_health[]"
+                value="infertility"
+              />
+              <label for="parent_health_infertility" class="chip">난임</label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label
+              >조부모 양육 필요 여부
+              <!-- (DB 컬럼: requires_grandparent_care) -->
+            </label>
+            <div class="radio-group">
+              <label
+                ><input
+                  type="radio"
+                  name="requires_grandparent_care"
+                  value="1"
+                />
+                예</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="requires_grandparent_care"
+                  value="0"
+                  checked
+                />
+                아니오</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="step" data-step="5">
+          <h3>
+            5. 특수 상황
+            <!-- (DB 컬럼: is_*_...) -->
+          </h3>
+
+          <div class="form-group">
+            <label>기타 특수 상황 (다중선택 가능)</label>
+            <div class="chip-group">
+              <input
+                type="checkbox"
+                id="special_violence"
+                name="special_status[]"
+                value="violence_victim"
+              />
+              <label for="special_violence" class="chip">폭력/학대 피해</label>
+
+              <input
+                type="checkbox"
+                id="special_defector"
+                name="special_status[]"
+                value="defector"
+              />
+              <label for="special_defector" class="chip"
+                >탈북민/북한이탈주민</label
+              >
+
+              <input
+                type="checkbox"
+                id="special_veteran"
+                name="special_status[]"
+                value="veteran"
+              />
+              <label for="special_veteran" class="chip"
+                >국가유공자/보훈대상자</label
+              >
+
+              <input
+                type="checkbox"
+                id="special_foster"
+                name="special_status[]"
+                value="foster_child"
+              />
+              <label for="special_foster" class="chip">위탁아동</label>
+
+              <input
+                type="checkbox"
+                id="special_unmarried"
+                name="special_status[]"
+                value="unmarried_mother"
+              />
+              <label for="special_unmarried" class="chip">미혼모</label>
+
+              <input
+                type="checkbox"
+                id="special_low_income"
+                name="special_status[]"
+                value="low_income"
+              />
+              <label for="special_low_income" class="chip"
+                >저소득층 (차상위/기초 외)</label
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="special_other"
+              >기타 조건 (자유 서술) - DB 컬럼: special_other</label
+            >
+            <textarea
+              id="special_other"
+              name="special_other"
+              rows="5"
+              placeholder="기타 조건을 여기에 입력하세요."
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button
+            type="button"
+            class="prev-btn"
+            id="prevBtn"
+            style="display: none"
+          >
+            이전
+          </button>
+          <button type="button" class="next-btn" id="nextBtn">다음 단계</button>
+          <button
+            type="submit"
+            class="submit-btn"
+            id="submitBtn"
+            style="display: none"
+          >
+            ✅ 결과 확인
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ko.js"></script>
+
+    <script>
+      const form = document.getElementById("multiStepForm");
+      const steps = document.querySelectorAll(".step");
+      const progressFill = document.getElementById("progress-bar-fill");
+      const stepIndicators = document
+        .getElementById("step-indicators")
+        .querySelectorAll("span");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const submitBtn = document.getElementById("submitBtn");
+      const addChildBtn = document.getElementById("add_child_btn");
+      const childInputArea = document.getElementById("child_input_area");
+
+      const sidoSelect = document.getElementById("sido");
+      const sigunguSelect = document.getElementById("sigungu");
+
+      let currentStep = 1;
+      let childCount = 1;
+
+      // --- 🚨 데이터 정의 (2025년 기준 중위소득 - 사용자가 제공한 데이터 기반) ---
+      const MEDIAN_INCOME_2025 = {
+        1: 2392013,
+        2: 3932658,
+        3: 5025353,
+        4: 6097773,
+        5: 7108192,
+        6: 8064805,
+        7: 8988428,
+      };
+
+      // --- 🚨 차상위 계층 기준 (중위소득 50% 이하) ---
+      const NEAR_POVERTY_PERCENT = 50;
+
+      // --- 데이터 정의 (시/도별 시/군/구 옵션 - 기존 유지) ---
+      const districtData = {
+        서울특별시: [
+          "종로구",
+          "중구",
+          "용산구",
+          "성동구",
+          "광진구",
+          "기타 서울",
+        ],
+        경기도: ["수원시", "성남시", "고양시", "용인시", "화성시", "기타 경기"],
+        부산광역시: ["중구", "서구", "동구", "영도구", "부산진구", "기타 부산"],
+        인천광역시: [
+          "중구",
+          "동구",
+          "미추홀구",
+          "연수구",
+          "남동구",
+          "기타 인천",
+        ],
+        울산광역시: ["중구", "남구", "동구", "북구", "울주군"],
+      };
+
+      // --- 칩 상호 배타적 로직 설정 함수 (기존 유지) ---
+      function setupMutuallyExclusiveChips(groupId) {
+        const group = document.getElementById(groupId);
+        if (!group) return;
+
+        const noneChip = group.querySelector(`input[id$="_none"]`);
+        const otherChips = group.querySelectorAll(
+          'input[type="checkbox"]:not([id$="_none"])'
+        );
+
+        if (noneChip) {
+          noneChip.onchange = () => {
+            if (noneChip.checked) {
+              otherChips.forEach((chip) => {
+                chip.checked = false;
+              });
+            }
+          };
+        }
+
+        otherChips.forEach((chip) => {
+          chip.onchange = () => {
+            if (chip.checked && noneChip) {
+              noneChip.checked = false;
+            }
+          };
+        });
+      }
+
+      // --- Flatpickr 초기화 함수 (기존 유지) ---
+      function initializeFlatpickr(container = document) {
+        const dateInputs = container.querySelectorAll(".flatpickr-input");
+
+        dateInputs.forEach((input) => {
+          if (input._flatpickr) {
+            input._flatpickr.destroy();
+          }
+
+          flatpickr(input, {
+            locale: "ko",
+            dateFormat: "Y-m-d",
+            allowInput: true,
+            onReady: (selectedDates, dateStr, instance) => {
+              input.addEventListener("focus", () => {
+                if (!instance.isOpen) {
+                  instance.open();
+                }
+              });
+            },
+          });
+        });
+      }
+
+      // --- 자녀 항목 생성 함수 (완성) ---
+      function createChildInput(count) {
+        const deleteButtonHtml =
+          count > 1
+            ? `<button type="button" class="delete-child-btn" data-child-id="${count}">삭제</button>`
+            : "";
+
+        const schoolOptions = `
+          <option value="newborn">미등록/영유아 (만 0~2세)</option>
+          <option value="preschool">미취학 (어린이집/유치원 재원)</option>
+          <option value="elementary">초등</option>
+          <option value="middle">중등</option>
+          <option value="high">고등</option>
+          <option value="university">대학교</option>
+        `;
+
+        return `
+            <div class="child-item" data-child="${count}">
+                ${deleteButtonHtml}
+                <div style="clear: both;"></div> 
+                <h4>자녀 ${count} ${
+          count === 1 ? "(대표 자녀로 조건 매핑)" : ""
+        }</h4>
+                <div class="form-group"><label for="child${count}_birth_date">출생일 (YYYY-MM-DD)</label>
+                    <input type="text" id="child${count}_birth_date" name="child${count}_birth_date" 
+                        data-required-group="child" class="flatpickr-input" placeholder="YYYY-MM-DD"></div> 
+                
+                <div class="form-group"><label for="child${count}_school">재학/교육 상태</label>
+                    <select id="child${count}_school" name="child${count}_school">${schoolOptions}</select>
+                </div>
+
+                <div class="form-group">
+                    <label for="child${count}_disability">장애 여부</label>
+                    <select id="child${count}_disability" name="child${count}_disability">
+                        <option value="N">해당 없음</option>
+                        <option value="Y_severe">장애인 (중증)</option>
+                        <option value="Y_mild">장애인 (경증)</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label>아동 질환 (DB 컬럼: child_has_*_disease)</label>
+                    <div class="chip-group" id="child${count}_health_chips">
+                        <input type="checkbox" id="child${count}_health_none" name="child${count}_health[]" value="none" checked />
+                        <label for="child${count}_health_none" class="chip">해당 없음</label>
+                        <input type="checkbox" id="child${count}_health_serious" name="child${count}_health[]" value="serious" />
+                        <label for="child${count}_health_serious" class="chip">중증 질환</label>
+                        <input type="checkbox" id="child${count}_health_rare" name="child${count}_health[]" value="rare" />
+                        <label for="child${count}_health_rare" class="chip">희귀 질환</label>
+                        <input type="checkbox" id="child${count}_health_chronic" name="child${count}_health[]" value="chronic" />
+                        <label for="child${count}_health_chronic" class="chip">난치 질환</label>
+                        <input type="checkbox" id="child${count}_health_cancer" name="child${count}_health[]" value="cancer" />
+                        <label for="child${count}_health_cancer" class="chip">암/백혈병</label>
+                        <input type="checkbox" id="child${count}_health_infertility" name="child${count}_health[]" value="infertility" />
+                        <label for="child${count}_health_infertility" class="chip">난임 (극히 드묾)</label>
+                    </div>
+                </div>
+            </div>
+        `;
+      }
+
+      // --- 자녀 항목 삭제 함수 (완성) ---
+      function deleteChildInput(e) {
+        if (childCount <= 1) {
+          alert("자녀 항목은 최소 1개가 필요합니다.");
+          return;
+        }
+        const childItem = e.target.closest(".child-item");
+        if (childItem) {
+          childItem.remove();
+          childCount--;
+          updateChildIndices();
+        }
+      }
+
+      // --- 자녀 항목 인덱스 업데이트 함수 (완성) ---
+      function updateChildIndices() {
+        const childItems = childInputArea.querySelectorAll(".child-item");
+        childItems.forEach((item, index) => {
+          const newIndex = index + 1;
+          item.setAttribute("data-child", newIndex);
+          item.querySelector("h4").textContent = `자녀 ${newIndex} ${
+            newIndex === 1 ? "(대표 자녀로 조건 매핑)" : ""
+          }`;
+
+          // Update input IDs and names
+          item.querySelectorAll("[id]").forEach((el) => {
+            el.id = el.id.replace(/child\d+/, `child${newIndex}`);
+          });
+          item.querySelectorAll("[name]").forEach((el) => {
+            el.name = el.name.replace(/child\d+/, `child${newIndex}`);
+          });
+          item.querySelectorAll("label[for]").forEach((el) => {
+            el.htmlFor = el.htmlFor.replace(/child\d+/, `child${newIndex}`);
+          });
+
+          // Update delete button data attribute
+          const deleteBtn = item.querySelector(".delete-child-btn");
+          if (deleteBtn) {
+            deleteBtn.setAttribute("data-child-id", newIndex);
+          }
+
+          // Re-apply chip logic
+          setupMutuallyExclusiveChips(`child${newIndex}_health_chips`);
+        });
+
+        // Ensure Flatpickr is initialized for new/renamed inputs
+        initializeFlatpickr(childInputArea);
+      }
+
+      // --- 진행 상황 업데이트 함수 (완성) ---
+      function updateProgress() {
+        const totalSteps = steps.length;
+        const progress = (currentStep / totalSteps) * 100;
+        progressFill.style.width = `${progress}%`;
+
+        stepIndicators.forEach((indicator, index) => {
+          indicator.classList.remove("active");
+          if (index === currentStep - 1) {
+            indicator.classList.add("active");
+          }
+        });
+      }
+
+      // --- 단계 표시 함수 (완성) ---
+      function showStep(stepIndex) {
+        steps.forEach((step, index) => {
+          step.classList.remove("active");
+          if (index === stepIndex - 1) {
+            step.classList.add("active");
+          }
+        });
+        currentStep = stepIndex;
+
+        // 버튼 상태 업데이트
+        prevBtn.style.display = currentStep > 1 ? "inline-block" : "none";
+        nextBtn.style.display =
+          currentStep < steps.length ? "inline-block" : "none";
+        submitBtn.style.display =
+          currentStep === steps.length ? "inline-block" : "none";
+
+        updateProgress();
+      }
+
+      // --- 유효성 검사 함수 (완성) ---
+      function validateStep(stepIndex) {
+        const currentStepEl = steps[stepIndex - 1];
+        let isValid = true;
+
+        // 모든 입력 필드에 .input-error 클래스 제거
+        currentStepEl
+          .querySelectorAll(".input-error")
+          .forEach((el) => el.classList.remove("input-error"));
+
+        // data-required="true" 필드 검사
+        const requiredFields = currentStepEl.querySelectorAll(
+          "[data-required='true']"
+        );
+        requiredFields.forEach((field) => {
+          if (field.value.trim() === "") {
+            field.classList.add("input-error");
+            isValid = false;
+          }
+        });
+
+        // Step 3 (자녀 정보) 특수 검사: 자녀 항목 내 data-required-group="child" 필드 검사
+        if (stepIndex === 3) {
+          const childRequiredFields = currentStepEl.querySelectorAll(
+            "[data-required-group='child']"
+          );
+          childRequiredFields.forEach((field) => {
+            if (field.value.trim() === "") {
+              field.classList.add("input-error");
+              isValid = false;
+            }
+          });
+        }
+
+        if (!isValid) {
+          // 경고 메시지 대신 첫 번째 에러 필드로 스크롤 (개선)
+          const firstError = currentStepEl.querySelector(".input-error");
+          if (firstError) {
+            firstError.scrollIntoView({ behavior: "smooth", block: "center" });
+            firstError.focus();
+            alert("필수 입력 항목을 모두 채워주세요.");
+          }
+        }
+
+        return isValid;
+      }
+
+      // --- 데이터 수집 및 전송 함수 (수정됨) ---
+      function handleSubmit(e) {
+        e.preventDefault();
+        if (!validateStep(currentStep)) return;
+
+        const data = {};
+        const formData = new FormData(form);
+
+        // 1. 기본 항목 수집 및 전처리 (form 필드명을 key로 사용)
+        for (const [key, value] of formData.entries()) {
+          // 배열 형태로 와야 하는 항목 (체크박스)
+          if (key.endsWith("[]")) {
+            const baseKey = key.slice(0, -2);
+            if (!data[baseKey]) data[baseKey] = [];
+
+            // 중복 방지 로직 (FormData의 entries는 체크박스마다 같은 키를 반환함)
+            if (!data[baseKey].includes(value)) {
+              data[baseKey].push(value);
+            }
+          } else if (key.startsWith("child")) {
+            // 자녀 항목은 아래에서 별도로 처리하므로 건너뜀
+            continue;
+          } else if (
+            key === "monthly_income" ||
+            key === "household_members_count" ||
+            key === "residence_min_months"
+          ) {
+            // 숫자 타입으로 변환
+            data[key] = parseInt(value.replace(/,/g, ""), 10) || 0;
+          } else if (key === "is_near_poverty") {
+            // 체크박스: value가 'true'일 때만 true로 설정
+            data[key] = value === "true";
+          } else {
+            data[key] = value;
+          }
+        }
+
+        // --- 체크박스 배열 정제: 'none'과 다른 값이 같이 있으면 'none' 제거 ---
+        const arrayKeysToClean = [
+          "household_type",
+          "pregnancy_status",
+          "parent_health",
+          "special_status",
+        ];
+        arrayKeysToClean.forEach((key) => {
+          if (data[key] && data[key].length > 1 && data[key].includes("none")) {
+            data[key] = data[key].filter((v) => v !== "none");
+          } else if (data[key] && data[key].length === 0) {
+            data[key] = ["none"];
+          }
+        });
+
+        // 2. 소득 기준 계산 및 매핑
+        const memberCount = data.household_members_count;
+        const income = data.monthly_income;
+        const isNearPoverty = data.is_near_poverty;
+        // 가구원 수 7인 초과는 7인 기준 사용
+        const medianIncome =
+          MEDIAN_INCOME_2025[memberCount] || MEDIAN_INCOME_2025[7];
+
+        if (medianIncome) {
+          const incomePercent = (income / medianIncome) * 100;
+          data.income_max_percent = Math.ceil(incomePercent); // 올림 처리
+
+          // 소득 기준 타입 결정
+          if (incomePercent <= 30) {
+            data.income_type = "기초생활수급자";
+          } else if (incomePercent <= NEAR_POVERTY_PERCENT || isNearPoverty) {
+            data.income_type = "차상위계층";
+          } else if (incomePercent <= 70) {
+            data.income_type = "기준중위소득70%";
+          } else if (incomePercent <= 100) {
+            data.income_type = "기준중위소득100%";
+          } else if (incomePercent <= 150) {
+            data.income_type = "기준중위소득150%";
+          } else if (incomePercent <= 200) {
+            data.income_type = "기준중위소득200%";
+          } else {
+            data.income_type = "기준외";
+          }
+        } else {
+          data.income_type = "계산불가(가구원수 오류)";
+          data.income_max_percent = 999;
+        }
+
+        // 3. 자녀 항목 데이터 수집 및 키 재매핑 (Child Array)
+        const childArr = [];
+        const childItems = childInputArea.querySelectorAll(".child-item");
+
+        childItems.forEach((item, index) => {
+          const childIndex = index + 1;
+          const childData = {};
+
+          // A. 해당 자녀 항목의 필드만 수집 (childN_... -> baseName)
+          item
+            .querySelectorAll(`[name^="child${childIndex}_"]`)
+            .forEach((el) => {
+              const name = el.name;
+              // 필드명 추출 (예: child1_birth_date -> birth_date, child1_health[] -> health)
+              let baseName = name
+                .replace(`child${childIndex}_`, "")
+                .replace("[]", "");
+
+              if (el.type === "checkbox") {
+                if (el.checked) {
+                  if (!childData[baseName]) childData[baseName] = [];
+                  childData[baseName].push(el.value);
+                }
+              } else if (
+                el.tagName === "INPUT" ||
+                el.tagName === "SELECT" ||
+                el.tagName === "TEXTAREA"
+              ) {
+                // 텍스트/날짜(Flatpickr)/셀렉트 박스 값 저장
+                childData[baseName] = el.value;
+              }
+            });
+
+          // B. 자녀 건강 정보 배열 정제
+          if (
+            childData.health &&
+            childData.health.length > 1 &&
+            childData.health.includes("none")
+          ) {
+            childData.health = childData.health.filter((v) => v !== "none");
+          } else if (childData.health && childData.health.length === 0) {
+            childData.health = ["none"];
+          }
+
+          // C. 최종 DB 스키마에 맞게 키 이름 재매핑 (자녀 배열 내부)
+          const finalChildData = {
+            birth_date: childData.birth_date,
+            birth_order: childIndex, // 폼에는 없으나 index로 채움
+            education_status: childData.school,
+            disability_status: childData.disability,
+            disease_status: childData.health || ["none"],
+          };
+
+          childArr.push(finalChildData);
+        });
+
+        // 4. 최종 데이터 구조에 반영 및 루트 키 재매핑
+        const finalData = {
+          sido: data.sido,
+          sigungu: data.sigungu,
+          residence_start_date: data.residence_start_date,
+          residence_min_months: data.residence_min_months,
+          household_type: data.household_type || ["none"],
+
+          // Key Mismatches Renamed
+          household_count: data.household_members_count,
+          monthly_income_amount: data.monthly_income,
+          is_near_poverty: data.is_near_poverty || false, // Ensure boolean
+          housing_type: data.housing_type,
+          maternity_status: data.pregnancy_status || ["none"],
+
+          // Parent Info Mismatches Renamed
+          parent_disability_status: data.parent_disability || "N",
+          parent_disease_status: data.parent_health || ["none"],
+          // Convert '1'/'0' string to boolean true/false
+          is_grandparent_caring: data.requires_grandparent_care === "1",
+
+          // Special Status
+          special_status: data.special_status || ["none"],
+          special_other: data.special_other,
+
+          // Calculated fields
+          income_max_percent: data.income_max_percent,
+          income_type: data.income_type,
+
+          // Child Array
+          totalChildren: childArr.length,
+          childArr: childArr,
+        };
+
+        console.log("=========================================");
+        console.log("✅ 최종 수집 데이터 (요청 구조 반영):");
+        console.log(finalData);
+        console.log("=========================================");
+
+        // 🚨 TODO: 여기에 서버로 데이터를 전송하는 로직을 구현해야 합니다.
+        alert(
+          "데이터 수집 완료! 콘솔(F12)에서 수집된 데이터를 확인하세요.\n" +
+            JSON.stringify(finalData, null, 2)
+        );
+      }
+
+      // --- 이벤트 리스너 설정 및 초기화 함수 (기존 유지) ---
+      function initialize() {
+        // Flatpickr 초기화
+        initializeFlatpickr();
+
+        // 시/군/구 동적 로드 설정
+        sidoSelect.addEventListener("change", (e) => {
+          const selectedSido = e.target.value;
+          sigunguSelect.innerHTML = '<option value="">시/군/구 선택</option>';
+          if (districtData[selectedSido]) {
+            districtData[selectedSido].forEach((district) => {
+              const option = document.createElement("option");
+              option.value = district;
+              option.textContent = district;
+              sigunguSelect.appendChild(option);
+            });
+          }
+        });
+
+        // 단계 버튼 이벤트 리스너
+        nextBtn.addEventListener("click", () => {
+          if (validateStep(currentStep) && currentStep < steps.length) {
+            showStep(currentStep + 1);
+          }
+        });
+
+        prevBtn.addEventListener("click", () => {
+          if (currentStep > 1) {
+            showStep(currentStep - 1);
+          }
+        });
+
+        // 자녀 추가 버튼 이벤트 리스너
+        addChildBtn.addEventListener("click", () => {
+          childCount++;
+          const newChildHtml = createChildInput(childCount);
+          childInputArea.insertAdjacentHTML("beforeend", newChildHtml);
+
+          // 새로운 요소에 Flatpickr 및 칩 로직 적용
+          const newChildItem = childInputArea.lastElementChild;
+          initializeFlatpickr(newChildItem);
+          setupMutuallyExclusiveChips(`child${childCount}_health_chips`);
+
+          // 삭제 버튼 이벤트 리스너 연결은 이벤트 위임으로 대체 (아래)
+        });
+
+        // 자녀 항목 삭제 버튼 이벤트 리스너 연결 (이벤트 위임)
+        childInputArea.addEventListener("click", (e) => {
+          if (e.target.classList.contains("delete-child-btn")) {
+            deleteChildInput(e);
+          }
+        });
+
+        // 칩 그룹 상호 배타적 로직 초기화
+        setupMutuallyExclusiveChips("child1_health_chips");
+        setupMutuallyExclusiveChips("parent_health_chips");
+
+        // 폼 제출 이벤트 리스너
+        form.addEventListener("submit", handleSubmit);
+
+        // 초기 단계 표시
+        showStep(1);
+      }
+
+      initialize();
+    </script>
+  </body>
+</html>

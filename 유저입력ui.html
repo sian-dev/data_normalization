@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>복지 정보 간편 조사</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
+    />
+
+    <style>
+      /* 변수 설정: 메인 색상 #ff6000 (선명한 오렌지) 적용 */
+      :root {
+        --primary-color: #ff6000; /* 메인 브랜드 컬러 (선명한 오렌지) */
+        --primary-hover: #e65600;
+        --light-orange-hover: #ffe5db; /* Flatpickr Day Hover를 위한 옅은 주황색 */
+        --accent-color: #4caf50;
+        --bg-color: #ffffff;
+        --border-color: #f0f0f0;
+        --shadow-soft: 0 4px 15px rgba(0, 0, 0, 0.05);
+        --transition-speed: 0.3s;
+      }
+
+      body {
+        font-family: "Malgun Gothic", "Apple SD Gothic Neo", Arial, sans-serif;
+        background-color: var(--bg-color);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        min-height: 100vh;
+      }
+
+      .container {
+        width: 100%;
+        max-width: 500px;
+        margin-top: 0;
+        background: var(--bg-color);
+        padding: 20px 24px;
+        border-radius: 0;
+        box-shadow: none;
+        min-height: 100vh;
+      }
+      @media (min-width: 501px) {
+        .container {
+          margin-top: 30px;
+          border-radius: 16px;
+          box-shadow: var(--shadow-soft);
+          min-height: auto;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+        color: #333;
+        text-align: center;
+        margin: 20px 0 30px 0;
+        font-weight: 700;
+      }
+
+      /* --- Flatpickr Month/Year Selector 높이 강제 조정 (이전 수정 사항) --- */
+      .flatpickr-months .flatpickr-month {
+        height: 52px;
+      }
+      .flatpickr-current-month .flatpickr-monthDropdown-months {
+        height: 40px;
+        min-height: 40px;
+      }
+      .flatpickr-current-month input.cur-year {
+        height: 40px;
+        min-height: 40px;
+      }
+      .flatpickr-calendar .flatpickr-current-month {
+        height: 47px !important;
+        padding-top: 5px !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .flatpickr-calendar .flatpickr-months .flatpickr-prev-month,
+      .flatpickr-calendar .flatpickr-months .flatpickr-next-month {
+        display: flex;
+        align-items: center;
+        /* height: 38px !important; */
+      }
+      /* --- 끝: 문제 해결 CSS --- */
+
+      /* ======================================================== */
+      /* --- Custom Flatpickr Theme Overrides (메인 색상 적용) --- */
+      /* ======================================================== */
+
+      /* 1. 선택된 날짜 (배경, 경계선) */
+      .flatpickr-day.selected,
+      .flatpickr-day.selected:hover,
+      .flatpickr-day.today.selected,
+      .flatpickr-day.today.selected:hover,
+      .flatpickr-day.startRange,
+      .flatpickr-day.endRange,
+      .flatpickr-day.startRange:hover,
+      .flatpickr-day.endRange:hover,
+      .flatpickr-day.inRange {
+        background: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+        color: #fff !important;
+      }
+
+      /* 2. 날짜 호버 / 포커스 (옅은 주황색 적용) */
+      .flatpickr-day:hover,
+      .flatpickr-day:focus,
+      .flatpickr-day.prevMonthDay:hover,
+      .flatpickr-day.nextMonthDay:hover,
+      .flatpickr-day.prevMonthDay:focus,
+      .flatpickr-day.nextMonthDay:focus {
+        background: var(--light-orange-hover) !important;
+        border-color: var(--light-orange-hover) !important;
+        color: #333 !important; /* 텍스트는 어둡게 유지하여 가독성 확보 */
+      }
+
+      /* 3. 오늘 날짜 표시 (테두리 색상) */
+      .flatpickr-day.today {
+        border-color: var(--primary-color) !important;
+      }
+      .flatpickr-current-month .flatpickr-monthDropdown-months:hover,
+      .numInputWrapper:hover {
+        background-color: rgba(255, 96, 0, 0.1);
+      }
+      /* 4. 월/년도 선택 화살표 및 텍스트 색상 */
+      .flatpickr-current-month .flatpickr-monthDropdown-months,
+      .flatpickr-month,
+      .flatpickr-current-month .numInputWrapper span.arrowUp:after,
+      .flatpickr-current-month .numInputWrapper span.arrowDown:after {
+        /* color: var(--primary-color) !important; */
+      }
+      .flatpickr-calendar .flatpickr-months .flatpickr-prev-month svg path,
+      .flatpickr-calendar .flatpickr-months .flatpickr-next-month svg path {
+        /* fill: var(--primary-color) !important; */
+      }
+
+      /* ======================================================== */
+      /* --- 일반 CSS (이전과 동일) --- */
+      /* ======================================================== */
+
+      /* --- 진행 표시줄 (Progress Bar) --- */
+      .progress-container {
+        padding: 0;
+        margin-bottom: 30px;
+      }
+      .progress-bar {
+        height: 8px;
+        background-color: var(--border-color);
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .progress-fill {
+        height: 100%;
+        width: 20%;
+        background-color: var(--primary-color);
+        transition: width var(--transition-speed) ease-in-out;
+      }
+      .step-indicators {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #999;
+        font-weight: 500;
+      }
+      .step-indicators span.active {
+        font-weight: 700;
+        color: var(--primary-color);
+      }
+
+      /* --- 폼 섹션 및 입력 필드 --- */
+      .step h3 {
+        font-size: 18px;
+        color: #333;
+        padding-left: 0;
+        margin-bottom: 25px;
+        font-weight: 700;
+      }
+      .form-group {
+        margin-bottom: 24px;
+      }
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-weight: 600;
+        color: #444;
+        font-size: 15px;
+      }
+      /* date input (Flatpickr) 포함 모든 text, select, textarea 스타일 */
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 14px 16px;
+        min-height: 52px;
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        box-sizing: border-box;
+        font-size: 16px;
+        color: #333;
+        transition: border-color var(--transition-speed),
+          box-shadow var(--transition-speed);
+      }
+
+      /* Flatpickr input에 포커스 스타일 적용 */
+      input.flatpickr-input:focus,
+      input[type="text"]:focus,
+      select:focus,
+      textarea:focus {
+        border-color: var(--primary-color);
+        outline: none;
+        box-shadow: 0 0 0 1px var(--primary-color);
+      }
+
+      /* 라디오/체크박스 포커스 스타일 제거 */
+      input[type="radio"]:focus,
+      input[type="checkbox"]:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      /* === 칩(Chip) 스타일: 다중 선택 대체 === */
+      .chip-group {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .chip-group input[type="checkbox"] {
+        display: none; /* 실제 체크박스 숨김 */
+      }
+      .chip-group label.chip {
+        padding: 10px 15px;
+        border: 1px solid #ddd;
+        border-radius: 20px; /* 라운드 처리 */
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        color: #555;
+        background-color: #f7f7f7;
+        transition: all 0.2s;
+        user-select: none;
+        text-align: center;
+      }
+      .chip-group input[type="checkbox"]:checked + label.chip {
+        background-color: var(--primary-color);
+        border-color: var(--primary-color);
+        color: white;
+        font-weight: 600;
+      }
+      /* ================================== */
+
+      /* 자녀 정보 섹션 스타일 */
+      .child-item {
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #fafafa;
+      }
+      .child-item h4 {
+        margin-top: 10px;
+        color: var(--primary-color);
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      /* 삭제 버튼 스타일 */
+      .delete-child-btn {
+        float: right;
+        background: #fff;
+        color: #ff4d4d;
+        border: 1px solid #ff4d4d;
+        padding: 5px 10px;
+        border-radius: 8px;
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+
+      #add_child_btn {
+        background-color: #f7f7f7;
+        color: #333;
+        padding: 12px 18px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      /* --- 버튼 그룹 --- */
+      .button-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 40px;
+        padding-bottom: 20px;
+      }
+      .button-group button {
+        flex-grow: 1;
+        padding: 16px 20px;
+        min-height: 54px;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+        font-size: 17px;
+        font-weight: 700;
+        transition: background-color var(--transition-speed);
+      }
+      .next-btn {
+        background-color: var(--primary-color);
+        color: white;
+      }
+      .next-btn:hover {
+        background-color: var(--primary-hover);
+      }
+      .prev-btn {
+        background-color: #e0e0e0;
+        color: #666;
+      }
+      .prev-btn:hover {
+        background-color: #d0d0d0;
+      }
+      .submit-btn {
+        background-color: var(--accent-color);
+        color: white;
+      }
+
+      .step {
+        display: none;
+        animation: fadeIn 0.5s ease-out;
+      }
+      .step.active {
+        display: block;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      /* 유효성 검사 실패 시 스타일 */
+      .input-error {
+        border: 2px solid #ff4d4d !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>맞춤형 복지 정보 진단</h2>
+
+      <div class="progress-container">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-bar-fill"></div>
+        </div>
+        <div class="step-indicators" id="step-indicators">
+          <span data-indicator="1" class="active">1. 기본 정보</span>
+          <span data-indicator="2">2. 경제 정보</span>
+          <span data-indicator="3">3. 자녀 정보</span>
+          <span data-indicator="4">4. 보호자 정보</span>
+          <span data-indicator="5">5. 특수 상황</span>
+        </div>
+      </div>
+
+      <form id="multiStepForm">
+        <div class="step active" data-step="1">
+          <h3>
+            1. 가구 기본 정보
+            <span style="font-size: 13px; color: #ff6000">(필수 입력)</span>
+          </h3>
+          <div class="form-group">
+            <label for="residence_city">거주지 (시도 → 시군구)</label>
+            <div style="display: flex; gap: 10px">
+              <select
+                id="residence_city"
+                name="residence_city"
+                data-required="true"
+                style="flex: 1"
+              >
+                <option value="">시/도 선택</option>
+                <option value="Seoul">서울특별시</option>
+                <option value="Gyeonggi">경기도</option>
+                <option value="Busan">부산광역시</option>
+                <option value="Incheon">인천광역시</option>
+              </select>
+              <select
+                id="residence_district"
+                name="residence_district"
+                data-required="true"
+                style="flex: 1"
+              >
+                <option value="">시/군/구 선택</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="residence_start_date">거주 시작일 (전입일)</label>
+            <input
+              type="text"
+              id="residence_start_date"
+              name="residence_start_date"
+              data-required="true"
+              class="flatpickr-input"
+              placeholder="YYYY-MM-DD"
+            />
+          </div>
+          <div class="form-group">
+            <label>가구 형태 선택</label>
+            <select
+              id="household_type"
+              name="household_type"
+              data-required="true"
+            >
+              <option value="">가구 형태 선택</option>
+              <option value="일반">일반 가구</option>
+              <option value="한부모">한부모 가구</option>
+              <option value="조손">조손 가구</option>
+              <option value="다문화">다문화 가구</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="step" data-step="2">
+          <h3>
+            2. 경제 상황 정보
+            <span style="font-size: 13px; color: #ff6000">(필수 입력)</span>
+          </h3>
+          <div class="form-group">
+            <label for="monthly_income">월 가구소득 입력 (세전, 원)</label>
+            <input
+              type="text"
+              id="monthly_income"
+              name="monthly_income"
+              data-required="true"
+              placeholder="예: 3500000 (쉼표 없이 숫자만 입력)"
+            />
+          </div>
+          <div class="form-group">
+            <label>맞벌이 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="double_income" value="Y" /> 예</label
+              >
+              <label
+                ><input type="radio" name="double_income" value="N" checked />
+                아니오</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="housing_type">주거 형태</label>
+            <select id="housing_type" name="housing_type" data-required="true">
+              <option value="">주거 형태 선택</option>
+              <option value="자가">자가</option>
+              <option value="전세">전세 (보증금 있음)</option>
+              <option value="월세">월세 (보증금/월세 입력 필요)</option>
+              <option value="무료임차">무료 임차</option>
+            </select>
+          </div>
+          <div
+            class="form-group"
+            style="
+              background-color: #fff8f5 !important;
+              padding: 15px;
+              border-radius: 10px;
+            "
+          >
+            <label>▶ 중위소득 % 자동 계산 (예시)</label>
+            <p
+              id="median_income_display"
+              style="margin: 0; font-weight: 500; font-size: 14px; color: #555"
+            >
+              (입력하신 소득을 바탕으로 중위소득 대비 비율을 실시간 계산합니다.)
+            </p>
+          </div>
+        </div>
+
+        <div class="step" data-step="3">
+          <h3>
+            3. 자녀 상세 정보
+            <span style="font-size: 13px; color: #ff6000"
+              >(모든 자녀 필수 입력)</span
+            >
+          </h3>
+          <div id="child_input_area">
+            <div class="child-item" data-child="1">
+              <div style="clear: both"></div>
+              <h4>자녀 1</h4>
+              <div class="form-group">
+                <label for="child1_birth_date">출생일 (or 예정일)</label>
+                <input
+                  type="text"
+                  id="child1_birth_date"
+                  name="child1_birth_date"
+                  data-required-group="child"
+                  class="flatpickr-input"
+                  placeholder="YYYY-MM-DD"
+                />
+              </div>
+              <div class="form-group">
+                <label>출생 순서</label>
+                <input type="text" value="첫째 (자동 추천)" disabled />
+              </div>
+
+              <div class="form-group">
+                <label>출산 특이사항 (다중선택 가능)</label>
+                <div class="chip-group" id="child1_special_chips">
+                  <input
+                    type="checkbox"
+                    id="child1_special_none"
+                    name="child1_special[]"
+                    value="none"
+                  />
+                  <label for="child1_special_none" class="chip"
+                    >해당 없음</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_special_premature"
+                    name="child1_special[]"
+                    value="premature"
+                  />
+                  <label for="child1_special_premature" class="chip"
+                    >미숙아</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_special_congenital"
+                    name="child1_special[]"
+                    value="congenital"
+                  />
+                  <label for="child1_special_congenital" class="chip"
+                    >선천성 이상아</label
+                  >
+
+                  <input
+                    type="checkbox"
+                    id="child1_special_multiple"
+                    name="child1_special[]"
+                    value="multiple"
+                  />
+                  <label for="child1_special_multiple" class="chip"
+                    >다태아 (쌍둥이 등)</label
+                  >
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="child1_disability">장애 여부 및 등급</label>
+                <select id="child1_disability" name="child1_disability">
+                  <option value="N">없음</option>
+                  <option value="Y_severe">장애인 (심한 정도)</option>
+                  <option value="Y_mild">장애인 (심하지 않은 정도)</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="child1_health">건강 상태</label>
+                <select id="child1_health" name="child1_health">
+                  <option value="healthy">건강</option>
+                  <option value="chronic">만성질환</option>
+                  <option value="rare">희귀/중증 질환</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="child1_school">재학 상태</label>
+                <select id="child1_school" name="child1_school">
+                  <option value="newborn">미등록/영유아 (만 0~2세)</option>
+                  <option value="preschool">
+                    미취학 (어린이집/유치원 재원)
+                  </option>
+                  <option value="elementary">초등학교</option>
+                  <option value="middle">중학교</option>
+                  <option value="high">고등학교</option>
+                  <option value="university">대학교</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <button type="button" id="add_child_btn" style="float: right">
+            + 자녀 추가
+          </button>
+          <div style="clear: both"></div>
+        </div>
+
+        <div class="step" data-step="4">
+          <h3>4. 부모/보호자 상세 정보</h3>
+          <div class="form-group">
+            <label for="parent_disability">부모/보호자 장애 여부</label>
+            <select id="parent_disability" name="parent_disability">
+              <option value="N">없음</option>
+              <option value="Y">있음</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="parent_leave">육아휴직 여부 및 기간</label>
+            <select id="parent_leave" name="parent_leave">
+              <option value="N">사용 안 함</option>
+              <option value="Y_current">사용 중</option>
+              <option value="Y_past">최근 1년 이내 사용 완료</option>
+              <option value="P">사용 예정</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>조부모 양육 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="grandparent_care" value="Y" />
+                예</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="grandparent_care"
+                  value="N"
+                  checked
+                />
+                아니오</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="step" data-step="5">
+          <h3>5. 특수 상황 (선택 사항)</h3>
+          <div class="form-group">
+            <label>가정 폭력 피해 여부</label>
+            <div class="radio-group">
+              <label
+                ><input type="radio" name="violence_victim" value="Y" />
+                예</label
+              >
+              <label
+                ><input type="radio" name="violence_victim" value="N" checked />
+                아니오</label
+              >
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="etc_situation">기타 상황 (자유 서술)</label>
+            <textarea
+              id="etc_situation"
+              name="etc_situation"
+              rows="5"
+              placeholder="가구의 특이사항이나 기타 지원이 필요한 상황을 간략히 서술해 주세요. (예: 주 소득자 실직, 장기 입원 등)"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="button-group">
+          <button
+            type="button"
+            class="prev-btn"
+            id="prevBtn"
+            style="display: none"
+          >
+            이전
+          </button>
+          <button type="button" class="next-btn" id="nextBtn">다음 단계</button>
+          <button
+            type="submit"
+            class="submit-btn"
+            id="submitBtn"
+            style="display: none"
+          >
+            ✅ 결과 확인
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ko.js"></script>
+
+    <script>
+      const form = document.getElementById("multiStepForm");
+      const steps = document.querySelectorAll(".step");
+      const progressFill = document.getElementById("progress-bar-fill");
+      const stepIndicators = document
+        .getElementById("step-indicators")
+        .querySelectorAll("span");
+      const prevBtn = document.getElementById("prevBtn");
+      const nextBtn = document.getElementById("nextBtn");
+      const submitBtn = document.getElementById("submitBtn");
+      const addChildBtn = document.getElementById("add_child_btn");
+      const childInputArea = document.getElementById("child_input_area");
+      const residenceCitySelect = document.getElementById("residence_city");
+      const residenceDistrictSelect =
+        document.getElementById("residence_district");
+
+      let currentStep = 1;
+      let childCount = 1;
+
+      // --- 데이터 정의 (시/도별 시/군/구 옵션) ---
+      const districtData = {
+        Seoul: ["종로구", "중구", "용산구", "성동구", "광진구", "기타 서울"],
+        Gyeonggi: [
+          "수원시",
+          "성남시",
+          "고양시",
+          "용인시",
+          "화성시",
+          "기타 경기",
+        ],
+        Busan: ["중구", "서구", "동구", "영도구", "부산진구", "기타 부산"],
+        Incheon: ["중구", "동구", "미추홀구", "연수구", "남동구", "기타 인천"],
+      };
+
+      // --- 출산 특이사항 칩 상호 배타적 로직 설정 함수 ---
+      function setupSpecialNotesLogic(childNum) {
+        const group = document.getElementById(`child${childNum}_special_chips`);
+        if (!group) return;
+
+        const noneChip = group.querySelector(`#child${childNum}_special_none`);
+        const otherChips = group.querySelectorAll(
+          'input[type="checkbox"]:not([id$="_none"])'
+        );
+
+        noneChip.onchange = () => {
+          if (noneChip.checked) {
+            otherChips.forEach((chip) => {
+              chip.checked = false;
+            });
+          }
+        };
+
+        otherChips.forEach((chip) => {
+          chip.onchange = () => {
+            if (chip.checked) {
+              noneChip.checked = false;
+            }
+          };
+        });
+      }
+
+      // --- Flatpickr 초기화 함수 (전체 폼 대상) ---
+      function initializeFlatpickr(container = document) {
+        // 폼 전체 또는 지정된 컨테이너(자녀 추가 시)에서 flatpickr-input 클래스를 가진 모든 필드 선택
+        const dateInputs = container.querySelectorAll(".flatpickr-input");
+
+        dateInputs.forEach((input) => {
+          // 이미 Flatpickr가 적용된 필드는 건너뛰고, 이전 인스턴스가 있다면 제거
+          if (input._flatpickr) {
+            input._flatpickr.destroy();
+          }
+
+          flatpickr(input, {
+            locale: "ko", // 한국어 적용
+            dateFormat: "Y-m-d",
+            allowInput: true, // 직접 입력 허용
+            // 필드 포커스 시 달력 자동 열림을 위한 이벤트 리스너 추가
+            onReady: (selectedDates, dateStr, instance) => {
+              input.addEventListener("focus", () => {
+                if (!instance.isOpen) {
+                  // 포커스 시 달력 열기
+                  instance.open();
+                }
+              });
+            },
+          });
+        });
+      }
+
+      // --- 자녀 항목 생성 함수 ---
+      function createChildInput(count) {
+        const title =
+          count === 1 ? "첫째" : count === 2 ? "둘째" : `${count}째`;
+
+        const deleteButtonHtml =
+          count > 1
+            ? `<button type="button" class="delete-child-btn" data-child-id="${count}">삭제</button>`
+            : "";
+
+        const schoolOptions = `
+            <option value="newborn">미등록/영유아 (만 0~2세)</option>
+            <option value="preschool">미취학 (어린이집/유치원 재원)</option>
+            <option value="elementary">초등학교</option>
+            <option value="middle">중학교</option>
+            <option value="high">고등학교</option>
+            <option value="university">대학교</option>
+        `;
+
+        return `
+            <div class="child-item" data-child="${count}">
+                ${deleteButtonHtml}
+                <div style="clear: both;"></div> 
+                <h4>자녀 ${count}</h4>
+                <div class="form-group"><label for="child${count}_birth_date">출생일 (or 예정일)</label>
+                    <input type="text" id="child${count}_birth_date" name="child${count}_birth_date" 
+                        data-required-group="child" class="flatpickr-input" placeholder="YYYY-MM-DD"></div> 
+                <div class="form-group"><label>출생 순서</label><input type="text" value="${title} (자동 추천)" disabled></div>
+                
+                <div class="form-group">
+                    <label>출산 특이사항 (다중선택 가능)</label>
+                    <div class="chip-group" id="child${count}_special_chips">
+                        <input type="checkbox" id="child${count}_special_none" name="child${count}_special[]" value="none">
+                        <label for="child${count}_special_none" class="chip">해당 없음</label>
+                        <input type="checkbox" id="child${count}_special_premature" name="child${count}_special[]" value="premature">
+                        <label for="child${count}_special_premature" class="chip">미숙아</label>
+                        <input type="checkbox" id="child${count}_special_congenital" name="child${count}_special[]" value="congenital">
+                        <label for="child${count}_special_congenital" class="chip">선천성 이상아</label>
+                        <input type="checkbox" id="child${count}_special_multiple" name="child${count}_special[]" value="multiple">
+                        <label for="child${count}_special_multiple" class="chip">다태아 (쌍둥이 등)</label>
+                    </div>
+                </div>
+
+                <div class="form-group"><label for="child${count}_disability">장애 여부 및 등급</label>
+                    <select id="child${count}_disability" name="child${count}_disability"><option value="N">없음</option><option value="Y_severe">장애인 (심한 정도)</option><option value="Y_mild">장애인 (심하지 않은 정도)</option></select></div>
+                <div class="form-group"><label for="child${count}_health">건강 상태</label>
+                    <select id="child${count}_health" name="child${count}_health"><option value="healthy">건강</option><option value="chronic">만성질환</option><option value="rare">희귀/중증 질환</option></select></div>
+                <div class="form-group"><label for="child${count}_school">재학 상태</label>
+                    <select id="child${count}_school" name="child${count}_school">${schoolOptions}</select>
+                </div>
+            </div>
+        `;
+      }
+
+      // --- 자녀 항목 삭제 및 재인덱싱 함수 (순서/ID 재정렬) ---
+      function reindexChildren() {
+        const childItems = childInputArea.querySelectorAll(".child-item");
+        let newChildCount = 0;
+
+        childItems.forEach((item, index) => {
+          const newIndex = index + 1; // 1부터 시작
+          newChildCount = newIndex;
+
+          // 1. 디스플레이 제목 및 data-child 속성 업데이트
+          const title =
+            newIndex === 1 ? "첫째" : newIndex === 2 ? "둘째" : `${newIndex}째`;
+          item.querySelector("h4").textContent = `자녀 ${newIndex}`;
+          item.querySelector(
+            'input[type="text"][disabled]'
+          ).value = `${title} (자동 추천)`;
+          item.setAttribute("data-child", newIndex);
+
+          // 2. 모든 입력 필드의 ID, Name, Label의 For 속성 업데이트
+          item
+            .querySelectorAll(
+              '[id^="child"], [name^="child"], label[for^="child"], .delete-child-btn'
+            )
+            .forEach((el) => {
+              // childN_ 형태의 모든 속성 이름을 newIndex로 교체
+              const replaceIndex = (attr) =>
+                attr.replace(/child\d+/, `child${newIndex}`);
+
+              if (el.id) el.id = replaceIndex(el.id);
+              if (el.name) el.name = replaceIndex(el.name);
+              if (el.tagName === "LABEL" && el.htmlFor)
+                el.htmlFor = replaceIndex(el.htmlFor);
+              // 칩 그룹 ID 처리
+              if (el.id && el.id.endsWith("_special_chips"))
+                el.id = `child${newIndex}_special_chips`;
+              // 삭제 버튼의 data-child-id 업데이트
+              if (el.classList.contains("delete-child-btn"))
+                el.setAttribute("data-child-id", newIndex);
+
+              // **Flatpickr 인스턴스 정리 (필수)**
+              // reindexChildren 끝에서 initializeFlatpickr를 호출하기 때문에 여기서 인스턴스만 파괴합니다.
+              if (el._flatpickr) {
+                el._flatpickr.destroy();
+              }
+            });
+
+          // 3. 자녀 1은 삭제 버튼 제거
+          let deleteButton = item.querySelector(".delete-child-btn");
+          if (newIndex === 1) {
+            if (deleteButton) deleteButton.remove();
+          } else if (!deleteButton) {
+            const newDeleteButton = document.createElement("button");
+            newDeleteButton.type = "button";
+            newDeleteButton.className = "delete-child-btn";
+            newDeleteButton.setAttribute("data-child-id", newIndex);
+            newDeleteButton.textContent = "삭제";
+            item.insertAdjacentElement("afterbegin", newDeleteButton);
+
+            const clearDiv = document.createElement("div");
+            clearDiv.style.clear = "both";
+            item.insertAdjacentElement("afterbegin", clearDiv);
+          }
+        });
+
+        childCount = newChildCount;
+        if (childCount === 0) childCount = 1;
+
+        // 4. ID가 변경되었으므로 칩 상호 배타적 로직 다시 설정
+        childItems.forEach((_, index) => setupSpecialNotesLogic(index + 1));
+
+        // 5. 재인덱싱 후 Flatpickr 다시 초기화 (새로운 ID에 바인딩)
+        initializeFlatpickr();
+      }
+
+      // --- 폼 유효성 검사 함수 ---
+      function validateStep(stepNum) {
+        const activeStep = document.querySelector(
+          `.step[data-step="${stepNum}"]`
+        );
+        let isValid = true;
+
+        activeStep
+          .querySelectorAll('[data-required="true"], [data-required-group]')
+          .forEach((el) => el.classList.remove("input-error"));
+        let firstInvalidField = null;
+
+        // 1단계 & 2단계 필수 항목 검사
+        if (stepNum === 1 || stepNum === 2) {
+          const requiredFields = activeStep.querySelectorAll(
+            '[data-required="true"]'
+          );
+          requiredFields.forEach((field) => {
+            if (!field.value) {
+              field.classList.add("input-error");
+              isValid = false;
+              if (!firstInvalidField) firstInvalidField = field;
+            }
+          });
+          if (!isValid) {
+            alert(`${stepNum}단계: 모든 필수 항목을 선택/입력해 주세요.`);
+            if (firstInvalidField) firstInvalidField.focus();
+          }
+        }
+
+        // 3단계: 모든 자녀의 출생일 입력 강제
+        else if (stepNum === 3) {
+          const childItems = activeStep.querySelectorAll(".child-item");
+
+          for (const item of childItems) {
+            const birthDateInput = item.querySelector(
+              '[data-required-group="child"]'
+            );
+            if (!birthDateInput.value) {
+              birthDateInput.classList.add("input-error");
+              isValid = false;
+              if (!firstInvalidField) firstInvalidField = birthDateInput;
+            }
+          }
+
+          if (!isValid) {
+            alert(
+              "3단계: 모든 자녀 항목의 출생일(또는 예정일)을 입력해야 다음 단계로 진행할 수 있습니다."
+            );
+            if (firstInvalidField) firstInvalidField.focus();
+          }
+        }
+
+        return isValid;
+      }
+
+      // --- 폼 네비게이션 함수 ---
+      function showStep(stepNum) {
+        steps.forEach((step) => step.classList.remove("active"));
+
+        const targetStep = document.querySelector(
+          `.step[data-step="${stepNum}"]`
+        );
+        if (targetStep) {
+          targetStep.classList.add("active");
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        const totalSteps = steps.length;
+        const progressPercent = (stepNum / totalSteps) * 100;
+        progressFill.style.width = `${progressPercent}%`;
+
+        stepIndicators.forEach((indicator) => {
+          indicator.classList.remove("active");
+          if (parseInt(indicator.dataset.indicator) === stepNum) {
+            indicator.classList.add("active");
+          }
+        });
+
+        prevBtn.style.display = stepNum === 1 ? "none" : "block";
+        nextBtn.style.display = stepNum === totalSteps ? "none" : "block";
+        submitBtn.style.display = stepNum === totalSteps ? "block" : "none";
+
+        addChildBtn.style.display = stepNum === 3 ? "block" : "none";
+
+        nextBtn.textContent =
+          stepNum < steps.length - 1 ? "다음 단계" : "결과 분석 시작";
+      }
+
+      // 다음/이전 버튼 핸들러
+      nextBtn.addEventListener("click", () => {
+        if (validateStep(currentStep)) {
+          if (currentStep < steps.length) {
+            currentStep++;
+            showStep(currentStep);
+          }
+        }
+      });
+
+      prevBtn.addEventListener("click", () => {
+        if (currentStep > 1) {
+          currentStep--;
+          showStep(currentStep);
+        }
+      });
+
+      // --- 시/도 선택에 따른 시/군/구 옵션 동적 변경 ---
+      residenceCitySelect.addEventListener("change", (e) => {
+        const selectedCity = e.target.value;
+        residenceDistrictSelect.innerHTML =
+          '<option value="">시/군/구 선택</option>';
+        residenceCitySelect.classList.remove("input-error");
+
+        if (selectedCity && districtData[selectedCity]) {
+          districtData[selectedCity].forEach((district) => {
+            const option = document.createElement("option");
+            option.value = district;
+            option.textContent = district;
+            residenceDistrictSelect.appendChild(option);
+          });
+        }
+      });
+
+      // 기타 input/select에서 값이 입력되면 오류 표시 제거
+      document.addEventListener("change", (e) => {
+        if (
+          e.target.hasAttribute("data-required") ||
+          e.target.hasAttribute("data-required-group")
+        ) {
+          if (e.target.value) {
+            e.target.classList.remove("input-error");
+          }
+        }
+      });
+
+      // --- 자녀 추가 및 삭제 기능 ---
+      addChildBtn.addEventListener("click", () => {
+        childCount++;
+        childInputArea.insertAdjacentHTML(
+          "beforeend",
+          createChildInput(childCount)
+        );
+        alert(`자녀 ${childCount}째 입력란이 추가되었습니다.`);
+        setupSpecialNotesLogic(childCount);
+        initializeFlatpickr(childInputArea); // 새로운 자녀 항목에 Flatpickr 적용
+      });
+
+      // 삭제 버튼 이벤트 위임
+      childInputArea.addEventListener("click", (e) => {
+        if (e.target.classList.contains("delete-child-btn")) {
+          const childItem = e.target.closest(".child-item");
+          if (
+            confirm(
+              `정말로 자녀 ${childItem.dataset.child} 항목을 삭제하시겠습니까?`
+            )
+          ) {
+            childItem.remove();
+            reindexChildren(); // 항목 삭제 후 전체 재인덱싱 실행 및 Flatpickr 재적용
+          }
+        }
+      });
+
+      // --- 초기화 ---
+      document.addEventListener("DOMContentLoaded", () => {
+        showStep(currentStep);
+        setupSpecialNotesLogic(1);
+        initializeFlatpickr(); // 초기 로딩 시 모든 날짜 필드(1단계, 3단계)에 Flatpickr 적용
+      });
+
+      // --- 폼 제출 (최종 데이터 수집: 요청 구조 반영) ---
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        if (!validateStep(currentStep)) return;
+
+        const data = {};
+        const childArr = [];
+
+        // 1. 일반 필드 데이터 수집
+        const formData = new FormData(form);
+        formData.forEach((value, key) => {
+          // 'child'로 시작하지 않는 필드만 일반 데이터로 수집
+          if (!key.startsWith("child")) {
+            data[key] = value;
+          }
+        });
+
+        // 2. 자녀 데이터 수집 및 배열 구조화
+        const childItems = document.querySelectorAll(".child-item");
+
+        childItems.forEach((item, index) => {
+          const childData = {};
+          const childIndex = index + 1;
+
+          const elements = item.querySelectorAll("[name]");
+
+          elements.forEach((el) => {
+            const name = el.name;
+
+            // 해당 자녀 항목의 필드만 처리
+            if (!name.startsWith(`child${childIndex}`)) return;
+
+            // 필드명 추출 (예: child1_birth_date -> birth_date, child1_special[] -> special)
+            let baseName = name
+              .replace(`child${childIndex}_`, "")
+              .replace("[]", "");
+
+            if (el.type === "checkbox") {
+              if (el.checked) {
+                if (!childData[baseName]) childData[baseName] = [];
+                childData[baseName].push(el.value);
+              }
+            } else if (
+              el.tagName === "INPUT" ||
+              el.tagName === "SELECT" ||
+              el.tagName === "TEXTAREA"
+            ) {
+              // 텍스트/날짜(Flatpickr)/셀렉트 박스 값 저장
+              childData[baseName] = el.value;
+            }
+          });
+
+          childArr.push(childData);
+        });
+
+        // 3. 최종 데이터 구조에 반영
+        data.totalChildren = childArr.length;
+        data.childArr = childArr;
+
+        console.log("=========================================");
+        console.log("✅ 최종 수집 데이터 (요청 구조 반영):");
+        console.log(JSON.stringify(data, null, 2));
+        console.log("=========================================");
+
+        alert("모든 정보 입력 완료! 최종 데이터 구조가 콘솔에 출력되었습니다.");
+      });
+    </script>
+  </body>
+</html>
