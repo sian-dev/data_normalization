@@ -1,0 +1,218 @@
+[
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_timing": null,
+          "description": "교통편의 제공: 기본요금 1,000원(4,500원 상한) 지원",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 1020,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "household_members_min": null,
+            "household_members_max": null,
+            "children_min": null,
+            "children_max": null,
+            "birth_order": null,
+            "residence_min_months": null,
+            "childcare_type": null,
+            "requires_grandparent_care": null,
+            "requires_dual_income": null,
+            "requires_disability": null,
+            "requires_parent_disability": null,
+            "disability_level": null,
+            "child_has_serious_disease": null,
+            "child_has_rare_disease": null,
+            "child_has_chronic_disease": null,
+            "child_has_cancer": null,
+            "parent_has_serious_disease": null,
+            "parent_has_rare_disease": null,
+            "parent_has_chronic_disease": null,
+            "parent_has_cancer": null,
+            "parent_has_infertility": null,
+            "is_violence_victim": null,
+            "is_abuse_victim": null,
+            "is_defector": null,
+            "is_national_merit": null,
+            "is_foster_child": null,
+            "is_single_mother": null,
+            "is_low_income": null,
+            "pregnancy_weeks_min": null,
+            "pregnancy_weeks_max": null,
+            "birth_within_months": null,
+            "education_level": null,
+            "is_enrolled": null,
+            "housing_type": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004892",
+    "service_name": "울주군 학대피해아동 아이돌봄서비스 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004892&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "어린이집, 유치원에서 학대 피해를 입은 아동(7명)",
+      "criteria_text": "112(또는 아동보호팀)에 어린이집 또는 유치원에서 학대피해를 입은 아동으로 신고되어 아동학대전담공무원이 조사중인 만5세 이하 아동\n\n",
+      "support_text": "한시적 아이돌봄서비스 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_timing": null,
+          "description": "한시적 아이돌봄서비스 지원",
+          "and_conditions": {
+            "age_min_months": null,
+            "age_max_months": 11,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "household_members_min": null,
+            "household_members_max": null,
+            "children_min": null,
+            "children_max": 7,
+            "birth_order": null,
+            "residence_min_months": null,
+            "childcare_type": [
+              "어린이집",
+              "유치원"
+            ],
+            "requires_grandparent_care": null,
+            "requires_dual_income": null,
+            "requires_disability": null,
+            "requires_parent_disability": null,
+            "disability_level": null,
+            "child_has_serious_disease": null,
+            "child_has_rare_disease": null,
+            "child_has_chronic_disease": null,
+            "child_has_cancer": null,
+            "parent_has_serious_disease": null,
+            "parent_has_rare_disease": null,
+            "parent_has_chronic_disease": null,
+            "parent_has_cancer": null,
+            "parent_has_infertility": null,
+            "is_violence_victim": null,
+            "is_abuse_victim": true,
+            "is_defector": null,
+            "is_national_merit": null,
+            "is_foster_child": null,
+            "is_single_mother": null,
+            "is_low_income": null,
+            "pregnancy_weeks_min": null,
+            "pregnancy_weeks_max": null,
+            "birth_within_months": null,
+            "education_level": null,
+            "is_enrolled": null,
+            "housing_type": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": []
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004348",
+    "service_name": "셋째이상 자녀 입학축하금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004348&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": "울주군",
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "셋째 이상 자녀가 초·중·고등학교 입학 시 입학축하금 30만원 지급",
+      "criteria_text": "* 모두 충족 시 지원\n- 초·중·고등학교 입학\n- 신청 학생 및 부 또는 모가 입학일 이전부터 6개월 이상 울주군 거주(주민등록 등재 필수)\n  ※ 입학일 이전 울주군에 전입 하였으나 전입 기간이 6개월이 되지 않은 경우, 6개월 경과 시점에 신청 가능",
+      "support_text": "- 지급방법: 보호자 계좌 입금\n- 지급절차: 지급요건 검토 후, 신청일 기준 다음 달 말일 지급"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 300000,
+          "amount_type": "일시금",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_timing": "신청 후 다음달",
+          "description": "셋째 이상 자녀가 초·중·고등학교에 입학 시 30만원 지급",
+          "and_conditions": {
+            "age_min_months": null,
+            "age_max_months": null,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "household_members_min": null,
+            "household_members_max": null,
+            "children_min": 3,
+            "children_max": null,
+            "birth_order": 3,
+            "residence_min_months": 6,
+            "childcare_type": null,
+            "requires_grandparent_care": null,
+            "requires_dual_income": null,
+            "requires_disability": null,
+            "requires_parent_disability": null,
+            "disability_level": null,
+            "child_has_serious_disease": null,
+            "child_has_rare_disease": null,
+            "child_has_chronic_disease": null,
+            "child_has_cancer": null,
+            "parent_has_serious_disease": null,
+            "parent_has_rare_disease": null,
+            "parent_has_chronic_disease": null,
+            "parent_has_cancer": null,
+            "parent_has_infertility": null,
+            "is_violence_victim": null,
+            "is_abuse_victim": null,
+            "is_defector": null,
+            "is_national_merit": null,
+            "is_foster_child": null,
+            "is_single_mother": null,
+            "is_low_income": null,
+            "pregnancy_weeks_min": null,
+            "pregnancy_weeks_max": null,
+            "birth_within_months": null,
+            "education_level": null,
+            "is_enrolled": true,
+            "housing_type": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": []
+          }
+        }
+      ]
+    }
+  }
+]

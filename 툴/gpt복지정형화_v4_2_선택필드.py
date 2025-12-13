@@ -31,17 +31,25 @@ class WelfareParserV4_2:
 {{
   "benefits": [
     {{
-      "amount": 1000000,
-      "amount_type": "월",
-      "amount_unit": "원",
-      "benefit_type": "현금",
-      "payment_cycle": "매월",
-      "description": "설명",
-      
+      "amount": 숫자 또는 null,
+      "amount_type": "일시금" | "월" | "년" | "회" | null,
+      "amount_unit": "원" | "포인트" | null,
+      "benefit_type": "현금" | "서비스" | "물품" | "감면" | "포인트",
+      "payment_cycle": "일시금" | "5회분할" | "매월" | null,
+      "payment_timing": "신청 후 다음달" | "즉시" | null,
+      "description": "상세 설명",
+  
       "and_conditions": {{
+        "age_min_months": 1,
         "age_max_months": 11,
         "income_type": "기준중위소득",
-        "income_max_percent": 150
+        "income_max_percent": 150,
+        "household_type": [
+            "한부모",
+            "조손",
+            "다문화",
+            "맞벌이"
+        ]
       }},
       "or_conditions": {{}}
     }}
@@ -63,7 +71,7 @@ class WelfareParserV4_2:
 ❌ activity_support_score_min → 사용 금지
 
 변환 예시:
-- "85세 이상" → age_min_months: 1020 (85 × 12)
+- "85세 이상" → age_min_months: 1020 (85 * 12)
 - "6세~64세" → age_min_months: 72, age_max_months: 768
 
 ---
@@ -333,15 +341,15 @@ if __name__ == '__main__':
     parser = WelfareParserV4_2(api_key=API_KEY)
     
     results = parser.batch_parse_xml(
-        # 'wantedDtl포함된xml목록/복지목록울산.xml',
-        'wantedDtl포함된xml목록/복지목록중앙부.xml',
-        limit=None  # 전체 파싱
+        'wantedDtl포함된xml목록/복지목록울산.xml',
+        # 'wantedDtl포함된xml목록/복지목록중앙부.xml',
+        limit=3  # 전체 파싱
     )
     
     now = datetime.now()
     timestamp = now.strftime("%m%d_%H%M")
-    file_name = f"정형화데이터_중앙부_v4.2_{timestamp}.json"
-    # file_name = f"정형화데이터_울산_v4.2_{timestamp}.json"
+    # file_name = f"정형화데이터_중앙부_v4.2_{timestamp}.json"
+    file_name = f"정형화데이터_울산_v4.2_{timestamp}.json"
     
     parser.save_results(results, file_name)
     

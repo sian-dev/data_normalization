@@ -1,0 +1,449 @@
+# 복지 데이터 파싱 프롬프트 v1.0 (인간 친화적)
+
+## 🎯 목표
+이 프롬프트는 "지금 우리 대화처럼" 자연스럽게 GPT와 소통하면서 복지 데이터를 파싱하도록 설계되었습니다.
+
+---
+
+## 📝 Step 2 프롬프트 (개선안)
+
+```
+너는 복지 데이터 파싱 전문가야. 
+나한테 복지 혜택 정보를 주면, 너는 그걸 정형화된 JSON으로 바꿔줘.
+
+자, 여기 복지 서비스 정보가 있어:
+
+서비스명: {service_name}
+대상자: {target_text}
+선정기준: {criteria_text}
+지원내용: {support_text}
+
+---
+
+이 중에서 특히 이 혜택만 파싱해줘:
+"{benefit_description}"
+
+---
+
+자, 이제 중요한 규칙을 설명할게. 잘 들어.
+
+## 📌 핵심 규칙
+
+### 1. 나이 vs 출생순서 구분
+- "0세", "1세", "2세" → 이건 **나이**야. age_max_months에 넣어.
+  예: "0세" = 0~11개월 = age_max_months: 11
+  예: "1세" = 12~23개월 = age_max_months: 23
+  예: "85세" = 1020개월 = age_min_months: 1020
+
+- "첫째", "둘째", "셋째" → 이건 **출생순서**야. birth_order에 넣어.
+  예: "첫째" = birth_order: 1
+  예: "둘째" = birth_order: 2
+
+### 2. AND 조건 vs OR 조건 (이거 진짜 중요해!)
+
+**AND 조건 (모두 만족해야 함):**
+- "한부모 가정" → household_type: "한부모" (문자열!)
+- "기준중위소득 150%" → income_type: "기준중위소득", income_max_percent: 150
+
+**OR 조건 (하나만 만족하면 됨):**
+- "한부모 **또는** 맞벌이" → or_conditions.household_type: ["한부모", "맞벌이"] (배열!)
+- "차상위 **혹은** 기초생활수급자" → or_conditions.income_type: ["차상위계층", "기초생활수급자"]
+
+⚠️ **절대 실수하지 마:**
+- AND 조건에 배열 넣으면 안 돼! household_type: "한부모" ✅ vs ["한부모"] ❌
+- OR 조건에 문자열 넣으면 안 돼! household_type: ["한부모", "맞벌이"] ✅
+
+### 3. Boolean 값 (true/null만!)
+- 장애 아동이 **맞으면** → requires_disability: true
+- 장애 조건이 **없으면** → requires_disability: null
+- ❌ **절대 false 쓰지 마!** false는 에러야!
+
+### 4. 나이는 무조건 개월 단위
+- "0세" = 11개월 (0~11)
+- "1세" = 23개월 (12~23)
+- "2세" = 35개월 (24~35)
+- "85세" = 1020개월 (85 × 12)
+
+---
+
+## 📋 JSON 구조 예시
+
+너가 이렇게 만들어줘:
+
+```json
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+            "amount": 2000000,
+            "amount_type": "일시금",
+            "amount_unit": "원",
+            "benefit_type": "현금",
+            "description": "첫째 출생 축하금",
+            
+            "and_conditions": {
+                "age_max_months": 11,
+                "birth_order": 1,
+                "household_type": "한부모",
+                "income_type": "기준중위소득",
+                "income_max_percent": 150,
+                "childcare_type": "가정",
+                
+                // 나머지는 다 null
+                "age_min_months": null,
+                "requires_disability": null,
+                "children_min": null,
+                ...
+            },
+            
+            "or_conditions": {
+                "household_type": [],
+                "income_type": []
+            }
+        },
+        ...
+      ]
+    }
+  },
+
+```
+
+---
+
+## 🤔 실전 예시 (이렇게 생각해)
+
+**예시 1: "한부모만"**
+```
+원본: "한부모 가정 아동"
+
+생각: "또는"이 없네? AND 조건이야!
+
+결과:
+{
+  "and_conditions": {
+    "household_type": "한부모"  // 문자열!
+  },
+  "or_conditions": {
+    "household_type": []  // 비어있음
+  }
+}
+```
+
+**예시 2: "한부모 또는 맞벌이"**
+```
+원본: "한부모 또는 맞벌이 가정"
+
+생각: "또는"이 있네? OR 조건이야!
+
+결과:
+{
+  "and_conditions": {
+    "household_type": null  // AND에는 없음!
+  },
+  "or_conditions": {
+    "household_type": ["한부모", "맞벌이"]  // 배열!
+  }
+}
+```
+
+**예시 3: "0세 첫째"**
+```
+원본: "출생 후 12개월 이내 첫째 아동"
+
+생각: 
+- "12개월 이내" = 나이 조건 (age_max_months: 11)
+- "첫째" = 출생순서 (birth_order: 1)
+
+결과:
+{
+  "and_conditions": {
+    "age_max_months": 11,
+    "birth_order": 1,
+    "birth_within_months": 12
+  }
+}
+```
+
+**예시 4: "임산부, 영아, 85세"**
+```
+원본: "임산부, 영아, 85세 이상 고령자"
+
+생각: 
+- 3가지 대상 (임산부 / 영아 / 85세)
+- 지원내용은 같음
+- 나이 범위로 묶기: 0개월(영아) ~ 1020개월(85세)
+- 임산부 추가: pregnancy_weeks_min: 1
+
+결과:
+{
+  "and_conditions": {
+    "age_min_months": 0,
+    "age_max_months": 1020,
+    "pregnancy_weeks_min": 1
+  }
+}
+
+⚠️ 주의: 실제로는 3개 대상이 OR 조건인데, 
+현재 구조로는 나이 OR을 표현 못 함!
+```
+
+---
+
+## 🎯 자, 이제 파싱해줘!
+
+위 규칙을 지켜서, 주어진 혜택 정보를 JSON으로 바꿔줘.
+
+**중요:**
+1. 설명 없이 JSON만 반환해
+2. and_conditions.household_type은 문자열!
+3. or_conditions.household_type은 배열!
+4. Boolean은 true 또는 null만!
+5. 나이는 무조건 개월 단위!
+
+파싱 시작!
+```
+
+---
+
+## 📝 Step 3 프롬프트 (검증용)
+
+```
+자, 방금 네가 파싱한 결과를 같이 확인해보자.
+
+원본 텍스트:
+{original_text}
+
+너가 파싱한 결과:
+{extracted_conditions}
+
+---
+
+## 🔍 체크리스트
+
+다음 항목들을 제대로 파싱했는지 확인해줘:
+
+### 1. 필수 조건 누락 확인
+- [ ] 나이 조건 (0세, 1세, 영아, 85세 등)
+- [ ] 소득 조건 (기준중위소득 %, 차상위 등)
+- [ ] 가구형태 (한부모, 조손, 다문화, 맞벌이)
+- [ ] 출생순서 (첫째, 둘째, 셋째)
+- [ ] 양육형태 (가정, 어린이집, 유치원)
+- [ ] 특수조건 (장애, 질환, 임산부 등)
+
+### 2. 타입 오류 확인
+
+**문자열 vs 배열:**
+- and_conditions.household_type이 배열이면 → ❌ 오류! 문자열이어야 해!
+  예: household_type: ["한부모"] → 잘못됨
+  예: household_type: "한부모" → 정확함
+
+- or_conditions.household_type이 문자열이면 → ❌ 오류! 배열이어야 해!
+  예: household_type: "한부모" → 잘못됨
+  예: household_type: ["한부모", "맞벌이"] → 정확함
+
+**Boolean 오류:**
+- false 값 있으면 → ❌ 오류! true 또는 null만!
+  예: requires_disability: false → 잘못됨
+  예: requires_disability: null → 정확함
+
+**나이 단위:**
+- "85세"를 85로 썼으면 → ❌ 오류! 1020개월이어야 해!
+  예: age_min_months: 85 → 잘못됨
+  예: age_min_months: 1020 → 정확함
+
+### 3. AND vs OR 구분 확인
+- "한부모만" 나왔는데 OR 조건에 넣었으면 → ❌ 오류!
+- "한부모 또는 맞벌이" 나왔는데 AND 조건에 넣었으면 → ❌ 오류!
+
+---
+
+## 🤔 자, 확인해봐
+
+위 체크리스트 기준으로 검토해서, JSON으로 답해줘:
+
+```json
+{
+  "is_correct": true 또는 false,
+  "missing_conditions": ["누락된 조건들"],
+  "type_errors": [
+    "household_type: 배열인데 문자열이어야 함",
+    "requires_disability: false인데 null이어야 함"
+  ],
+  "suggestions": "어떻게 수정하면 좋을지"
+}
+```
+
+검증 시작!
+```
+
+---
+
+## 📝 Step 4 프롬프트 (근거 설명)
+
+```
+좋아, 파싱 결과가 정확하네!
+
+이제 왜 그렇게 파싱했는지 설명해줘.
+
+원본:
+{original_text}
+
+파싱 결과:
+{parsed_benefit}
+
+---
+
+## 💭 다음 질문에 답해줘
+
+### Q1. 값이 있는 필드는 왜 그렇게 했어?
+
+예를 들어:
+- age_max_months를 11로 설정 → 왜?
+  답: 원본에 "0세 아동"이라고 나와서, 0세는 0~11개월이니까
+
+- income_max_percent를 150으로 설정 → 왜?
+  답: 원본에 "기준중위소득 150% 이하"라고 명시되어 있어서
+
+이런 식으로 설명해줘.
+
+### Q2. 값이 없는 필드는 왜 비웠어?
+
+예를 들어:
+- household_type: null → 왜?
+  답: 원본에 가구형태 제한이 없었어. 모든 가구 대상이야.
+
+- requires_disability: null → 왜?
+  답: 원본에 장애 관련 언급이 전혀 없었어.
+
+### Q3. AND vs OR 판단 근거는?
+
+- household_type을 OR 조건에 넣었어 → 왜?
+  답: 원본에 "한부모 또는 맞벌이"라고 "또는"이 명시되어 있었어.
+
+---
+
+## 🎯 JSON으로 답해줘
+
+```json
+{
+  "and_filled_reasoning": {
+    "age_max_months": {
+      "value": 11,
+      "reason": "원본에 '0세'라는 표현 → 0~11개월",
+      "source_text": "0세 아동",
+      "confidence": "높음"
+    },
+    "income_max_percent": {
+      "value": 150,
+      "reason": "원본에 150% 명시",
+      "source_text": "기준중위소득 150% 이하",
+      "confidence": "높음"
+    }
+  },
+  
+  "or_filled_reasoning": {
+    "household_type": {
+      "value": ["한부모", "맞벌이"],
+      "reason": "원본에 '또는' 표현이 있어서 OR 조건",
+      "source_text": "한부모 또는 맞벌이 가정",
+      "confidence": "높음"
+    }
+  },
+  
+  "and_empty_reasoning": {
+    "household_type": {
+      "reason": "원본에 가구형태 제한 없음"
+    },
+    "requires_disability": {
+      "reason": "원본에 장애 조건 없음"
+    }
+  },
+  
+  "summary": {
+    "core_conditions": "0세, 기준중위소득 150%, 한부모 또는 맞벌이",
+    "warnings": [
+      "birth_within_months는 원본에 없어서 관례로 12개월 추정"
+    ],
+    "need_fix": [],
+    "need_reparse": false,
+    "overall_confidence": "높음"
+  }
+}
+```
+
+설명 시작!
+```
+
+---
+
+## 🧪 ai 테스트 방법
+
+### 1. 직접 대화로 테스트
+```
+너: (위 프롬프트 복붙)
+
+ai: (파싱 결과 JSON)
+
+너: 좋아! 이제 검증해줘 (Step 3 프롬프트)
+
+ai: (검증 결과)
+
+너: 완벽해! 근거 설명해줘 (Step 4 프롬프트)
+
+ai: (근거 설명)
+```
+
+### 2. 예상 응답 확인
+- household_type을 문자열로 파싱하는지?
+- OR 조건을 배열로 파싱하는지?
+- false 값을 쓰지 않는지?
+- 나이를 개월로 변환하는지?
+
+### 3. 오류 시나리오 테스트
+```
+원본: "한부모 가정"
+
+잘못된 응답:
+{
+  "and_conditions": {
+    "household_type": ["한부모"]  // ❌
+  }
+}
+
+올바른 응답:
+{
+  "and_conditions": {
+    "household_type": "한부모"  // ✅
+  }
+}
+```
+
+---
+
+## ✅ 체크리스트
+
+ai가 다음을 정확히 이해하는지 확인:
+
+- [ ] AND 조건은 문자열
+- [ ] OR 조건은 배열
+- [ ] Boolean은 true/null만
+- [ ] 나이는 개월 단위
+- [ ] "또는" 키워드 인식
+- [ ] 출생순서 vs 나이 구분
+- [ ] 누락 조건 감지
+- [ ] 파싱 근거 설명
+
+---
+
+이 프롬프트로 ai와 대화하면, 마치 지금 우리처럼 자연스럽게 복지 데이터를 파싱할 수 있을 거야! 🚀

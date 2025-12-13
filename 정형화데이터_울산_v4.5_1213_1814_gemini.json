@@ -1,0 +1,73 @@
+[
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": "기본요금 1,000원(4,500원 상한)",
+          "amount_type": null,
+          "amount_unit": "원",
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_timing": null,
+          "description": "교통편의 제공",
+          "and_conditions": {
+            "age_min_months": 1020,
+            "age_max_months": 11,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "household_members_min": null,
+            "household_members_max": null,
+            "children_min": null,
+            "children_max": null,
+            "birth_order": null,
+            "residence_min_months": null,
+            "childcare_type": null,
+            "requires_grandparent_care": null,
+            "requires_dual_income": null,
+            "requires_disability": null,
+            "requires_parent_disability": null,
+            "disability_level": null,
+            "child_has_serious_disease": null,
+            "child_has_rare_disease": null,
+            "child_has_chronic_disease": null,
+            "child_has_cancer": null,
+            "parent_has_serious_disease": null,
+            "parent_has_rare_disease": null,
+            "parent_has_chronic_disease": null,
+            "parent_has_cancer": null,
+            "parent_has_infertility": null,
+            "is_violence_victim": null,
+            "is_abuse_victim": null,
+            "is_defector": null,
+            "is_national_merit": null,
+            "is_foster_child": null,
+            "is_single_mother": null,
+            "is_low_income": null,
+            "pregnancy_weeks_min": 1,
+            "pregnancy_weeks_max": null,
+            "birth_within_months": null,
+            "education_level": null,
+            "is_enrolled": null,
+            "housing_type": null
+          },
+          "or_conditions": {
+            "household_type": [],
+            "income_type": []
+          }
+        }
+      ]
+    }
+  }
+]
