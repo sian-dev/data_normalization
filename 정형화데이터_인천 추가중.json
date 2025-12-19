@@ -1,0 +1,952 @@
+[
+  {
+    "service_id": "WLF00006046",
+    "service_name": "맘편한 산후조리비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006046&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "출생일 기준 1년 전부터 인천시에 주민등록을 두고 거주하는 취약계층 산모 대상 지원,  취약계층 : 수급자, 차상위계층, 한부모가족, 희귀질환 산모, 북한이탈주민 보호대상 및 그배우자, 장애인 및 그 배우자, 기준중위소득 65%이하 다문화가족, 기준중위소득 60%이하 가정, 청소년 부모, 다태아 이상 출산 산모",
+      "support_text": "산후조리비에 사용할 수 있는 인천e음(지역화폐) 150만원을 지원합니다."
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1500000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "바우처",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "산후조리비에 사용할 수 있는 인천e음(지역화폐) 150만원 지원",
+          "and_conditions": {
+            "age_max_months": 2,
+            "residence_min_months": 12
+          },
+          "or_conditions": {
+            "household_type": ["한부모","다문화"],
+            "income_type": ["기초생활수급자","차상위계층"],
+            "income_max_percent": 60,
+            "parent_has_rare_disease": true,
+            "is_defector": true,
+            "requires_parent_disability": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005538",
+    "service_name": "천사지원금 지급",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005538&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": " 자격요건:  매년 아동의 생일을 기준으로 ① 또는 ② 또는 ③ 을 충족하는 사람① 부 또는 모와 주민등록을 같이 두고 인천광역시에 1년 이상 계속하여 거주하는 아동② 부와 모가 모두 사망하거나 친권을 상실한 아동으로서 인천광역시에 주민등록을 두고 1년 이상 계속하여 거주하는 아동③ 인천광역시 관내 위탁가정 및 아동복지시설 등에서 보호받고 있는 아동 ",
+      "support_text": "- 지급내용 : 천사지원금 120만원(지역화폐 인천e음 포인트) * 신청인(보호자) 명의 e음카드로 지급- 지급시기 : 신청익월 23일(예정) * 인천e음 앱 미가입자 및 카드 미소지자 등은 지급 시기 지연 - 지급방법 : 군구에 따라 기존 발급한 (비교통)e음 카드에 포인트 지급, 카드가 없을 경우 신규 카드 발급· 미추홀구, 연수구, 부평구, 계양구, 서구(지역e음 카드 있음) : 각 지역e음 카드(비교통 카드)로 포인트 지급(인천e음 카드로 지급 불가)· 강화군, 옹진군, 중구, 동구, 남동구(지역e음 카드 없음) : 인천e음카드(비교통 카드)로 포인트지급(타구 지역e음 카드로 지급 불가)- 사 용 처 : 인천e음 가맹점 * (인천e음 제한업종) 대형마트, 유흥업소, 마사지 등 위생업종, 레저업종, 사행업종, 성인용품점- 사용기간 : 지급일(포인트 생성일)로부터 12개월 이내(사용기간 경과 시 자동 소멸)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 1200000,
+          "amount_type": null,
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": "e음카드",
+          "payment_timing": "신청익월 23일(예정)",
+          "description": "천사지원금 120만원(지역화폐 인천e음 포인트) 지급",
+          "and_conditions": {
+            "age_min_months": 12,
+            "age_max_months": 95
+          },
+          "or_conditions": {
+            "residence_min_months": 12,
+            "is_foster_child": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005468",
+    "service_name": "임산부 교통비 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005468&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "인천시 6개월 거주 임신 12주부터 출산일로부터 3개월(90일) 임산부(출산한 경우 인천시 출생신고 필수)",
+      "support_text": "-인천e음 교통비 포인트 50만원 지급-사용처 : 인천e음 앱 내 e음 택시, 자가용 유류비, 대중교통(안드로이드앱 사용자만 가능)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 500000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "바우처",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "임산부 교통비 지원사업",
+          "and_conditions": {
+            "age_min_months": 3,
+            "residence_min_months": 6,
+            "birth_within_months": 3
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005344",
+    "service_name": "가정위탁아동 예체능활동비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005344&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "초·중·고 재학중인 가정위탁아동 중 신청아동",
+      "support_text": "가정위탁아동 예체능활동비 월 15만원 실비 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 150000,
+          "amount_type": "월",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "가정위탁아동 예체능활동비 월 15만원 실비 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 768,
+            "education_level": "초등",
+            "is_enrolled": true
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005342",
+    "service_name": "아동·청소년 부모 빚 대물림 방지 법률지원 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005342&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "해당없음",
+      "support_text": "법률지원 서비스 비용 제공"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "법률지원 서비스 비용 제공",
+          "and_conditions": {
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005341",
+    "service_name": "영종지역 주민 대중교통 할인 제공 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005341&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "중구",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "영종 지역에 주민등록을 둔 주민* 중 영종역, 운서역 이용자를 지원합니다.(* 인천 중구(영종동, 영종1동, 영종2동, 운서동, 용유동) 및 옹진군(북도면) 주민)영종지역 주민 대중교통비 지원 포털에 회원가입 및 카드등록이 필요하며,회원 가입 및 지원금 신청 시 영종 지역 거주 여부를 확인합니다.지원금은 홈페이지 가입일 이후 대중교통 이용분부터 산정됩니다.",
+      "support_text": "영종 주민이 공항철도 이용(운서역, 영종역) 시 지불한 실제 운임과 수도권 통합 환승할인제를 적용·계산한 운임 간의 차액을 지원합니다."
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "영종 주민이 공항철도 이용(운서역, 영종역) 시 지불한 실제 운임과 수도권 통합 환승할인제를 적용·계산한 운임 간의 차액을 지원합니다.",
+          "and_conditions": {
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005341",
+    "service_name": "영종지역 주민 대중교통 할인 제공 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005341&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "옹진군",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "영종 지역에 주민등록을 둔 주민* 중 영종역, 운서역 이용자를 지원합니다.(* 인천 중구(영종동, 영종1동, 영종2동, 운서동, 용유동) 및 옹진군(북도면) 주민)영종지역 주민 대중교통비 지원 포털에 회원가입 및 카드등록이 필요하며,회원 가입 및 지원금 신청 시 영종 지역 거주 여부를 확인합니다.지원금은 홈페이지 가입일 이후 대중교통 이용분부터 산정됩니다.",
+      "support_text": "영종 주민이 공항철도 이용(운서역, 영종역) 시 지불한 실제 운임과 수도권 통합 환승할인제를 적용·계산한 운임 간의 차액을 지원합니다."
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "영종 주민이 공항철도 이용(운서역, 영종역) 시 지불한 실제 운임과 수도권 통합 환승할인제를 적용·계산한 운임 간의 차액을 지원합니다.",
+          "and_conditions": {
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001500",
+    "service_name": "부모부담보육료 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001500&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "소득 재산 기준 없음",
+      "support_text": "부모부담보육료 지원: 3세(월138천원), 4-5세(월123천원)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 138000,
+          "amount_type": "월",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "3세 아동 부모부담보육료 지원",
+          "and_conditions": {
+            "age_min_months": 36,
+            "age_max_months": 47,
+            "childcare_type": "어린이집"
+          },
+          "or_conditions": {
+          }
+        },
+        {
+          "amount": 123000,
+          "amount_type": "월",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "4-5세 아동 부모부담보육료 지원",
+          "and_conditions": {
+            "age_min_months": 48,
+            "age_max_months": 71,
+            "childcare_type": "어린이집"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001381",
+    "service_name": "산모신생아 건강관리서비스 본인부담금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001381&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "- 기준중위소독 150%이하 출산가정\n- 소득수준 예외지원대상자",
+      "support_text": "산모신생아 건강관리서비스 가격 중 본인부담금 일부비용 및 셋째아 이상 2주간 전액지원  - 본인부담금 일부비용  - 셋째아 이상 2주간(단축) 전액지원  - 셋째아 이상 3-4주간"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "산모신생아 건강관리서비스 가격 중 본인부담금 일부비용 및 셋째아 이상 2주간 전액지원",
+          "and_conditions": {
+            "age_max_months": 11,
+            "income_max_percent": 150
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001575",
+    "service_name": "한부모가족 자녀교육비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001575&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "○ 한부모가족지원법에 의한 기준중위소득 63%이하 한부모가족(청소년한부모 65% 이하)",
+      "support_text": "○ 초등학생 부교재비 연 188,000원(교육급여수급자 제외)○ 중·고생 부교재비 연 294,000원(교육급여수급자 제외)○ 중·고생 교통비 연 180,000원(생계, 의료수급자 제외)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 188000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "초등학생 부교재비 연 188,000원(교육급여수급자 제외)",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 120,
+            "income_max_percent": 63,
+            "household_type": "한부모",
+            "education_level": "초등"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00000988",
+    "service_name": "청각장애인 인공달팽이관 수술지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000988&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "기준중위소득 150%이하 만 39세 이하인 인공달팽이관 수술이 필요한 청각장애인",
+      "support_text": "지원내용 : 인공달팽이관 수술비 및 재활치료비 지원   - 수   술   비 : 1인당 7백만원 범위 내에서 수술비 지원  - 재활치료비 : 1인당 1.5∼3백만원 범위 내에서 재활치료비 지원(연차별 차등 지원)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 7000000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "청각장애인 인공달팽이관 수술비 지원 1인당 7백만원",
+          "and_conditions": {
+            "income_max_percent": 150,
+            "requires_disability": true,
+            "disability_level": "중증"
+          },
+          "or_conditions": {
+          }
+        },
+        {
+          "amount": 3000000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "청각장애인 재활치료비 지원 1인당 1.5∼3백만원",
+          "and_conditions": {
+            "income_max_percent": 150,
+            "requires_disability": true,
+            "disability_level": "중증"
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001272",
+    "service_name": "도담도담 장난감월드(대여점) 운영 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001272&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "인천시에 주민등록이 되어있는 시민(회원가입신청서, 가입자 신분증, 주민등록등본)인천시 소재 직장근무자(회원가입신청서, 가입자 신분증, 주민등록등본, 재직증명서)인천시에 주민등록이 되어 있는 임산부 또는 인천시 소재 직장근무 임산부(회원가입신청서, 가입자 신분증, 주민등록등본 또는 재직증명서, 산모수첩)",
+      "support_text": "영유아에게 장난감, 유아도서, 부모도서, 시청각 자료를 무료로 대여"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "영유아에게 장난감, 유아도서, 부모도서, 시청각 자료를 무료로 대여",
+          "and_conditions": {
+            "age_max_months": 71
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004442",
+    "service_name": "가정위탁아동 양육비 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004442&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "가정위탁아동으로 책정시 지원",
+      "support_text": "○ 가정위탁아동 양육비 지원  - 만7세 미만 : 34만원(인, 월) - 만7세 이상 ~ 만13세 미만 : 45만원(인, 월) - 만13세 이상 ~ 보호종료시까지 : 56만원(인, 월)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 340000,
+          "amount_type": "월",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "가정위탁아동 양육비 지원 - 만7세 미만",
+          "and_conditions": {
+            "age_min_months": 0,
+            "age_max_months": 83,
+            "is_foster_child": true
+          },
+          "or_conditions": {}
+        },
+        {
+          "amount": 450000,
+          "amount_type": "월",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "가정위탁아동 양육비 지원 - 만7세 이상 ~ 만13세 미만",
+          "and_conditions": {
+            "age_min_months": 84,
+            "age_max_months": 155,
+            "is_foster_child": true
+        },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00000984",
+    "service_name": "가정위탁아동 진로지원 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000984&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": null,
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "소년소녀가정 및 가정위탁아동으로 선정된 아동에게대학생생활안정지원금, 수련회비 및 수학여행비, 학원비 지원",
+      "support_text": "[대학생생활안정지원금]○지원기준 :  300만원/인,1회○지원대상 : 전문대 또는 4년제 정규대학에 입학한 가정위탁아동[학원비]○지원기준 : 초등5.6학년 월10만원 범위 내/인,                  중등           월15만원 범위 내/인,                  고등           월20만원 범위 내/인○지원대상 :  가정위탁아동[수련회비 및 수학여행비]○지원기준 : 9만원/인(연2회-3월,9월)○지원대상 : 가정위탁아동 중 초중고 재학생(미취학아동 제외)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 90000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "수련회비 및 수학여행비 지원 9만원/인 (연2회)",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 216,
+            "is_enrolled": true,
+            "education_level":"초등"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005318",
+    "service_name": "인천광역시교육청 다자녀 체험학습비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005318&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "출산 또는 입양으로 셋 이상 자녀를 양육하는 가정의 자녀 중 셋째 이후 인천광역시 관내 초중고 학생",
+      "support_text": "숙박형 현장체험학습비 감면- 재학중인 학교에서 숙박형 수련활동비 및 수학여행비 감면   1. 수학여행: 초·중 1인당 150,000원, 고 1인당 280,000원 내 실비  2. 수련활동: 초·중·고 1인당 100,000원 내 실비"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 150000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "초·중 수학여행비 1인당 15만원 감면",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 768,
+            "children_min": 3,
+            "birth_order_min": 3,
+            "education_level": "초등"
+          },
+          "or_conditions": {
+          }
+        },
+        {
+          "amount": 100000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "초·중·고 수련활동비 1인당 10만원 감면",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 768,
+            "children_min": 3,
+            "birth_order_min": 3,
+            "education_level": "초등"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005317",
+    "service_name": "인천광역시교육청 방과후학교 자유수강권 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005317&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "인천광역시 내 초중고에 재학하는 저소득 가구 학생①법정지원대상자(기초생활수급자, 한부모가족보호대상자, 법정차상위대상자)②난민인정자 및 그 자녀③중위소득 90%이하 가구",
+      "support_text": "방과후학교 수강료 감면- 재학 중인 학교에서 방과후학교 수업 신청 시 수강료 감면- 연간 최대 60만원 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 600000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "방과후학교 수강료 감면 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "education_level": "초등"
+          },
+          "or_conditions": {
+            "household_type": ["한부모"],
+            "income_type": [
+              "기준중위소득",
+              "차상위계층"
+            ],
+            "income_max_percent": 90
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005315",
+    "service_name": "인천광역시교육청 초등학교 1학년 입학준비금 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005315&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "인천광역시교육청 관내 초등학교 및 특수학교(초등과정) 당해년도 1학년 신입생 ",
+      "support_text": "인천광역시교육청 관내 초등학교 및 특수학교(초등과정) 당해년도 1학년 신입생에게 20만원 지원"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 200000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "인천광역시교육청 관내 초등학교 및 특수학교(초등과정) 당해년도 1학년 신입생에게 20만원 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "age_max_months": 95,
+            "education_level": "초등"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004919",
+    "service_name": "유치원 원외체험학습비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004919&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "공·사립유치원에 재원하는 3~5세 유아",
+      "support_text": "원외체험학습 학부모부담금 지원(1인당 연간 공립 80천원, 사립 60천원) "
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 60000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "사립 유치원 원외체험학습비 지원",
+          "and_conditions": {
+            "age_min_months": 36,
+            "age_max_months": 71,
+            "childcare_type": "유치원"
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00001574",
+    "service_name": "초중고 저소득층학생 체험학습비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001574&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "저소득층(기초생활수급자, 한부모가족보호대상자, 법정차상위, 중위소득 60% 이하), 난민인정자 및 그 자녀, 특수학생",
+      "support_text": "학부모부담 숙박형 체험학습비 중 일부 또는 전부 감면- 수학여행은 초·중 1인당 15만원, 고 28만원 범위 내 실비- 수련활동은 초·중·고 1인당 10만원 범위 내 실비 "
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 150000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "초·중 수학여행비 1인당 15만원 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "education_level":"초등"
+          },
+          "or_conditions": {
+            "household_type": ["한부모"],
+            "income_type": [
+              "기준중위소득",
+              "차상위계층"
+            ],
+            "income_max_percent": 60
+          }
+        },
+        {
+          "amount": 280000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "고등 수학여행비 1인당 28만원 지원",
+          "and_conditions": {
+            "age_min_months": 72,
+            "education_level":"초등"
+          },
+          "or_conditions": {
+            "household_type": ["한부모"],
+            "income_type": [
+              "기준중위소득",
+              "차상위계층"
+            ],
+            "income_max_percent": 60
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005398",
+    "service_name": "희귀 난치병 학생 치료비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005398&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "연도별 지원 대상자 및 금액은 예산의 범위에서 교육청에서 결정 - 관련 서류 검토 - 중복지원 불가(국가지원사업, 건강보험관리공단 등 타기관에서 의료비 지원을 받은 경우) - 난치병학생지원위원회 심의 후 최종 지원 대상 결정",
+      "support_text": "- 연도별 지원 금액은 예산 범위내에서 결정(1인당 최대 500만원 범위내 지원)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 5000000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "현금",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "희귀 난치병 학생 치료비 지원",
+          "and_conditions": {
+            "child_has_rare_disease": true
+          },
+          "or_conditions": {
+            "childcare_type": "유치원",
+            "education_level": "초등"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005930",
+    "service_name": "제1형 당뇨병 학생 의료비 지원",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005930&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "인천광역시교육청",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "- 대상: 제1형 당뇨를 진단 받은 학생- 지원내용: 당뇨병관리기기 및 소모성재료 구입비의 본인부담금 80%- 당뇨병관리기기 및 소모성재료 처방전 및 구입 증빙서류 검토 후 지원금액 결정- 중복지원 불가(의료급여, 차상위본인부담경감대상자 등)",
+      "support_text": "제1형 당뇨 학생 당뇨관리기기 및 소모성재료 구입비 본인부담금의 80% (1인 최대 989천원)- 당뇨관리기기 : 연속혈당측정기, 인슐린자동주입기- 소모성재료 : 연속혈당측정용전극, 채혈침, 혈당측정검사지, 인슐린주사기, 인슐린주사바늘, 인슐린펌프용주사기, 인슐린펌프용주사바늘"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 989000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "제1형 당뇨 학생 당뇨관리기기 및 소모성재료 구입비 본인부담금의 80% 지원",
+          "and_conditions": {
+            "childcare_type": "유치원"
+          },
+          "or_conditions": {
+            "child_has_serious_disease": true,
+            "child_has_rare_disease": true,
+            "child_has_chronic_disease": true
+          }
+        },
+        {
+          "amount": 989000,
+          "amount_type": "년",
+          "amount_unit": "원",
+          "benefit_type": "현물",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "제1형 당뇨 학생 당뇨관리기기 및 소모성재료 구입비 본인부담금의 80% 지원",
+          "and_conditions": {
+            "education_level": "초등"
+          },
+          "or_conditions": {
+            "child_has_serious_disease": true,
+            "child_has_rare_disease": true,
+            "child_has_chronic_disease": true
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00005855",
+    "service_name": "연수구 산후조리비용 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005855&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "연수구",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "- 거주요건 : 출생일 기준(신청일기준 아님) 3개월 전부터 연수구에 주민등록을 두고 거주하는 산모 또는 배우자- 신청요건 : 연수구에 출생등록을 하고 출생일로부터 60일 이내 신청- 소득요건 : 없음※ 다태아 및 취약계층은 인천시 맘편한 산후조리비로 신청(https://www.gov.kr/portal/rcvfvrSvc/dtlEx/628000000744)- 취약계층 : 기초생활수급자, 차상위계층, 한부모가족, 희귀난치성질환 산모, 북한이탈주민 보호대상 및 그 배우자, 장애인 및 그배우자, 기준 중위소득 65% 이하 다문화 가족, 기준중위소득 60% 이하 가정, 청소년 부모(만 19세 이하 산모, 만 24세 이하 부부), 다태아 이상 출산산모",
+      "support_text": "산모 1인당 소득수준과 관계없이 산후조리비용 50만원 지역화폐 지원(인천e음에 등록된 가맹점 중 산후조리와 관련된 사용처에 한하여 결제 가능, 보건소 홈페이지 참고)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 500000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "바우처",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "산모 1인당 소득수준과 관계없이 산후조리비용 50만원 지역화폐 지원",
+          "and_conditions": {
+            "age_max_months": 2,
+            "residence_min_months": 3,
+            "birth_within_months": 2
+          },
+          "or_conditions": {}
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00004261",
+    "service_name": "어린이집 학대 피해아동 심리치료 지원사업 계획",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004261&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "연수구",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "- 어린이집 운영자가 해당 어린이집 아동의 심리치료를 지원하지 못할 사유가 있거나 어린이집 안전공제회의 지원 불가 등의 사유가 있어 지자체의 지원이 필요한 경우 \n- 구청 아동보호전담팀의 사례대상으로 선정되기 전 선제적 지원이 필요하다고 판단되는 어린이집 아동학대 피해 아동\n- 직접 피해아동은 아니지만 동일 집단에 있어 지원이 필요하다고 판단되는 아동\n- 아동학대로 판단된 어린이집의 동료 보육교직원 및 아동의 보호자",
+      "support_text": "개인상담치료 심리치료비용   1인당 70,000원 이내 x 10회"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": 700000,
+          "amount_type": "회",
+          "amount_unit": "원",
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "어린이집 학대 피해아동 심리치료 지원사업 계획",
+          "and_conditions": {
+            "childcare_type": "어린이집",
+            "is_abuse_victim": true
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+  {
+    "service_id": "WLF00002482",
+    "service_name": "산모신생아 건강관리 지원사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002482&wlfareInfoReldBztpCd=02",
+    "sido": "인천광역시",
+    "sigungu": "연수구",
+    "source": "인천광역시",
+    "original_data": {
+      "target_text": "",
+      "criteria_text": "기준중위 소득 150%초과(태아유형, 출산순위, 소득수준, 서비스기간에 따라 차등 지급)\n단 산모의주민등록상 주소지가 6개월이상 연수구 등록 및 거주)",
+      "support_text": "산모신생아 건강관리사가 출산가정을 방문하여 건강관리, 정보제공, 가사활동, 정서지원 등 산후관리를 도와주는 서비스"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": null,
+          "amount_type": null,
+          "amount_unit": null,
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_method": null,
+          "payment_timing": null,
+          "description": "산모신생아 건강관리사가 출산가정을 방문하여 건강관리, 정보제공, 가사활동, 정서지원 등 산후관리를 도와주는 서비스",
+          "and_conditions": {
+            "age_max_months": 2,
+            "income_type": "기준중위소득",
+            "income_max_percent": 150,
+            "residence_min_months": 6,
+            "birth_within_months": 2
+          },
+          "or_conditions": {
+          }
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

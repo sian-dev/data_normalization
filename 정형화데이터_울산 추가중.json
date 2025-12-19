@@ -236,6 +236,7 @@
           "and_conditions": {
             "age_min_months": 72,
             "age_max_months": 95,
+            "income_type": "기준중위소득",
             "income_max_percent": 52
           },
           "or_conditions": {
@@ -357,8 +358,8 @@
           "and_conditions": {
             "age_min_months": 72,
             "age_max_months": 95,
-            "income_max_percent": 80,
-            "education_level":"초등"
+            "income_type": "기준중위소득",
+            "income_max_percent": 80
             
           },
           "or_conditions": {
@@ -373,7 +374,7 @@
     "service_name": "사립유치원 무상교육비 지원",
     "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005280&wlfareInfoReldBztpCd=02",
     "sido": "울산광역시",
-    "sigungu": null,
+    "sigungu": "울산광역시교육청",
     "source": "울산광역시",
     "original_data": {
       "target_text": "사립유치원 재원 유아 1인당 지원",
@@ -455,7 +456,7 @@
           "amount": null,
           "amount_type": null,
           "amount_unit": null,
-          "benefit_type": "서비스",
+          "benefit_type": null,
           "payment_cycle": null,
           "payment_method": null,
           "payment_timing": null,
@@ -568,6 +569,7 @@
           "and_conditions": {
             "age_min_months": 24,
             "age_max_months": 36,
+            "income_type": "기준중위소득",
             "income_max_percent": 150,
             "household_type": "조손"
           },
@@ -701,7 +703,7 @@
           "amount": null,
           "amount_type": null,
           "amount_unit": null,
-          "benefit_type": "바우처",
+          "benefit_type": null,
           "payment_cycle": null,
           "payment_method": null,
           "payment_timing": null,
@@ -780,6 +782,7 @@
           "and_conditions": {
             "age_min_months": 72,
             "age_max_months": 95,
+            "income_type": "기준중위소득",
             "income_max_percent": 52
           },
           "or_conditions": {
@@ -918,7 +921,7 @@
           "amount": null,
           "amount_type": null,
           "amount_unit": null,
-          "benefit_type": "기타",
+          "benefit_type": null,
           "payment_cycle": null,
           "payment_method": null,
           "payment_timing": null,

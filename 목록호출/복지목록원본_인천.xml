@@ -1,0 +1,1089 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wantedList>
+    <totalCount>68</totalCount>
+    <pageNo>1</pageNo>
+    <numOfRows>1000</numOfRows>
+    <resultCode>0</resultCode>
+    <resultMessage>SUCCESS</resultMessage>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 중구 국제도시행정국 여성보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>4499</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250930</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산율 저하로 인한 사회문제에 적극 대처하고 출산장려 분위기를 조성을 위해 다자녀(둘째아 이상)의 출산장려금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003947&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003947</servId>
+        <servNm>출산장려금 지원</servNm>
+        <sggNm>중구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>6857</inqNum>
+        <intrsThemaNmArray>교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>출산률 저하에 따른 사회문제에 적극 대처하고 양육에 유리한 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005319&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005319</servId>
+        <servNm>인천광역시교육청 다자녀 신학년 학습 준비비</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1689</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>출산률 저하에 따른 사회문제에 적극 대처하고 양육에 유리한 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005318&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005318</servId>
+        <servNm>인천광역시교육청 다자녀 체험학습비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>감면</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1543</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>저소득 가구 학생에 대한 실질적인 지원을 통해 교육비 부담 경감 및 교육 기회 확대</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005317&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005317</servId>
+        <servNm>인천광역시교육청 방과후학교 자유수강권 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>감면</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>289</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>- 교육의 공공성 강화 및 학부모의 교육경비 경감 
+- 출생 후 처음으로 취학하는 아동을 위하여 입학 시 필요 물품을 준비할 수 있도록 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005315&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005315</servId>
+        <servNm>인천광역시교육청 초등학교 1학년 입학준비금 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>574</inqNum>
+        <intrsThemaNmArray>교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>중장년, 노년, 아동, 청년, 청소년</lifeNmArray>
+        <servDgst>현장체험학습 지원을 통한 심리·사회성 함양 및 인천교육 회복</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004911&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004911</servId>
+        <servNm>현장체험학습비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>270</inqNum>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>유치원 원외체험학습비 지원을 통한 유아교육의 공공성 강화 및 학부모 양육부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004919&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004919</servId>
+        <servNm>유치원 원외체험학습비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1619</inqNum>
+        <intrsThemaNmArray>교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>저소득층 학생에 대한 졸업 앨범비 지원으로 소외감 없이 학교교육과정에 참여할 수 있도록 교육기회 제공 및 교육격차 해소</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001191&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001191</servId>
+        <servNm>저소득층 학생 졸업앨범비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 남동구 복지국 보육정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2654</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>아빠육아휴직 장려금 지급을 통해 일과 가정이 양립하는 아이낳고 기르기 좋은 남동구 실현을 위함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002485&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002485</servId>
+        <servNm>아빠 육아휴직 장려금 지원</servNm>
+        <sggNm>남동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육행정국 안전복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2377</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>가정형편이 어려운 저소득층 가정의 자녀에게 체험학습비를 지원하여 안정적 학교교육과정 참여를 통한 교육복지 구현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001574&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001574</servId>
+        <servNm>초중고 저소득층학생 체험학습비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>감면</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 동구 복지경제국 노인장애인복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>367</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>기존 여성장애인 출산비용 지원사업과 별도로 대상자를 남성장애인의 비장애인 배우자까지 확대 지원함으로써 저출산 시대의 사회적 문제 해소 및 장애인가정의 경제적 부담경감과 안정적 양육환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001794&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001794</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <sggNm>동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 옹진군 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>469</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250701</lastModYmd>
+        <lifeNmArray>중장년, 청년, 임신 · 출산</lifeNmArray>
+        <servDgst> 옹진군 모든 출산가정에 산후건강관리비를 지원하여 산모의 산후회복과 건강증진을 돕고 출산가정의 경제적 부담을 완화하여 "출산 친화 옹진"을 만들고자하는 사업입니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005721&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005721</servId>
+        <servNm>옹진군 산후건강관리비 지원</servNm>
+        <sggNm>옹진군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 남동구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>6669</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250627</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>취약계층 출산가정 산후조리비 지원으로 경제적 부담을 경감하고 아이 낳기 좋은 환경조성으로 임산부와 영유아의 건강증진 및 저출산 극복 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005222&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005222</servId>
+        <servNm>산후조리비 지원사업</servNm>
+        <sggNm>남동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 다문화·탈북민, 저소득, 장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 중구 보건소 국제도시보건과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>412</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250625</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst> 임신을 준비하는 부부 및 예비모에게 임신 전 건강검진 및 엽산제를 지원함으로써 임신에 장애가 되는 고위험 요인을 조기 발견하고 관리하여 건강한 임신과 안전한 출산을 돕고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005335&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005335</servId>
+        <servNm>임신준비 건강관리 지원</servNm>
+        <sggNm>중구</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 옹진군 관광복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>803</inqNum>
+        <lastModYmd>20250625</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>어린이집 부모부담보육료 지원으로 육아부담 감소</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000959&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000959</servId>
+        <servNm>어린이집 부모부담보육료 지원</servNm>
+        <sggNm>옹진군</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화, 우편</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 중구 행정복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>489</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250625</lastModYmd>
+        <lifeNmArray>노년, 영유아, 아동, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>무연고사망자 장제비 지원 및 행려자 여비 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002489&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002489</servId>
+        <servNm>무연고사망자 장제비지원, 행려자 여비지원</servNm>
+        <sggNm>중구</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 중구 행정복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>312</inqNum>
+        <lastModYmd>20250625</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년</lifeNmArray>
+        <servDgst>생활에 어려움을 겪고 있는 저소득 세대에게 국민건강 노인장기요양보험료를 지원함으로써 구민의 건강증진과 사회복지 향상에 기여함을 목적으로 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002491&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002491</servId>
+        <servNm>저소득층 건강보험료 지원</servNm>
+        <sggNm>중구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2883</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>중장년, 영유아, 임신 · 출산, 청소년, 청년</lifeNmArray>
+        <servDgst>'23년 인천 잠정 합계출산율 0.69명(전국 0.72명)으로 심각한 저출산 문제 극복을 위해 출산가정에 산후조리비 지원으로 산모와 신생아의 건강증진 도모 및 친출산 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006046&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006046</servId>
+        <servNm>맘편한 산후조리비 지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 다문화·탈북민, 장애인, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>13052</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>영유아기 지원 정책 마련으로 초기 양육에 따른 경제적 부담 경감 및 출산장려 분위기 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005538&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005538</servId>
+        <servNm>천사지원금 지급</servNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 모바일앱, 방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>4122</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>교통약자인 임산부에게 교통비 지원을 통해 건강한 출산 도모 및 경제적 부담 완화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005468&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005468</servId>
+        <servNm>임산부 교통비 지원사업</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 아동정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>298</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>가정위탁아동 예체능활동비 지원을 통한 가정위탁아동의 건강한 신체 및 정서 함양 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005344&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005344</servId>
+        <servNm>가정위탁아동 예체능활동비 지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 아동정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>773</inqNum>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>❍ 법률적 지식이 부족한 아동․청소년이 부모 빚을 대물림 받아 경제적 어려움을 겪지 않도록 법률 사무처리에 필요한 사항을 지원하여 
+   건강한 사회 구성원으로 성장할 수 있도록 법률서비스 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005342&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005342</servId>
+        <servNm>아동·청소년 부모 빚 대물림 방지 법률지원 사업</servNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 교통국 교통정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>842</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>청소년, 청년, 중장년, 아동</lifeNmArray>
+        <servDgst>공항철도 독립운임제 구간의 수도권 환승할인 미적용으로 인한 영종지역 주민의 대중교통 이용요금 차별을 해소하기 위해
+영종지역 주민이 공항철도(영종역,운서역) 이용 시 대중교통비를 지원하는 사업입니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005341&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005341</servId>
+        <servNm>영종지역 주민 대중교통 할인 제공 사업</servNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 부평구 문화복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2201</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>사회 경제적 요인과 가족에 대한 가치관 변화 등으로 출산율 감소 추세가 계속됨에 따라 출산 및 입양가정에 출산지원금 지원을 통한 경제적 부담을 경감하여 출산 친화적 사회분위기를 조성하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003877&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003877</servId>
+        <servNm>출산지원금 지원</servNm>
+        <sggNm>부평구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1074</inqNum>
+        <intrsThemaNmArray>신체건강, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>중장년, 청년, 임신 · 출산</lifeNmArray>
+        <servDgst>난임으로 고통받는 가정에 한의약 난임치료 지원을 통해 경제적 부담 경감과 희망하는 자녀를 갖도록 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001621&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001621</servId>
+        <servNm>한의약 난임치료 지원사업 </servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 계양구 주민복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1246</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>한부모가족 가족기능 유지 및 건강하고 문화적인 생활을 영위할 수 있도록 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003379&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003379</servId>
+        <servNm>한부모가족 맞춤형 서비스 지원</servNm>
+        <sggNm>계양구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 옹진군 행정복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>376</inqNum>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>도서지역(자도) 거주 영유아 발달 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000957&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000957</servId>
+        <servNm>2025년 어린이집 교재비 지원</servNm>
+        <sggNm>옹진군</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>717</inqNum>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>부모부담보육료 지원을 통한 부모의 양육비용 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001500&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001500</servId>
+        <servNm>부모부담보육료 지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 부평구 문화복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>936</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>2018년이후 부평구 모든 출생아에 대하여 출산 축하용품 및 출생 축하카드를 지급하여 출산가정 격려 및 출산장려 분위기 조성&#13;
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000773&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000773</servId>
+        <servNm>출산 축하용품(출생 축하카드 포함) 지원</servNm>
+        <sggNm>부평구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 미추홀구 복지환경국 보육정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2420</inqNum>
+        <intrsThemaNmArray>입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>- 정부지원시설과 정부미지원시설 이용 아동간 균등한 교육기회제공&#13;
+- 부모의 양육부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002680&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002680</servId>
+        <servNm>민간가정 어린이집 부모부담 보육료지원</servNm>
+        <sggNm>미추홀구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1684</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>출산가정에 산후관리를 도와주는 산모신생아 건강관리사를 파견하여 산모의 산후회복과 신생아의 건강증진을 
+도모하고, 서비스가격중 본인부담금 일부를 지원함으로써 출산가정의 경제적 부담 경감 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001381&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001381</servId>
+        <servNm>산모신생아 건강관리서비스 본인부담금 지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 여성가족국</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1992</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>저소득 한부모가족 자녀교육비 지원으로 안정된 교육환경 조성 및 자립역량 강화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001575&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001575</servId>
+        <servNm>한부모가족 자녀교육비 지원</servNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 보건복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>407</inqNum>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>청년, 청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>청각장애인에게 인공달팽이 이식 수술비와 재활(매핑)치료비를 지원하여 정상적인 언어생활 및 장애인 가정의 의료비 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000988&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000988</servId>
+        <servNm>청각장애인 인공달팽이관 수술지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 영유아정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>875</inqNum>
+        <intrsThemaNmArray>입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>영유아 발달에 적합한 장난감ㆍ도서ㆍ영상자료를 무료로 대여함으로써 가정의 육아비용을 줄이고,
+영유아와 가족의 건전한 놀이 활동지원을 통하여 영유아의 총체적 발달을 도모 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001272&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001272</servId>
+        <servNm>도담도담 장난감월드(대여점) 운영 지원</servNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 아동정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1459</inqNum>
+        <intrsThemaNmArray>서민금융, 보호·돌봄, 입양·위탁, 주거</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>가정위탁 양육비 지원을 통한 위탁가정의 양육비 부담경감과 가정위탁아동의 복지증진</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004442&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004442</servId>
+        <servNm>가정위탁아동 양육비 지원사업</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 여성가족국 아동정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>984</inqNum>
+        <intrsThemaNmArray>입양·위탁, 보호·돌봄, 서민금융, 주거</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>가정위탁 보호아동에게 다양한 서비스 제공을 통한 건강한 성장 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000984&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000984</servId>
+        <servNm>가정위탁아동 진로지원 사업</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 부평구 문화복지국 사회보장과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1075</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>노년, 아동, 영유아, 청년, 중장년, 청소년</lifeNmArray>
+        <servDgst>생활이 어려운 차상위계층에게 건강보험료의 일부를 지원하여 건강생활에 기여하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002583&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002583</servId>
+        <servNm>저소득주민 국민건강보험료 지원</servNm>
+        <sggNm>부평구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 여성가족국 아동정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>529</inqNum>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>시설보호아동, 가정위탁보호아동, 소년소녀가정 등 불우한 아동과 지역사회 이웃과의 결연으로 물질적, 정신적 지원을 통해 이웃사랑의 사회기풍을 조성하고 불우아동의 건전육성을 도모하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001250&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001250</servId>
+        <servNm>결연기관 운영</servNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>E-mail</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 교육역량지원국 학교.마을협력과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>317</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>∘ 도시와 농어촌 학생 간 상호작용 경험을 통한 협력적 소통 역량 강화
+∘ 농어촌 소규모학교 교육과정 운영지원 및 활성화를 통한 지역 교육력 제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005997&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005997</servId>
+        <servNm>가족체류형 농어촌유학 프로그램 운영 사업</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 연수구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2126</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>인천광역시 연수구에 거주하는 산모의 건강증진을 도모하고 출산에 따른 경제적 부담을 완화하여 출산 친화적인 환경 조성에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005855&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005855</servId>
+        <servNm>연수구 산후조리비용 지원사업</servNm>
+        <sggNm>연수구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 서구 복지문화국 가정보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2624</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>남성근로자의 육아휴직을 장려하고 양육에 따른 경제적 부담을 완화함으로써 일과 가정생활의 양립 및 가족친화적인 사회 환경 조성.
+  </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000017&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000017</servId>
+        <servNm>서구 아빠육아휴직 장려금</servNm>
+        <sggNm>서구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 서구 복지문화국 가정보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1126</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>저출산 대책의 일환으로 저소득층 출산가정의 출산축하용품비 지원을 통해 경제적 부담 경감 및 출산 친화적 사회분위기 조성을 위한 사회적 지원 강화 필요</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001240&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001240</servId>
+        <servNm>서구 저소득 복지대상자 출산축하용품비 지원</servNm>
+        <sggNm>서구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 계양구 주민복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1340</inqNum>
+        <intrsThemaNmArray>입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>실질적 무상보육 실현을 위해 정부미지원 어린이집 재원 누리 만3~5세 과정 아동에 대한 정부지원보육료 차액분 부모부담금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000910&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000910</servId>
+        <servNm>민간·가정 어린이집 누리과정 부모부담보육료 지원</servNm>
+        <sggNm>계양구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 남동구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>6257</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>산모신생아 건강관리사가 출산가정을 방문하여 산모의 건강회복을 돕고, 신생아를 보살펴 출산 가정의 경제적 부담을 덜어줍니다.
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004243&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004243</servId>
+        <servNm>산모신생아 건강관리 지원</servNm>
+        <sggNm>남동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>다문화·탈북민</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 계양구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>742</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년</lifeNmArray>
+        <servDgst>예비부모들의 엽산제 지원을 통해 신경관결손으로 발생할 수있는 유사산, 선천성 기형아 출산등을 예방하기 위함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001535&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001535</servId>
+        <servNm>예비부모 엽산제 지원</servNm>
+        <sggNm>계양구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 강화군 행정복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1962</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아, 아동, 임신 · 출산</lifeNmArray>
+        <servDgst>강화군에 거주하는 출산보육 가정의 경제적 부담 해소에 도움을 줌으로써 인구감소 문제에 적극 대처하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004583&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004583</servId>
+        <servNm>출산·양육지원사업 추진</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 옹진군 행정복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>555</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 아동, 영유아, 노년</lifeNmArray>
+        <servDgst>생활이 어려운 저소득 재가중증장애인의 보장구 수리 및 용변처리에 필요한 물품을 지원하여 중증장애인 가정에 경제적 도움과 이동편의 제공, 개인위생환경 개선 등 재가 중증장애인의 삶의 질 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001522&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001522</servId>
+        <servNm>저소득 재가중증장애인 보장구 수리 및 용변처리 용품지원</servNm>
+        <sggNm>옹진군</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 강화군 행정복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>304</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>정부미지원시설 이용 차액보육료 지원으로 어린이집 운영의 활성화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001349&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001349</servId>
+        <servNm>민간보육시설 이용아동 차액보육료 지원</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 강화군 행정복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>339</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>청소년 유해환경정화, 어린이 성범죄 예방 등</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000939&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000939</servId>
+        <servNm>청소년보호일반</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타, 현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 미추홀구 복지환경국 기초생활보장과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>696</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>노년, 아동, 영유아, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst> 저소득층에게 질병치료에 어려움이 없도록 건강보험료를 지원하여 생활안정 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002701&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002701</servId>
+        <servNm>저소득층 건강보험료 지원</servNm>
+        <sggNm>미추홀구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>감면</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 미추홀구 복지환경국 복지정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>650</inqNum>
+        <intrsThemaNmArray>안전·위기, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 영유아, 노년, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>취업, 친지방문, 기타 목적으로 주거지가 아닌 타 지방을 여행하던 중 지갑등을 분실해 귀향을 할 수 없는 행려자에게 여비를 지급하여 안전하게 구호하고, 무연고 사망자의 장례비를 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002703&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002703</servId>
+        <servNm>행려자 보호 및 지원</servNm>
+        <sggNm>미추홀구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급, 현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 학교교육국 체육건강교육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>811</inqNum>
+        <intrsThemaNmArray>서민금융, 교육, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>난치병 학생에 대한 치료비 지원을 통해 치료 기회를 확대하고 난치병 학생의 건강권과 복지 증진에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005398&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005398</servId>
+        <servNm>희귀 난치병 학생 치료비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 연수구 복지교통국 출산보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1726</inqNum>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>어린이집 내 아동학대사건 발생 시 피해아동에게 심리치료 서비스를 사례판단 전 조기에 지원하여 아동의 빠른 일상으로의 복귀와 마음건강 회복을 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004261&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004261</servId>
+        <servNm>어린이집 학대 피해아동 심리치료 지원사업 계획</servNm>
+        <sggNm>연수구</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 연수구 복지교통국 출산보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>413</inqNum>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>○ 출산율 급감으로 보육료 수입이 감소됨에 따라, 운영의 어려움을 겪고 폐원이 지속되고 있는 정부 인건비 미지원 어린이집 0세반에 운영비를 지원함으로써 
+    안정적 운영 지원 및 적정 수준 보육 인프라 유지</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000735&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000735</servId>
+        <servNm>어린이집 영아반 운영비 지원</servNm>
+        <sggNm>연수구</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 강화군 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1316</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하는 사업으로 경제적 부담때문에 산모신생아건강관리 서비스 이용을 받지 못하는 출산가정이 없도록하여 아기낳고 키우기 좋은 건강한 지역사회 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001351&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001351</servId>
+        <servNm>산모신생아건강관리서비스 본인부담금 지원사업</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 강화군 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>8089</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산가정에 건강관리사를 파견하여 산모의 산후 회복과 신생아의 양육을 지원합니다. </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001350&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001350</servId>
+        <servNm>산모신생아 건강관리지원사업</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시 강화군 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>296</inqNum>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>아동, 노년, 청소년, 중장년, 청년</lifeNmArray>
+        <servDgst>전 군민 인플루엔자 예방접종을 실시하여 인플루엔자 유행감소시키고 사회적, 경제적 질병부담을 줄여 군민보건 향상시키고 인플루엔자예방접종 위탁사업으로 분산접종하여 피접종자 편의성 향상및 안전한 접종 시행</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001353&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001353</servId>
+        <servNm>인플루엔자예방접종사업</servNm>
+        <sggNm>강화군</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 연수구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>622</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년</lifeNmArray>
+        <servDgst>초기 임신부에게 필수건강검진을 지원하여 건강하고 안전한 출산을 돕기위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000736&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000736</servId>
+        <servNm>초기임신부건강검진</servNm>
+        <sggNm>연수구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 남동구 복지국 보육정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>2848</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>- 남동구 주민의 출산장려 분위기 조성 및 저출산,고령화 사회에 대처
+- 출산장려금 지원을 통해 자녀양육 비용부담 경감 및 "아이낳고 기르기 좋은 남동구" 실현에 적극 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000016&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000016</servId>
+        <servNm>출산장려금 지원</servNm>
+        <sggNm>남동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 연수구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1344</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>영유아, 중장년, 청년, 임신 · 출산</lifeNmArray>
+        <servDgst>출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고, 출산가정의 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002482&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002482</servId>
+        <servNm>산모신생아 건강관리 지원사업</servNm>
+        <sggNm>연수구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>인천광역시교육청 학교교육국 체육건강교육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>678</inqNum>
+        <intrsThemaNmArray>서민금융, 교육, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>제1형 당뇨병은 완치가 어려워 주기적인 혈당 체크 및 인슐린 주입 등 평생 치료가 필요한 질병으로 제1형 당뇨 학생 의료비 지원을 통해 가정내 경제적 부담 완화 및 안정적ㅇ인 학교생활을 도모하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005930&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005930</servId>
+        <servNm>제1형 당뇨병 학생 의료비 지원</servNm>
+        <sggNm>인천광역시교육청</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 계양구 주민복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>4498</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>임신 · 출산, 아동, 영유아</lifeNmArray>
+        <servDgst>다자녀 양육가정의 경제적 부담을 완화하여 출산친화 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001446&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001446</servId>
+        <servNm>다자녀 가정 양육비 지원</servNm>
+        <sggNm>계양구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 계양구 주민복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1322</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산율 저하로 인한 인구감소와 인구노령화 현상 등 저출산 현상이 사회 문제로 대두됨에 따라 출산 분위기 조성과 국내 입양 활성화를 위해 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004257&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004257</servId>
+        <servNm>출산.입양 장려금 지원</servNm>
+        <sggNm>계양구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 동구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>656</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>❍ 인구소멸 대응 및 저출산 극복을 위한 제도적 지원
+ - 지속적으로 인구 및 출생아 수의 감소가 이어지고 있어 정주여건을 개선하고 지역의 활력을 도모하기 
+   위해 인구 소멸 대응의 일환으로 출산 산모에 일정비용을 지원하여 산모와 아기의 신체적·정신적
+   빠른 회복을 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005903&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005903</servId>
+        <servNm>산후조리비용 지원사업</servNm>
+        <sggNm>동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 동구 복지경제국 복지정책과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>372</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>경제적 어려움이 있는 가정 자녀에게 예체능 수강료를 지원함으로써 아이들이 보다 나은 미래를 펼칠 수 있는 계기를 마련하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005551&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005551</servId>
+        <servNm>저소득가정 아동 예체능 수강료 지원</servNm>
+        <sggNm>동구</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 동구 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>520</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>아동, 영유아</lifeNmArray>
+        <servDgst>알레르기질환 환자 조기 발견, 적정 치료, 지속 관리를 통한 진행 억제 및 악화 방지</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001958&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001958</servId>
+        <servNm>아토피·천식·비염 예방관리</servNm>
+        <sggNm>동구</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>인천광역시 동구 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>944</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst> 출생신고시 축하물품 제공함으로써 출산 장려 분위기 확산 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002329&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002329</servId>
+        <servNm>출산용품 지원</servNm>
+        <sggNm>동구</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>인천광역시교육청 체육건강교육과</bizChrDeptNm>
+        <ctpvNm>인천광역시</ctpvNm>
+        <inqNum>1728</inqNum>
+        <intrsThemaNmArray>교육</intrsThemaNmArray>
+        <lastModYmd>20220801</lastModYmd>
+        <lifeNmArray>아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>공사립 유,초,중,고등학교 학생을 대상으로 학기중 중식 급식비를 지원하여 학부모 부담 경감 및 보편적 교육복지 실현 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004933&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004933</servId>
+        <servNm>공·사립 유·초·중·고등학교 무상급식비 지원</servNm>
+        <sggNm>-</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+</wantedList>

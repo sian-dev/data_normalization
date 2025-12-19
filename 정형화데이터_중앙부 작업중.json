@@ -1,0 +1,13 @@
+[
+//   "amount": 숫자 또는 null,
+//   "amount_type": "일시금" | "월" | "년" | "회" | null,
+//   "amount_unit": "원" | "포인트" | null,
+//   "benefit_type": "현금" | "서비스" | "물품" | "감면" | "포인트",
+//   "payment_cycle": "일시금" | "5회분할" | "매월" | null,
+//   "payment_timing": "신청 후 다음달" | "즉시" | null,
+//   "description": "상세 설명",
+
+
+
+
+]

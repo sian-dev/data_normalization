@@ -135,7 +135,9 @@ JSON 형식으로 답하세요:
     "household_members_max": null,
     "children_min": null,
     "children_max": null,
-    "birth_order": 2,
+    "birth_order": null,
+    "birth_order_min": 1,
+    "birth_order_max": 1,
     "residence_min_months": null,
     "childcare_type": "가정",
     "requires_grandparent_care": null,
@@ -167,42 +169,6 @@ JSON 형식으로 답하세요:
     "housing_type": null
   }},
   "or_conditions": {{
-    "age_min_months": null,
-    "age_max_months": null,
-    "income_max_percent": null,
-    "household_members_min": null,
-    "household_members_max": null,
-    "children_min": null,
-    "children_max": null,
-    "birth_order": null,
-    "residence_min_months": null,
-    "childcare_type": "null",
-    "requires_grandparent_care": null,
-    "requires_dual_income": null,
-    "requires_disability": null,
-    "requires_parent_disability": null,
-    "disability_level": null,
-    "child_has_serious_disease": null,
-    "child_has_rare_disease": null,
-    "child_has_chronic_disease": null,
-    "child_has_cancer": null,
-    "parent_has_serious_disease": null,
-    "parent_has_rare_disease": null,
-    "parent_has_chronic_disease": null,
-    "parent_has_cancer": null,
-    "parent_has_infertility": null,
-    "is_violence_victim": null,
-    "is_abuse_victim": null,
-    "is_defector": null,
-    "is_national_merit": null,
-    "is_foster_child": null,
-    "is_single_mother": null,
-    "is_low_income": null,
-    "pregnancy_weeks_min": null,
-    "pregnancy_weeks_max": null,
-    "birth_within_months": null,
-    "education_level": null,
-    "is_enrolled": null,
     "household_type": ["한부모", "맞벌이"],
     "income_type": []
   }}
@@ -213,7 +179,7 @@ JSON 형식으로 답하세요:
 【⭐ 핵심 규칙 ⭐】
 
 1. "0세", "1세" = 나이 (age_max_months)
-   "첫째", "둘째" = 출생순서 (birth_order)
+   "첫째", "둘째" = 출생순서 (birth_order_min/max)
 
 2. "출생 후 12개월 이내 신청" → birth_within_months: 12
    "0세 아동" → age_max_months: 11
@@ -223,7 +189,30 @@ JSON 형식으로 답하세요:
 4. 나이는 무조건 개월 단위!
    "85세" → age_min_months: 1020 (85 × 12)
 
-5. ⭐⭐⭐ 중요! AND vs OR 구분:
+5. ⭐⭐⭐ 출생순서 규칙 (NEW!):
+   
+   **정확히 일치 (단일 값):**
+   "첫째만" → birth_order: 1, birth_order_min: null, birth_order_max: null
+   "둘째만" → birth_order: 2, birth_order_min: null, birth_order_max: null
+   "셋째만" → birth_order: 3, birth_order_min: null, birth_order_max: null
+   
+   **N째 이상 (하한선):**
+   "셋째 이상" → birth_order: null, birth_order_min: 3, birth_order_max: null
+   "둘째 이상" → birth_order: null, birth_order_min: 2, birth_order_max: null
+   
+   **N째 이하 (상한선):**
+   "둘째 이하" → birth_order: null, birth_order_min: null, birth_order_max: 2
+   "셋째 이하" → birth_order: null, birth_order_min: null, birth_order_max: 3
+   
+   **범위 (둘 다 사용):**
+   "둘째~셋째" → birth_order: null, birth_order_min: 2, birth_order_max: 3
+   "첫째~둘째" → birth_order: null, birth_order_min: 1, birth_order_max: 2
+   
+   핵심 규칙:
+   - 정확히 일치 = birth_order만 사용 (min/max는 null)
+   - 이상/이하/범위 = birth_order는 null, min/max 사용
+
+6. ⭐⭐⭐ 중요! AND vs OR 구분:
    - "한부모만" → and_conditions의 household_type: "한부모" (문자열)
    - "한부모 또는 맞벌이" → or_conditions의 household_type: ["한부모", "맞벌이"] (배열)
    
@@ -323,7 +312,15 @@ JSON만 반환하세요. 설명 없이!
 【자녀 조건】
 - children_min: 최소 자녀 수 (숫자)
 - children_max: 최대 자녀 수 (숫자)
-- birth_order: 출생 순서 (1=첫째, 2=둘째, 3=셋째, 숫자)
+- birth_order: 출생 순서 정확히 일치 (1=첫째만, 2=둘째만, 3=셋째만)
+- birth_order_min: 최소 출생 순서 (N째 이상일 때 사용, 예: "3째 이상" = 3)
+- birth_order_max: 최대 출생 순서 (N째 이하일 때 사용, 예: "2째 이하" = 2)
+  
+  규칙:
+  - "첫째만" → birth_order: 1, min: null, max: null
+  - "셋째 이상" → birth_order: null, min: 3, max: null
+  - "둘째 이하" → birth_order: null, min: null, max: 2
+  - "둘째~셋째" → birth_order: null, min: 2, max: 3
 
 【거주/양육 조건】
 - residence_min_months: 최소 거주 기간 (개월, 숫자)
@@ -865,7 +862,7 @@ if __name__ == '__main__':
     results = parser.batch_parse_xml(
         'wantedDtl포함된xml목록/복지목록울산.xml',
         # 'wantedDtl포함된xml목록/복지목록중앙부.xml',
-        # limit=1  # 테스트용
+        limit=3  # 테스트용
     )
     
     now = datetime.now()

@@ -12,7 +12,9 @@
       "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
     },
     "parsed_data": {
-      "benefits": []
+      "benefits": [
+        {}
+      ]
     }
   },
   {
@@ -36,12 +38,20 @@
           "benefit_type": "서비스",
           "payment_cycle": null,
           "payment_timing": null,
-          "description": "만5세 이하 아동 - 한시적 아이돌봄서비스 지원",
+          "description": "어린이집/유치원 학대 피해 아동 - 한시적 아이돌봄서비스 지원",
           "and_conditions": {
-            "age_max_months": 59
+            "age_min_months": 0,
+            "age_max_months": 59,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "children_min": null,
+            "children_max": null,
+            "birth_order": null
           },
           "or_conditions": {
-            "household_type": []
+            "household_type": [],
+            "income_type": []
           }
         }
       ]
@@ -68,17 +78,20 @@
           "benefit_type": "현금",
           "payment_cycle": "일시금",
           "payment_timing": "신청 후 다음달",
-          "description": "셋째 이상 자녀 - 입학축하금 30만원 지급",
+          "description": "셋째 이상 자녀가 초·중·고등학교 입학 시 입학축하금 30만원 지급. 신청 학생 및 부 또는 모가 입학일 이전부터 6개월 이상 울주군 거주 필요. 입학일 이전 울주군에 전입하였으나 전입 기간이 6개월이 되지 않은 경우, 6개월 경과 시점에 신청 가능.",
           "and_conditions": {
-            "birth_order": 3,
-            "residence_duration_months": 6
+            "age_min_months": null,
+            "age_max_months": null,
+            "income_type": null,
+            "income_max_percent": null,
+            "household_type": null,
+            "children_min": null,
+            "children_max": null,
+            "birth_order": 3
           },
           "or_conditions": {
-            "school_level": [
-              "초등학교",
-              "중학교",
-              "고등학교"
-            ]
+            "household_type": [],
+            "income_type": []
           }
         }
       ]

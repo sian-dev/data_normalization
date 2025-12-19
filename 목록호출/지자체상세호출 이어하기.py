@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 
 # .env 파일에서 환경 변수를 로드합니다.
 load_dotenv()
-API_KEY = 
 # --- 1. API 및 파일 상수 정의 ---
 
 API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"

@@ -1,0 +1,36 @@
+[
+  {
+    "service_id": "WLF00006169",
+    "service_name": "교통약자 이동지원 확대 사업",
+    "detail_url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006169&wlfareInfoReldBztpCd=02",
+    "sido": "울산광역시",
+    "sigungu": null,
+    "source": "울산광역시",
+    "original_data": {
+      "target_text": "1) 이용대상\n  - 임산부, 영아, 85세 이상 고령자\n2) 선정기준\n  - 울산광역시에 주민등록을 한 임산부, 영아, 85세 이상 고령자",
+      "criteria_text": "울산시에 주민등록을 둔 임산부, 영아, 85세 이상 고령자",
+      "support_text": "교통편의 제공\n  - 기본요금 1,000원(4,500원 상한)"
+    },
+    "parsed_data": {
+      "benefits": [
+        {
+          "amount": "기본요금 1,000원, 4,500원 상한",
+          "amount_type": null,
+          "amount_unit": "원",
+          "benefit_type": "서비스",
+          "payment_cycle": null,
+          "payment_timing": null,
+          "description": "교통편의 제공",
+          "and_conditions": {},
+          "or_conditions": {
+            "household_type": [
+              "임산부",
+              "영아가구",
+              "고령자가구"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
