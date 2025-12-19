@@ -499,7 +499,6 @@
             "age_max_months": 95
           },
           "or_conditions": {
-            "income_type": "기준중위소득",
             "income_max_percent": 60,
             "children_min": 2
           }
