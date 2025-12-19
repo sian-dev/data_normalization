@@ -1,2 +1,4 @@
 # Git이 무시할 파일 목록
 .env
+
+note.txt
