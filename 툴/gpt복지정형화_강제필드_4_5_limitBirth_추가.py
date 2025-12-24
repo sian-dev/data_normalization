@@ -84,6 +84,7 @@ class WelfareParserV4_5:
         "pregnancy_weeks_min": <숫자|null>,
         "pregnancy_weeks_max": <숫자|null>,
         "birth_within_months": <숫자|null>,
+        "limit_birth_date": <"YYYY-MM-DD"|null>,
         "education_level": <"초등"|"중등"|"고등"|null>,
         "is_enrolled": <true|null>,
         "housing_type": <"자가"|"전세"|"월세"|null>
@@ -103,13 +104,13 @@ class WelfareParserV4_5:
         "birth_order_min": <1|2|3|숫자|null>,
         "birth_order_max": <1|2|3|숫자|null>,
         "residence_min_months": <숫자|null>,
-        "childcare_type": <"가정"|"어린이집"|"유치원"|null>,
+        "childcare_type": <["가정", "어린이집", "유치원"]|null>,
         "requires_grandparent_care": <true|null>,
         "requires_dual_income": <true|null>,
         "requires_disability": <true|null>,
         "requires_parent_disability": <true|null>,
-        "disability_level": <"경증"|"중증"|null>,
-        "parent_disability_level": <["경증", "중증"]|[]>,
+        "disability_level": <["경증", "중증"]|null>,
+        "parent_disability_level": <["경증", "중증"]|null>,
         "child_has_serious_disease": <true|null>,
         "child_has_rare_disease": <true|null>,
         "child_has_chronic_disease": <true|null>,
@@ -129,9 +130,10 @@ class WelfareParserV4_5:
         "pregnancy_weeks_min": <숫자|null>,
         "pregnancy_weeks_max": <숫자|null>,
         "birth_within_months": <숫자|null>,
-        "education_level": <"초등"|"중등"|"고등"|null>,
+        "limit_birth_date": <"YYYY-MM-DD"|null>,
+        "education_level": <["초등", "중등", "고등"]|null>,
         "is_enrolled": <true|null>,
-        "housing_type": <"자가"|"전세"|"월세"|null>
+        "housing_type": <["자가", "전세", "월세"]|null>
       }}
     }}
   ]
@@ -146,13 +148,22 @@ class WelfareParserV4_5:
 2. requires_parent_disability_level → 사용 안 함
    부모 장애 등급은 or_conditions의 parent_disability_level 사용
 
-3. Boolean은 true 또는 null만! false 금지!
+3. limit_birth_date는 "특정 일자 이전 태생" 조건에 사용
+   예: "2024년 12월 31일 이전 태생이면서 6세 미만"
+   → limit_birth_date: "2024-12-31", age_max_months: 71
 
-4. 나이는 무조건 개월 단위!
+4. Boolean은 true 또는 null만! false 금지!
 
-5. or_conditions는 배열 형태로!
-   household_type: ["한부모", "맞벌이"]
-   income_max_percent: [150, 200]
+5. 나이는 무조건 개월 단위!
+
+6. or_conditions 타입 규칙:
+   - 카테고리형(household_type, income_type, childcare_type, education_level, housing_type, 
+     disability_level, parent_disability_level)은 배열 형태
+     예: household_type: ["한부모", "맞벌이"]
+   - 숫자형(age, income_percent, children, birth_order 등)은 단일값
+     예: age_max_months: 36 (배열 아님!)
+   - Boolean형(requires_*, is_*, has_*)은 단일값
+     예: requires_disability: true (배열 아님!)
 
 ---
 
@@ -216,6 +227,7 @@ JSON만 반환하세요. 설명 없이!
             'parent_has_serious_disease', 'parent_has_rare_disease', 'parent_has_chronic_disease', 'parent_has_cancer', 'parent_has_infertility',
             'is_violence_victim', 'is_abuse_victim', 'is_defector', 'is_national_merit', 'is_foster_child', 'is_single_mother', 'is_low_income',
             'pregnancy_weeks_min', 'pregnancy_weeks_max', 'birth_within_months',
+            'limit_birth_date',
             'education_level', 'is_enrolled',
             'housing_type'
         ]
@@ -367,13 +379,14 @@ if __name__ == '__main__':
     parser = WelfareParserV4_5(api_key=API_KEY)
     
     results = parser.batch_parse_xml(
-        'wantedDtl포함된xml목록/복지목록인천.xml',
-        limit=1  # 전체 파싱
+        'wantedDtl포함된xml목록/복지목록경기.xml',
+        # limit=1  # n개 파싱
+        limit=None  # 전체 파싱
     )
     
     now = datetime.now()
     timestamp = now.strftime("%m%d_%H%M")
-    file_name = f"정형화데이터_인천_v4.5_{timestamp}.json"
+    file_name = f"정형화데이터_경기_v4.5_{timestamp}.json"
     
     parser.save_results(results, file_name)
     
@@ -381,3 +394,4 @@ if __name__ == '__main__':
     print("변경사항:")
     print("  1. income_min_percent 추가 (소득 하한)")
     print("  2. parent_disability_level은 OR 조건에만 사용")
+    print("  3. limit_birth_date 추가 (특정 일자 이전 태생)")

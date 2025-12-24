@@ -7,13 +7,15 @@ from dotenv import load_dotenv
 load_dotenv()
 # --- 1. API 및 파일 상수 정의 ---
 
-API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"
+# API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"
+API_URL = "https://apis.data.go.kr/B554287/LocalGovernmentWelfareInformations/LcgvWelfaredetailed"
 # 사용자 제공 Service Key
 # SERVICE_KEY = os.getenv('SERVICE_KEY_KAKAO') #  카카오톡 로그인
 SERVICE_KEY = os.getenv('SERVICE_KEY_USER') #  회원 로그인
+# SERVICE_KEY = os.getenv('SERVICE_KEY_USER2') #  회원 로그인
 
 # 입출력 파일 이름
-INPUT_FILENAME = "목록호출/복지목록원본_인천.xml"
+INPUT_FILENAME = "목록호출/복지목록원본_경기.xml"
 OUTPUT_FILENAME = "지자체 복지 목록 - wantedDtl_추가_완료.xml"
 
 # --- 2. API 호출 및 <wantedDtl> 추출 함수 ---

@@ -1,0 +1,3393 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<wantedList>
+    <totalCount>207</totalCount>
+    <pageNo>1</pageNo>
+    <numOfRows>1000</numOfRows>
+    <resultCode>0</resultCode>
+    <resultMessage>SUCCESS</resultMessage>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 수원시 복지여성국 여성정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2807</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20251204</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>(현행) 저출산 및 고령사회 기본법 및 입양 특례법에 따라  출산 · 입양 장려 분위기를 조성하기 위하여, 둘째자녀 이상 출산가정과 넷째자녀 이상 입양가정을 대상으로 자녀 출산 · 입양 지원금을 지급하여 시민의 삶의 질 향상에 기여함을 목적으로 함
+(개정) 저출산 및 고령사회 기본법 및 입양 특례법에 따라  출산 · 입양 장려 분위기를 조성하기 위하여, 첫째자녀 이상 출산가정과 넷째자녀 이상 입양가정을 대상으로 자녀 출산 · 입양 지원금을 지급하여 시민의 삶의 질 향상에 기여함을 목적으로 함
+ ※ 「수원시 자녀 출산ㆍ입양 지원금 지급 조례」일부개정 (2025. 11. 13.)  / 2026. 1. 1.부터 지급대상자 확대 : 둘째자녀 이상  → 첫째자녀 이상    </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001377&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001377</servId>
+        <servNm>수원시 자녀 출산·입양 지원금</servNm>
+        <sggNm>수원시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1135</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20251001</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst> ⦁ 취약계층인 한부모가정 초·중·고 재학중인 학생에게 수학여행비(숙학형 현장 학습비) 지원을 통해 교육비 부담을 완화하고자 함 
+ ⦁ 현재 지원 중인 수학여행비(숙박형 현장학습비) 지원액 현실화 필요</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005658&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005658</servId>
+        <servNm>성남시 저소득 한부모가족 자녀 숙박형 현장학습비 지원 </servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지문화국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>342</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>입양아동의 첫 입학을 축하하고 아동이 행복하고 건강하게 성장할 수 있는 환경을 조성하여 국내 입양 활성화를 도모하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005679&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005679</servId>
+        <servNm>입양아동 입학지원금 지급</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 군포시 행정지원국 교육체육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>496</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>학부모 부담 경감 및 보편적 교육복지를 실현하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000021&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000021</servId>
+        <servNm>중·고등학교 신입생 체육복 지원</servNm>
+        <sggNm>군포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급, 현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 보건소 지역보건과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1585</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산가정에 건강관리사를 파견하여 산모의 산후 회복과 신생아의 양육을 지원하고, 출산가정의 경제적 부담을 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001366&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001366</servId>
+        <servNm>산모 신생아 건강관리 지원사업(추가형)</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>792</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>법정저소득층 영유아의 어린이집 입학준비금을 지원하는 맞춤형 보육서비스를 실시하여 소외계층에 대한 재정부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000285&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000285</servId>
+        <servNm>법정저소득층 입학준비금</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1154</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>다자녀 영유아 보육비 부담 경감과 건강가정 육성을 통한 출산율 향상으로 국가경쟁력 강화 및 보육서비스 질 향상 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000286&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000286</servId>
+        <servNm>셋째이상 자녀 양육비 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2773</inqNum>
+        <intrsThemaNmArray>입양·위탁, 서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250814</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>주민의 삶의 질 향상과 출산장려 분위기 조성을 위하여 출산 및 양육을 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003153&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003153</servId>
+        <servNm>출산장려금 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 평택시 복지국 아동복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3530</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250812</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>아이 키우기 좋은 양육 환경 조성을 위하여 평택시 거주 셋째아 이상 다자녀가정의 양육지원금 지급하는 사업 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001623&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001623</servId>
+        <servNm>평택시 다자녀가정 양육지원금 지급</servNm>
+        <sggNm>평택시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 복지문화국 가족아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>180</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동, 영유아</lifeNmArray>
+        <servDgst>자녀돌봄 서비스 필요성은 증가하나 매년 최저임금 인상으로 서비스 비용이 증가하여 이용을 기피하는 가정을 위하여 월별 서비스 이용시간이 높은 가정에 대하여 자기부담금을 일부 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006153&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006153</servId>
+        <servNm>아이돌봄 신규 및 120시간 이용자 확대지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 다문화·탈북민, 다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 복지문화국 가족아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>188</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동, 영유아</lifeNmArray>
+        <servDgst>감기, 장염 등으로 인해 등원(교)이 어려운 아동을 가정에서 보호할 수 있도록 아이돌봄서비스와 연계하여 특별 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006152&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006152</servId>
+        <servNm>아픈아이 홈케어</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 경제복지국 가족아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>10354</inqNum>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>만혼화 현상과 함께 출산․양육비용 등의 경제적 부담으로 인해 출산을 기피하는 경향이 나타나고 있음.
+이러한 경향은 다자녀가정 형성을 저해하는 주요 원인으로 작용하고 있어, 다자녀가정에 대한 양육비 지원을 통해 자녀 양육으로 인한 경제적 부담을 완화하고 저출산 및 인구감소에 대응하기 위함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005403&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005403</servId>
+        <servNm>다자녀 양육바우처 지원</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 양주시 복지문화국 교육체육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>935</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>양주시 교육의 공공성 강화 및 교육복지 실현에 기여하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005373&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005373</servId>
+        <servNm>초등학생 입학축하금 지원사업</servNm>
+        <sggNm>양주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1362</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산 친화적 분위기 조성으로 저출산 극복에 기여하고, 가정의 경제적 부담을 경감하는 사업입니다.  </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005139&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005139</servId>
+        <servNm>임신축하금 지원사업</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 경제복지국 교육청소년과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>756</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>초등학교 입학축하금 지원으로 교육비 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002561&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002561</servId>
+        <servNm>초등학교 입학축하금 지원</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>857</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산 친화적 분위기 조성으로 저출산 극복에 기여하고, 가정의 경제적 부담을 경감하는 사업입니다. </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003981&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003981</servId>
+        <servNm>새 생명 탄생 출산축하용품 지원</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 포천시 복지환경국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>663</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>장애인가정의 출산에 따른 양육부담 해소 및 생활안정에 도움</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003909&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003909</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <sggNm>포천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 포천시 복지환경국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>424</inqNum>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>아동, 청년, 중장년, 청소년</lifeNmArray>
+        <servDgst>혼자서 일상생활이 어려운 만6세이상 만65세미만의 장애인복지법상 등록 장애인의 자립생활 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001050&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001050</servId>
+        <servNm>장애인활동지원사업 시자체 사업</servNm>
+        <sggNm>포천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 보건소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2020</inqNum>
+        <intrsThemaNmArray>입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년</lifeNmArray>
+        <servDgst>임산부에게 기형아검사쿠폰서비스를 제공함으로써 태아의 사전 예방적 관리를 통해 장애발생 최소화 및 건강수준 향상도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001515&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001515</servId>
+        <servNm>태아기형아검사 지원사업</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 경제복지국 사회복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>451</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>장애인가정의 출산 시 산모 및 신생아의 건강관리와 장애인가정의 생활안정</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001484&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001484</servId>
+        <servNm>장애인가정 출산지원금</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>731</inqNum>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>노년, 아동, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>의로운 행위를 한 사람의 숭고한 뜻을 기리고 귀감으로 삼아 사회정의를 실현하기 위하여 의로운 시민과 그 가족 또는 유족 등에 대한 예우 및 지원을 목적으로 한다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001764&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001764</servId>
+        <servNm>의사상자 예우지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 모바일, 인터넷, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 건설도시국 교통과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1067</inqNum>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 노년, 아동, 영유아</lifeNmArray>
+        <servDgst>이동에 상당한 제약이 있는 장애인에게 차량운행을 통해 직장 출퇴근, 외출보조 및 병원이용 보조 등 각종 이동서비스 지원으로 장애인의 사회 활동기회 확대
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000974&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000974</servId>
+        <servNm>교통약자이동지원센터 운영</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 의왕시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>689</inqNum>
+        <intrsThemaNmArray>신체건강</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년, 청소년, 중장년, 청년</lifeNmArray>
+        <servDgst>건강보험료 납부에 어려움을 겪는 저소득 가구(장애인,한부모,만성질환)에 보험료지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001566&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001566</servId>
+        <servNm>저소득층건강보험료지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 과천시 경제복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>8518</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>청소년, 청년, 중장년, 노년, 아동, 영유아</lifeNmArray>
+        <servDgst>국민기초생활 보장지원을 통한 수급자의 안정적 생활 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001491&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001491</servId>
+        <servNm>국민기초생활 보장지원(월동난방비, 대학생전공교재비, 이사비용, 쓰레기봉투비, 진단서 발급비용)</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 복지문화국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>515</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>비장애인에 비해 임신과 출산 시 비용이 추가 소요되는 장애인에게 출산 비용을 지원함으로써 경제적 부담을 경감하고 출산 친화적인 문화 조성을 통한 삶의 질 개선에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001565&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001565</servId>
+        <servNm>장애인가정 출산지원금</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3054</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산율 제고 및 다자녀가정의 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004253&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004253</servId>
+        <servNm>보완적 출산장려지원 (첫째아이 이상 출산지원금 지급)</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 양주시 복지문화국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5054</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>신생아의 탄생을 축하하고 출산가정의 경제적 부담을 경감하여 임신과 출산에 유리한 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003125&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003125</servId>
+        <servNm>양주시 출산축하금 지원사업</servNm>
+        <sggNm>양주시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 복지위생국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>460</inqNum>
+        <lastModYmd>20250806</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>저소득 청각장애인의 인공달팽이관 재활치료비 지원으로 장애인가구의 의료비 부담 경감 및 청력회복으로 원활한 사회활동 도모를 목적으로 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001199&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001199</servId>
+        <servNm>저소득 장애인 지원(인공달팽이관 수술자 재활치료비)</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>411</inqNum>
+        <lastModYmd>20250805</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>예기치 못한 의료비를 보장하며, 다자녀 가정의 금전적 부담을 줄이기 위해 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006151&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006151</servId>
+        <servNm>다자녀 안심보험</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 양평군 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1274</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>출산가정에 산후조리비를 지원하여 산모의 산후회복과 경제적 부담을 경감하여 아이낳기 좋은 환경 조성 및 저출산 극복에 기여하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005269&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005269</servId>
+        <servNm>양평군 산후조리비 지원</servNm>
+        <sggNm>양평군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5600</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산가정에 산모·신생아 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고, 출산가정의 경제적 부담을 경감하여 아이낳기 좋은 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005227&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005227</servId>
+        <servNm>산모·신생아 건강관리 지원사업 본인부담금 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 화성시 시민복지국 여성다문화과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>39662</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst> 저소득 한부모가족이 건강하고 문화적인 생활을 영위할 수 있도록 동절기 난방비를 지원함으로써, 한부모가족의 생활안정 및 자립기반 조성과 복지증진에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003790&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003790</servId>
+        <servNm>저소득 한부모가족 난방비 지원 사업</servNm>
+        <sggNm>화성시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>16429</inqNum>
+        <intrsThemaNmArray>입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>아동 양육에 따른 경제적 부담을 경감하고 건강한 성장 환경을 조성함으로써 아동의 기본적 권리와 복지 증진에 이바지</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004041&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004041</servId>
+        <servNm>아동수당플러스 지원 사업</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 보건소 보건정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>721</inqNum>
+        <intrsThemaNmArray>신체건강</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>아이 낳고 키우기 좋은 건강도시 시흥을 만들기 위하여 보편적 공공의료지원 제도 도입과 
+포괄적인 의료서비스를 제공함으로써 의료 사각지대에 있는 의료 취약계층 아동에게 예방중심의 건강증진 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000808&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000808</servId>
+        <servNm>우리동네 아동 공공의료지원사업</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>906</inqNum>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>- 저소득층 아동의 치과주치의를 맺어 지속적이고 포괄적인 구강건강 의료 서비스 실시
+- 구강질환을 조기발견하고 치료하여 저소득층 아동 구강건강증진에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003402&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003402</servId>
+        <servNm>건강치아멘토링 아동치과주치의사업</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>모바일앱, 모바일</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 수정구보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>638</inqNum>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>- 치료중심에서 예방중심의 의료 제공
+- 적기의 적정한 의료시비스를 통하여 평생 건강한 구강관리 능력 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004040&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004040</servId>
+        <servNm>성남시 초등학생 치과주치의사업</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지문화국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>567</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>청각장애인 인공달팽이관 수술 지원으로 의료비 부담 경감 및 사회,경제 활동 활성화를 도모하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000316&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000316</servId>
+        <servNm>청각장애인 인공달팽이관 수술지원자 재활치료비 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 양평군 문화복지국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1267</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>한부모가족이 건강하고 문화적인 생활을 영위할 수 있도록 함으로써 한부모 가족의 생활안정 및 복지증진에 이바지함을 목적으로 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002629&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002629</servId>
+        <servNm>저소득 한부모가정 지원</servNm>
+        <sggNm>양평군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5761</inqNum>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>노년, 영유아, 아동, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>한부모가족, 신체적 장애 등으로 인하여 생활에 어려움을 겪고 있는  차상위계층 이하의 사람에게 국민건강보험료를 지원함으로써 시민의 건강증진과 사회복지 향상을 도모하는 것을 목적으로 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003129&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003129</servId>
+        <servNm>차상위계층 건강보험료 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 광주시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>642</inqNum>
+        <intrsThemaNmArray>안전·위기</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>자연재해 발생시 이재민에게 생필품 등을 지원함으로써 이재민 구호와 생활안정에 기여함을 목적으로 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003044&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003044</servId>
+        <servNm>이재민 구호</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>562</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>장애극복 및 사회적응을위한 재활교육비 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001298&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001298</servId>
+        <servNm>중증장애인 사회적응활동 지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>746</inqNum>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 아동</lifeNmArray>
+        <servDgst>일상생활 및 사회활동이 어려운 장애인에게 활동보조서비스를 제공히여 장애인의 자립생활과 사회참여 증진 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001382&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001382</servId>
+        <servNm>중증장애인활동지원사업(시비)</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>826</inqNum>
+        <intrsThemaNmArray>서민금융, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>청각장애아동 재활 치료비 지원으로 의료비부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001297&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001297</servId>
+        <servNm>저소득중증청각장애아동재활치료비지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 성남시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>605</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 노년, 아동, 영유아</lifeNmArray>
+        <servDgst>국민건강보험료와 「노인장기요양보험법」에 따른 장기요양보험료(이하 “보험료 등”이라 한다)를 납부하는 데 어려움을 겪는 저소득계층에게 보험료를 지원함으로써 경제적 부담을 경감하고 시민의 건강증진과 복지향상을 도모함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000710&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000710</servId>
+        <servNm>저소득세대 건강보험료 지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타, 현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>450</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>임신 · 출산, 중장년, 청년, 노년</lifeNmArray>
+        <servDgst>장애인의 출산을 장려하고 저출산 시대의 사회적 문제해소에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001274&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001274</servId>
+        <servNm>장애인가정 출산지원금지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 남양주시 복지국 여성아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1087</inqNum>
+        <intrsThemaNmArray>교육, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>사회의 특별한 보호가 필요한 소년소녀가정 및 가정위탁아동의 학습과 진로에 도움이 될 수 있도록 능력개발비를 지원함으로써 당당한 사회인으로의 육성을 도모하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003557&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003557</servId>
+        <servNm>가정위탁아동 능력개발비</servNm>
+        <sggNm>남양주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1540</inqNum>
+        <intrsThemaNmArray>입양·위탁, 서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>저출산 극복을 위한 시책사업으로 출산분위기 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001360&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001360</servId>
+        <servNm>출산장려금 지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3592</inqNum>
+        <intrsThemaNmArray>서민금융, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>아동, 영유아, 노년, 중장년, 청년, 청소년</lifeNmArray>
+        <servDgst>특수장비촬영비(CT, MRI, MRA)를 연1회 70만원까지 무상지원하여 의료복지향상에 기여코자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001569&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001569</servId>
+        <servNm>수급자, 저소득층 특수촬영비 지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>6026</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250731</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>저출생 극복을 위한 출산장려 목적으로 출산에 따른 경제적비용 부담 경감을 위하여 출산가정에 일정금액을 지원
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002522&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002522</servId>
+        <servNm>출산지원금</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여주시 문화복지국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1997</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250715</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>경제적 부담 완화 및 양육환경 조성을 통해 장기적 출산율 저하에 대처하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004039&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004039</servId>
+        <servNm>다자녀장려금 지원</servNm>
+        <sggNm>여주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 김포시 복지국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2683</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250715</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>중증장애인의 치과치료비를 지원하여 경제적인 부담을 완화하고 장애인의 삶의 질을 향상시켜 장애인가구의 생활안정을 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000918&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000918</servId>
+        <servNm>장애인 생활안정(중증장애인 치과치료비 지원)</servNm>
+        <sggNm>김포시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 교육청소년과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1508</inqNum>
+        <intrsThemaNmArray>주거, 보호·돌봄, 서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>생애 첫 유치원 입학을 축하하고 학부모 경제적 부담을 경감하려 함 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003354&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003354</servId>
+        <servNm>법정저소득 및 셋째아이상 원아 입학준비금 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타, 현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1187</inqNum>
+        <lastModYmd>20250711</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>저소득층 아동에게 포괄적 구강건강관리 서비스 제공으로 자가 구강관리능력을 향상시키고 구강건강 불평등을 해소하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000840&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000840</servId>
+        <servNm>아동 치과주치의 의료지원 사업</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>다문화·탈북민, 한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 농수산생명과학국 친환경농업과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>303</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>ㅇ 친환경농산물의 중장기적인 고정 소비층 확보에 따른 안정적인 소비체계 확립 및 친환경 농업을 통한 환경 보전 등 사회적 가치 구현
+
+ㅇ 임산부에게 친환경농산물 공급을 통한 건강한 임신ㆍ출산 환경 조성 및 건강한 먹거리 인식제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006099&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006099</servId>
+        <servNm>경기임산부 친환경농산물 지원</servNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 여성가족국 가족정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2387</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>아동양육비를 지원받지 못하는 한부모가족에 양육비를 지원함으로써 한부모가족의 경제적 부담을 경감하고자 한 사업입니다.
+소득인정액이 정부지원 기준(63%, 청소년한부모의 경우 65%) 초과 100% 이하이면서 18세 미만 자녀를 양육하는 한부모가족에
+자녀 1명당 아동양육비 월 10만원 지원합니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005606&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005606</servId>
+        <servNm>한부모가족 아동양육비 지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 이천시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3957</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 임신 · 출산</lifeNmArray>
+        <servDgst>산모·신생아 건강관리 서비스 비용 중 본인부담금을 일부 지원하여 출산가정의 경제적 부담을 경감
+산모·신생아 본인부담금 지원에 관한 거주 요건 완화 (출생일 기준으로 1년 전 → 출생일 기준으로 6개월 전)</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004727&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004727</servId>
+        <servNm>산모신생아 건강관리 서비스 본인부담금 지원</servNm>
+        <sggNm>이천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 사회복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1080</inqNum>
+        <intrsThemaNmArray>서민금융, 안전·위기</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>양육비 미지급으로 인해 미성년 자녀의 양육에 어려움을 겪는 양육비 채권자에게 한시적으로 양육비를 지원함으로써 안전한 양육환경을 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004191&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004191</servId>
+        <servNm>고양시 한시적 양육비 지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 보건소 감염병관리과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>830</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>만혼 및 고령출산 등으로 난임부부 증가에 따라 기존 양방 난임시술 지원 외에 한방 난임치료 지원으로 임신·출산 성공률 제고하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001542&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001542</servId>
+        <servNm>한방 난임치료 지원사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 보건소 감염병관리과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>927</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>임신이 어려운 난임부부에게 현재 시행하고 있는 난임부부 시술비 지원 외에 추가로 시술비 본인부담금 일부를 더 지원하여 경제적 부담을 경감뿐만 아니라 아이를 원하는 가정이 출산을 할 수 있도록 지원하여 저출산 극복에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000893&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000893</servId>
+        <servNm>아이소망 지원사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 양평군 문화복지국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>413</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst> 대안교육기관 이용 청소년들에 대한 급식비 지원을 통해 무상급식 사각 지대를 해소하여 청소년 의 건강한 성장을 위한 보편 복지 실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001582&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001582</servId>
+        <servNm>양평군 대안교육기관 이용 청소년 급식 지원 </servNm>
+        <sggNm>양평군</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 보건소 감염병관리과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2309</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산, 중장년, 청년</lifeNmArray>
+        <servDgst>광명시 관내 모든 임산부에게 임신 초기에 산모의 건강 상태 검사와 임신 가정의 경제적 부담 경감으로 안전하고 건강한 임신과 출산에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001469&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001469</servId>
+        <servNm>산전 검사 쿠폰 지원사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 보건소 감염병관리과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1519</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년, 중장년</lifeNmArray>
+        <servDgst>기형아 이상 여부의 발견 확률이 높은 사중지표검사(Quad test) 비용을 지원하여 임신·출산 가정의 경제적 부담을 덜고 건강한 신생아 출산에 기여하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001449&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001449</servId>
+        <servNm>기형아 검사 쿠폰 지원사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 남양주시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>381</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>아동, 영유아</lifeNmArray>
+        <servDgst>청각장애인 인공달팽이관 수술 및 재활지원으로 의료비 부담 경감 및 사회,경제 활동 활성화 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001016&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001016</servId>
+        <servNm>청각장애인 인공달팽이관 재활치료비 지원</servNm>
+        <sggNm>남양주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 남양주시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1150</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250709</lastModYmd>
+        <lifeNmArray>노년, 중장년, 청년, 임신 · 출산, 청소년</lifeNmArray>
+        <servDgst>비 장애인에 비해 임신과 출산 시 비용이 추가 소요되는 장애인가정에게 출산비용을 지원함으로써, 경제적 부담을 경감하고 출산 친화적인 문화 조성을 통한 삶의 질 개선에 기여
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003577&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003577</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <sggNm>남양주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>775</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250705</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>시흥시 특수학교 설립 전까지 장애학생에게 교내활동을 지원하여 교육권을 보장하고 평등한 교육기회를 제공</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004715&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004715</servId>
+        <servNm>장애학생 교내활동지원 사업</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급, 기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1110</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250705</lastModYmd>
+        <lifeNmArray>중장년, 아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>장애아동, 장애인에게 적절한 재활프로그램을 지원하여 장애아동가족의 경제적 부담을 경감하고, 사회참여와 통합을 도모함 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003822&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003822</servId>
+        <servNm>장애인 재활프로그램 </servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 군포시 생애복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2137</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250705</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>어린이집 입학 시 부모가 부담하는 입학준비금(생애 최초)을 시에서 지원하여 보육부담 완화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001640&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001640</servId>
+        <servNm>어린이집 생애최초 입학준비금 지원</servNm>
+        <sggNm>군포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 군포시 보건소 산본보건지소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1351</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250705</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년</lifeNmArray>
+        <servDgst>임신한 대상자에게 임신축하금을 지급함으로써 출산장려 분위기 조성하여 출산률 향상에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001473&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001473</servId>
+        <servNm>임신축하금 지급</servNm>
+        <sggNm>군포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 시흥시 복지국 아동돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>458</inqNum>
+        <lastModYmd>20250705</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>유기 및 위기아동(학대피해아동)의 응급치료비, 응급안전용품, 아동돌보미 파견 비용 지원을 통한 건강 및 보호 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000809&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000809</servId>
+        <servNm>유기 및 위기아동지원</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 안성시 도시경제국 교통정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>547</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250704</lastModYmd>
+        <lifeNmArray>영유아, 아동, 중장년, 청소년, 청년</lifeNmArray>
+        <servDgst>저소득층 안성시민의 이동권 보장 및 관내 대중교통 활성화와 지역경제 활성화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005491&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005491</servId>
+        <servNm>안성시 저소득층 무상교통 지원사업</servNm>
+        <sggNm>안성시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급, 지역화폐</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1207</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250704</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>무주택 출산가구의 안정된 정주요건 마련 및 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004691&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004691</servId>
+        <servNm>고양시 출산가구 전월세자금 대출이자 지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 보건건강국 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5769</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250704</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년, 영유아</lifeNmArray>
+        <servDgst>출산가정의 경제적 부담 완화 및 산모신생아 건강보호</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001361&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001361</servId>
+        <servNm>경기도 산후조리비 지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1676</inqNum>
+        <intrsThemaNmArray>안전·위기, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250704</lastModYmd>
+        <lifeNmArray>아동, 청소년, 중장년</lifeNmArray>
+        <servDgst>동절기 난방비, 졸업앨범비 지원으로 경제적 부담 해소</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002552&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002552</servId>
+        <servNm>저소득한부모가족 생활안정 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 구리시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5991</inqNum>
+        <lastModYmd>20250704</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년, 중장년, 청년, 청소년</lifeNmArray>
+        <servDgst>차상위계층(한부모 등) 중 건강보험료가 보건복지부가 정한 최저보험료 (2025년 최저보험료: 22,340원/ 매년 변경됨 )이하인 세대에  건강보험료를 지원하여 건강한 생활유지와 복지향상을 도모함을 목적으로  함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003555&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003555</servId>
+        <servNm>차상위계층 건강보험료 지원</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>우편, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안성시 복지교육국 사회복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>347</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250701</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>신생아를 출산한 장애인가정을 지원하기 위해 필요한 사항을 규정함으로써 신생아의 건강과 양육환경에 필요한 경제적 부담을 덜어주고, 생활안정 및 사회활동 참여 증진에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003366&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003366</servId>
+        <servNm> 장애인가정 출산지원금 </servNm>
+        <sggNm>안성시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 복지문화국 노인장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1565</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250701</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 아동, 노년</lifeNmArray>
+        <servDgst>이동보조기기(전동스쿠터,전동휠체어) 수리 서비스 지원으로 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001292&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001292</servId>
+        <servNm>장애인 이동보조기기 수리사업</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 복지문화국 노인장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>458</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250701</lastModYmd>
+        <lifeNmArray>임신 · 출산, 청년, 중장년</lifeNmArray>
+        <servDgst>장애인가정의 출산시 산모와 신생아의 건강관리와 장애인가정의 생활안정에 도움을 주고 저 출산 시대의 사회적 문제 해소에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001293&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001293</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 복지문화국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1490</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250626</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>출산가정 및 다자녀가정에 대한 사회적우대 분위기조성과 출산ㆍ양육에 따른 경제적 부담 경감을 통한 출산율 향상 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003868&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003868</servId>
+        <servNm>다자녀가구 행복더하기(지역화폐)</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 복지문화국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1533</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250625</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>다자녀 및 사회취약계층 아동의 어린이집 입소료 지원을 통해 원활한 보육여건 조성을 도모 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003554&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003554</servId>
+        <servNm>어린이집 이용 아동(다자녀 아동 등) 입소료 지원</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀, 다문화·탈북민, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 파주시 파주보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1044</inqNum>
+        <intrsThemaNmArray>입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>- 출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고, 출산가정의 경제적 부담을 경감
+- 산모신생아 건강관리사 양성을 통해 사회적 일자리 창출</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003882&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003882</servId>
+        <servNm>지역자율형 사회서비스 투자(산모신생아 건강관리사지원)</servNm>
+        <sggNm>파주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 부천시보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1288</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산가정에 건강관리사를 파견하여 산모의 산후 회복과 신생아의 양육을 지원하고, 출산 가정의 경제적 부담을 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002576&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002576</servId>
+        <servNm>셋째아 이상 출산 가정 산모·신생아 건강관리 지원사업</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 복지위생국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>10927</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250619</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>시민의 삶의 질 향상과 출산친화적인 사회분위기 조성을 위하여 넷째아 이상 자녀 출산 시 출산지원금 지급</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004313&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004313</servId>
+        <servNm>넷째아 이상 출산지원금 지급</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 교육청소년과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>372</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>초등학교에 입학하는 신입생이 있는 가정에 입학축하금을 지원함으로써 학부모의 교육비 부담 최소화 및 교육의 공공성 강화 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00006028&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00006028</servId>
+        <servNm>초등학교 입학지원금 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 교육청소년과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>700</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>▢ 학생들이 차별없이 기회를 보장받을 수 있도록 교육에 대한 아낌없는 지원으로 교육하기 좋은 환경 조성
+▢ 교육의 공공성 강화와 학부모 교육비 경감 등 보편적 교육복지 실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005672&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005672</servId>
+        <servNm>졸업앨범비 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 보건소 정왕보건지소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1727</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산 가정의 경제적 지원으로 양육 부담 완화 및 출산친화적 환경 조성하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005386&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005386</servId>
+        <servNm>출생축하금 지원</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 남양주시 남양주보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3152</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>남양주시 출산가정에 산후조리비를 지원하여 출산가정의 경제적 부담을 줄이고 산후회복 및 산모와 신생아의 건강증진을 도모하고자 함.   </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005268&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005268</servId>
+        <servNm>남양주시 산후조리비 지원</servNm>
+        <sggNm>남양주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 가평군 행정복지국 행복돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>382</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>학부모의 경제적 부담 경감하여 교육의 공공성 강화 및 보편적 교육복지 실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004884&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004884</servId>
+        <servNm>가평군 초등학교 입학지원금 지원</servNm>
+        <sggNm>가평군</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1247</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>경제적 부담과 사회적 편견으로 생활이 어려운 저소득 미혼 한부모 가족에게 양육생계비를 지원함으로써, 
+자녀의 안정적인 양육환경을 조성하여 가족해체를 예방하고 나아가 경제적 자립을 위한 기반 마련에 도움을 주고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004720&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004720</servId>
+        <servNm>고양시 저소득 미혼 한부모 양육생계비 지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급, 프로그램/서비스(서비스)</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 장애인, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>모바일, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 화성시 교통국 대중교통과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3694</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 청년, 노년, 아동</lifeNmArray>
+        <servDgst>시민의 이동권 보장 및 대중교통이용 활성화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004057&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004057</servId>
+        <servNm>화성시 무상교통 사업</servNm>
+        <sggNm>화성시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 평택시 행정자치국 교육청소년과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1563</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>평택시 출산 장려 정책의 일환으로 사립유치원 셋째아 이상 자녀에 대한 교육비 지원을 통해 학부모의 유아 교육비 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003985&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003985</servId>
+        <servNm>사립유치원 셋째아 이상 교육비 지원</servNm>
+        <sggNm>평택시</sggNm>
+        <sprtCycNm>반기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 보건소 미사보건센터</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3023</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>- 출산가정에 건강관리사를 파견하여 산모의 산후 회복과 신생아의 양육을 지원하고 출산 가정의 경제적 부담 경감
+- 산모·신생아 건강관리사 양성을 통해 사회적 일자리 창출</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003986&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003986</servId>
+        <servNm>산모신생아 건강관리 지원사업(추가형)</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 김포시 복지국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2132</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 청년, 아동, 중장년, 노년</lifeNmArray>
+        <servDgst>신체적·정신적 장애 등의 이유로 혼자서 일상생활과 사회생활을 하기 어려운 장애인의 자립생활을 지원하고 그 가족의 부담을 줄임으로써 장애인의 삶의 질을 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004027&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004027</servId>
+        <servNm>장애인활동지원 김포시 추가지원 사업</servNm>
+        <sggNm>김포시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 복지위생국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>782</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 아동</lifeNmArray>
+        <servDgst>중증장애인의 자립생활 역량 강화와 사회참여활동 지원을 위해 최중증장애인(1인 독거)에게 활동보조지원 서비스를 실시하고 있으나, 제공시간의 부족 등으로 어려움을 겪고 있어 자체예산으로 추가시간을 제공하여 중증장애인의 일상생활을 지원하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001367&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001367</servId>
+        <servNm>장애인활동지원 시추가지원사업</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 고양시 사회복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1002</inqNum>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 청년, 중장년, 청소년</lifeNmArray>
+        <servDgst>
+신체적·정신적 장애 등의 사유로 혼자서 일상생활과 사회생활을 하기 어려운 중증 장애인에게 활동지원급여를 제공함으로써 자립생활과 사회참여를 지원하고 가족의 부담을 줄임으로써 장애인의 삶의 질 증진을 목적으로 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001396&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001396</servId>
+        <servNm>장애인활동지원 고양시 추가지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 의정부시 복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1797</inqNum>
+        <intrsThemaNmArray>임신·출산, 입양·위탁, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산장려금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001498&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001498</servId>
+        <servNm>출산장려금 지원사업</servNm>
+        <sggNm>의정부시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐, 현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 자치행정국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>605</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>국가유공자에 대한 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002591&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002591</servId>
+        <servNm>국가유공자 수당</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>보훈대상자</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 의정부시 복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>429</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 영유아, 노년, 중장년, 청년, 청소년</lifeNmArray>
+        <servDgst>의사상자의 숭고한 희생정신과 용기가 주민에게 항구적으로 존중되어 지역사회의 정의구현에 이바지하기 위함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001404&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001404</servId>
+        <servNm>의사상자 특별위로금</servNm>
+        <sggNm>의정부시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 화성시 시민복지국 아동친화과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>515</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>가정위탁 아동에게 생필품비 1인당 5만원 / 연 2회(5,10월) 지급</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003704&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003704</servId>
+        <servNm>가정위탁아동 생필품비 지원</servNm>
+        <sggNm>화성시</sggNm>
+        <sprtCycNm>반기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 모바일</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 사회복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1487</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>노년, 임신 · 출산, 중장년, 청년</lifeNmArray>
+        <servDgst>장애인가정의 출산 시 산모 및 신생아의 건강관리와 생활안정에 도움을 주기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002356&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002356</servId>
+        <servNm>장애인가정 출산지원금 지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 복지문화국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>427</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 일자리</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>사회의 특별한 보호가 필요한 소년소녀가정 및 가정위탁아동의 학습과 진로에 도움이 될 수 있도록 능력개발비를 지원함으로써 당당한 사회인으로의 육성을 도모하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000995&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000995</servId>
+        <servNm>가정위탁아동 능력개발비</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 수원시 시민복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1691</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>청년, 중장년, 임신 · 출산</lifeNmArray>
+        <servDgst>저출산 시대에 장애인가정에 출산을 지원하여 장애인복지 향상을 도모하고 사회통합복지 이념 실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001378&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001378</servId>
+        <servNm>장애인가정 출산지원금 지급</servNm>
+        <sggNm>수원시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 가평군 행정복지국 행복돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>740</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250614</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>보육시설 영유아 급간식비,
+민간가정어린이집 차량운영 지원,
+민간가정어린이집 프로그램 운영 지원
+보육시설 냉난방비 지원
+민간가정어린이집 개보수비 지원
+열린어린이집 교재교구비 지원
+어린이집 CCTV렌탈비 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001338&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001338</servId>
+        <servNm>보육시설 영유아 지원</servNm>
+        <sggNm>가평군</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 보건소 정왕보건지소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1305</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>산모 및 신생아의 건강보호와 출산 가정의 경제적 부담 완화 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005509&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005509</servId>
+        <servNm>시흥시 산후조리비 지원</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 공공의료정책관</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1130</inqNum>
+        <intrsThemaNmArray>서민금융, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>의료비로 인한 경제적 부담을 경감하고 아동의 건강권과 생명권 보호</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001629&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001629</servId>
+        <servNm>성남시 아동의료비 본인부담 100만원 상한제 사업</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>경기도 의정부시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>998</inqNum>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>청년, 중장년, 청소년, 노년, 아동</lifeNmArray>
+        <servDgst>○ 국비지원 사업 외에 의정부시 자체 추가 시간 지원으로, 장애인의 자립생활 및 사회참여와 시민의 장애인복지 체감도 증진
+○ 활동지원사를 통한 서비스 지원에 어려움이 있어 제도의 사각지대에 놓인 최중증 장애인의 활동지원급여 수급권 보호
+○ 가족이 아닌 활동지원사 연계를 통해 최중증 장애인 가족의 돌봄 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000714&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000714</servId>
+        <servNm>장애인활동지원 의정부시 추가 지원</servNm>
+        <sggNm>의정부시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 가평군 행정복지국 행복돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1425</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산 및 입양에 따른 경제적 부담 감소 및 출산 및 입양 장려</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002609&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002609</servId>
+        <servNm>자녀출산·입양축하금 지원</servNm>
+        <sggNm>가평군</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>지역화폐, 현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 자치행정국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2631</inqNum>
+        <lastModYmd>20250611</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년, 중장년, 청년, 청소년</lifeNmArray>
+        <servDgst>행려자 보호 및 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002597&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002597</servId>
+        <servNm>행려자 보호</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타, 시설입소, 현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3449</inqNum>
+        <intrsThemaNmArray>입양·위탁, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>법정저소득 및 다자녀가정(셋째 이상) 교육비 지원으로 공보육 체계 강화 및 출산 장려</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004584&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004584</servId>
+        <servNm>법정저소득 및 셋째아 필요경비 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1322</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>출산장려 및 영유아교육비 부담 경감으로 공보육 체계 강화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002477&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002477</servId>
+        <servNm>어린이집 입학준비금 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>381</inqNum>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>소외계층인 저소득장애인을 대상으로 보장구 수리에 따른 경제적 부담 완화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000810&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000810</servId>
+        <servNm>장애인보장구수리센터운영</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>426</inqNum>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>영유아, 아동, 노년, 청년, 중장년, 청소년</lifeNmArray>
+        <servDgst>거동이 불편한 장애인을 위한 이동수단 제공</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001372&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001372</servId>
+        <servNm>장애인특별운송사업</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 김포시 복지국 생활보장과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1502</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250610</lastModYmd>
+        <lifeNmArray>청소년, 청년, 중장년, 아동, 영유아, 노년</lifeNmArray>
+        <servDgst>노숙인(부랑인 및 행려자)에게 귀향여비 지급 또는 공공구호기관 연계,  관내 사망자 중 연고를 알 수 없거나, 연고가 없을 경우 및 연고자가 시체인도를 거부하는 경우 사망자의 장례절차를 지원하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001243&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001243</servId>
+        <servNm>취약계층 복지증진(무연고 사망자 및 노숙인 지원)</servNm>
+        <sggNm>김포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 모바일, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여주시 문화경제국 평생교육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>728</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>교육비 경감을 통한 공동체적 교육환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004815&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004815</servId>
+        <servNm>여주시 초등학생 입학축하금 지원사업</servNm>
+        <sggNm>여주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3152</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>저소득 한부모가족의 건강한 생활을 위한 안경구입에 대한 경제적 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001044&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001044</servId>
+        <servNm>저소득 한부모가족 안경 구입비 지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 수원시 팔달구보건소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1136</inqNum>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>의료취약계층인 저소득층에게 민간 의료기관에서만 실시하는 선택예방 접종(A형간염)을 무료로 지원함으로써, 감염병 예방 및 건강형평성 제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001476&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001476</servId>
+        <servNm>저소득층 선택 예방접종사업</servNm>
+        <sggNm>수원시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 평택시 평택보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1409</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>청년, 임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>-출산가정에 건강관리사를 파견하여 산모의 산후회복과 신생아의 양육을 지원하고, 출산가정의 경제적 부담을 경감
+-산모신생아 건강관리사 양성을 통해 사회적 일자리 창출</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001563&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001563</servId>
+        <servNm>산모신생아 건강관리 지원</servNm>
+        <sggNm>평택시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1951</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>저소득 한부모가족 자녀의 자립을 위한 경제적 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003788&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003788</servId>
+        <servNm>저소득 한부모가정 아동발달 지원계좌 지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 남양주시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2032</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>부모의 장애로 인하여 교육여건이 어려운 중증장애인 부모세대 자녀에게 사설학원비 지원하여 교육기회 보장</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003578&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003578</servId>
+        <servNm>중증장애인 부모세대자녀의 학원교육비 지원</servNm>
+        <sggNm>남양주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1201</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>중장년, 영유아</lifeNmArray>
+        <servDgst>장애인 가정의 출산 시 산모 및 신생아의 건강관리와 장애인 가정의 생활안정에 도움을 줌
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002712&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002712</servId>
+        <servNm>장애인가정 출산지원</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1402</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250606</lastModYmd>
+        <lifeNmArray>영유아, 아동, 중장년, 노년, 청소년, 청년</lifeNmArray>
+        <servDgst>저소득 한부모가족 및 국민기초수급자 한부모가족 1가구당 연1회 연료비 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003789&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003789</servId>
+        <servNm>저소득 한부모가정 지원 (연료비)</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 평생교육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>322</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>‧ 초등학생의 입학을 축하하고 행복한 학교생활 시작에 꼭 필요한 가방, 학용품, 학습용 도서 등 물품 구입할 수 있도록 지원하여 교육의 공공성 강화 및 오산시 미래 인재 양성과 학생 간의 차별 없는 보편적 교육복지 실현 목적
+‧ 무상교복(체육복)을 지원하는 중· 고등학교 신입생에 비해 초등학교 신입생에 대한 교육복지 혜택은 다자녀 가정에만 대상이 제한되어있어, 교육복지의 형평성 제고를 위하여  초등학교 신입생 대상 보편적 지원으로 확대 필요</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005934&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005934</servId>
+        <servNm>오산시 초등학교 입학축하금 지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여주시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1593</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>중장년, 청소년, 임신 · 출산, 청년</lifeNmArray>
+        <servDgst>출산가정의 경제적 부담 경감 및 아이 낳기 좋은 출산 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005933&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005933</servId>
+        <servNm>여주시 산후조리비 지원사업</servNm>
+        <sggNm>여주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 군포시 행정지원국 교육체육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>428</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>초등학교에 최초 입학하는 자녀가 있는 가정에 입학축하금을 지원하여 취학아동 가정의 경제적 부담 완화 및 교육복지 실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005615&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005615</servId>
+        <servNm>군포시 초등학교 입학축하금</servNm>
+        <sggNm>군포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 포천시 문화복지국 가족여성과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2460</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산 후 소요되는 비용의 경제적 부담을 지원하여 사회적 문제로 대두되고 있는 저출산 극복을 위한 출산 분위기를 조성하고자 하는 사업입니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004036&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004036</servId>
+        <servNm>포천시 출산축하금 지원</servNm>
+        <sggNm>포천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 김포시 보건소 보건사업과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3935</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>출산율 저하에 따른 사회문제에 적극 대처하고 출산 친화적 사회 분위기 조성을 위하여 김포시에 거주하는 임신,출산 가정에 임신축하금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004512&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004512</servId>
+        <servNm>임신축하금 지급</servNm>
+        <sggNm>김포시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 김포시 보건소 보건사업과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3245</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출산율 저하에 따른 사회문제에 적극 대처하고 출산 친화적 사회분위기 조성  </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003973&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003973</servId>
+        <servNm>출산축하금 지원</servNm>
+        <sggNm>김포시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 포천시 문화복지국 가족여성과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>543</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>아동, 영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>우리 시 출생아에 대한 건강보험 가입 지원을 통해 육아 부담 경감 및 저출산 극복을 위한 사업입니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003349&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003349</servId>
+        <servNm>출생아 건강보험 가입지원</servNm>
+        <sggNm>포천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 화성시 시민복지국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>477</inqNum>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>아동, 영유아, 노년, 중장년, 청소년, 청년</lifeNmArray>
+        <servDgst>이재민 구호</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003706&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003706</servId>
+        <servNm>재해구호</servNm>
+        <sggNm>화성시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>992</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250605</lastModYmd>
+        <lifeNmArray>중장년, 청년, 임신 · 출산</lifeNmArray>
+        <servDgst>장애인 가정의 출산 시 산모 및 신생아의 건강관리와 장애인 가정의 생활안정에 도움을 줌
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002478&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002478</servId>
+        <servNm>장애인가정 출산장려금 지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 수원시 도시개발국 도시재생과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>828</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>청년, 아동</lifeNmArray>
+        <servDgst>수원 관내 청년 주거지원 사업 및 주택정보 등을 종합적으로 제공하는 이른바 청년 대상 주거 관련 상시상담 및 정보제공으로 청년 주거 안정의 실질적인 활용성 제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005421&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005421</servId>
+        <servNm>수원청년 주거지원 매니저 운영</servNm>
+        <sggNm>수원시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 복지위생국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>561</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst>◇ 신생아 모에만 한정 되어있는 국비사업과 비교해 신생아의 부 또는 모의 장애등급에
+   따라 지원함으로써 대상범위 확대 및 장애인 출산가정의 경제적 부담 완화
+◇ 타 지자체의 장애인가정 출산지원금보다 상향 지원하여 출산 친화적인 문화 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005080&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005080</servId>
+        <servNm>장애인 출산지원금</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 여성보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2437</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>아동, 영유아, 청소년</lifeNmArray>
+        <servDgst>˚ 저소득 한부모가정 중 근로취약계층의 가사부담 완화를 위한 가사활동지원 서비스를 제공하여 일·생활 균형 문제 해소
+˚ 저소득 한부모가정을 위한 복지서비스 확대로 삶의 질 제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004862&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004862</servId>
+        <servNm>한부모가정 일가정양립 가사서비스 지원 사업</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 이천시 복지환경국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>589</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>중장년, 아동, 청년, 청소년</lifeNmArray>
+        <servDgst>장애인의 자립생활 지원과 장애인가정의 돌봄부담 완화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004722&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004722</servId>
+        <servNm>장애인활동지원 시추가 지원(자체)</servNm>
+        <sggNm>이천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 안전교통국 대중교통과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2445</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>청소년 이동 기본권 강화 및 균등한 교육의 기회 제공, 대중교통 이용 활성화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004680&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004680</servId>
+        <servNm>시흥형 기본교통비 지원 사업</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 파주시 복지정책국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1635</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산율 저하 등 사회문제에 적극 대응하고 출산과 양육하기 좋은 환경에 기여하고자 자녀를 출산한 가정에 출생축하금을 지원하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001658&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001658</servId>
+        <servNm>출생축하 지원</servNm>
+        <sggNm>파주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 모바일앱</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 통합돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>5732</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>출산 친화적인 사회 분위기 조성을 위하여 다자녀가정 및 임산부에 공공시설 사용료를 감면하여 경제적 부담을 완화하고 출산을 장려하고 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002707&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002707</servId>
+        <servNm>안산 행복플러스카드</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>985</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>아동, 청소년, 청년, 중장년</lifeNmArray>
+        <servDgst>○ 혼자서 일상생활과 사회생활을 하기 어려운 장애인에게 국도비사업으로 활동지원급여를 제공하고 있으나, 서비스시간 부족으로 어려움을 겪고 있어 시 자체적으로 추가시간을 제공하여 장애인의 자립생활을 지원하고 그 가족의 부담을 줄이기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001023&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001023</servId>
+        <servNm>장애인활동지원 시추가지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 통합돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1355</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>관내 모든 출산가정에 출생축하용품을 지원하여 출산장려 및 저출산 인식 개선에 기여
+
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002807&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002807</servId>
+        <servNm>출생축하용품 지원</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1863</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 아동, 영유아, 노년</lifeNmArray>
+        <servDgst>중증장애인들에게 택시요금 할인지원 사업을 통해 중증장애인의 교통비 부담을 경감하고, 이동권을 보장함으로서 사회활동 참여와 자립생활을 기회를 제공함으로서 삶의 질 향상에 기어코자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002994&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002994</servId>
+        <servNm>중증장애인 택시요금 할인카드 지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3256</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>관내 어린이집을 이용 중인 법정저소득층 자녀에게 입학금을 지원함으로써 저소득층의 경제적 부담 완화 및 안정된 보육환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003680&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003680</servId>
+        <servNm>어린이집 입학준비금 지원</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3142</inqNum>
+        <intrsThemaNmArray>입양·위탁, 보호·돌봄</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>아동, 중장년, 청소년, 청년</lifeNmArray>
+        <servDgst>일상생활이 어려운 중증장애인에게 활동지원급여를 추가 지원하여 중증장애인의 자립 및 삶의 질 향상을 도모하고자 함.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004314&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004314</servId>
+        <servNm>장애인활동지원사업 시추가 지원</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 복지문화국 사회복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1013</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>여성장애인의 출산을 장려하고 저출산 시대의 사회적 문제해소와 장애인가정의 생활안정 및 사회적 통합에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002593&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002593</servId>
+        <servNm>동두천시 여성장애인출산지원금 및 양육비 지원</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>840</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>노년, 중장년, 아동, 영유아, 청소년, 청년</lifeNmArray>
+        <servDgst> - 청각장애인의 재활치료 지원으로 의료비 부담 경감 및 사회, 경제 활동 활성화 도모.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003763&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003763</servId>
+        <servNm>청각장애아동재활치료비</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 동두천시 복지문화국 사회복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>388</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년, 중장년, 청년</lifeNmArray>
+        <servDgst>청각장애인의 재활치료비 지원으로 삶의 질 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002595&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002595</servId>
+        <servNm>청각장애인 인공달팽이관 재활치료비</servNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 안양시 복지문화국 아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>587</inqNum>
+        <intrsThemaNmArray>입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>청소년, 청년, 영유아, 아동</lifeNmArray>
+        <servDgst>가정위탁아동 건전육성 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001040&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001040</servId>
+        <servNm>가정위탁 아동지원</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 복지문화국 노인장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>613</inqNum>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 아동, 노년</lifeNmArray>
+        <servDgst>심한장애인에 대한 차량 지원 서비스를 통해 이동편의 제공</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001398&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001398</servId>
+        <servNm>중증장애인 콜승합차 운영</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 통합돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1797</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산과 양육에 대한 사회적 책임을 다하고 시민의 삶의 질 향상 도모
+
+
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004126&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004126</servId>
+        <servNm>출생축하금지원</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 안산시 복지국 통합돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>907</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250603</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>다자녀 가정의 둘째아 이상 자녀에게 영유아양육비를 지급하여 출산ㆍ양육 가정의 경제적 부담을 경감하고 아이를 낳고 키우기 좋은 환경을 조성하고자 함. </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000572&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000572</servId>
+        <servNm>영유아양육비지원</servNm>
+        <sggNm>안산시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>다자녀</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>E-mail, 팩스, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 부천시 복지위생국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1273</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>워킹맘(대디), 한부모가정의 가사부담 완화와 생활안정, 여성의 사회참여를 지원하는 사업입니다.
+- 이용대상: 부천시 거주 맞벌이 또는 일하는 한부모 가정
+- 지원기준: 건강보험료 본인부담금 가구합산액 중위소득 150% 이하
+- 제공서비스: 주1회 4시간 협의된 서비스 제공(청소, 세탁, 반찬 등) 제공
+- 서비스이용기간: 최대 6개월24회)
+- 자녀나이: 첫째자녀 기준 만12세 이하(단, 첫째자녀가 12세 이상이더라도 미취학 자녀 있으면 서비스 가능)</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005135&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005135</servId>
+        <servNm>워킹맘(대디) 가사지원서비스</servNm>
+        <sggNm>부천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 평생교육원 평생교육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>413</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>의왕시 초등학생의 입학을 축하하고 가정의 경제적 부담을 경감하기 위한 사업입니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005126&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005126</servId>
+        <servNm>의왕시 초등학교 입학축하금 지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>870</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청년, 임신 · 출산, 청소년, 중장년</lifeNmArray>
+        <servDgst>출산가정의 경제적 부담을 완화하고 산모의 건강한 산후 회복과 신생아 양육 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005091&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005091</servId>
+        <servNm>산모건강관리사 지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2240</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>중장년, 임신 · 출산, 청년</lifeNmArray>
+        <servDgst>의왕시 산후조리비 지원으로 출산가정의 경제적 부담을 완화하고 산모의 건강한 산후 회복과 신생아 양육 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005090&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005090</servId>
+        <servNm>의왕시 산후조리비 지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 이천시 복지환경국 청년아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1251</inqNum>
+        <intrsThemaNmArray>서민금융, 교육, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>시 자체재원으로 입양아동 중 초·중·고등학교 입학아동에 대하여 입학지원금을 추가 지급하여 관내 입양을 장려하고 입양아동의 권익 및 복지를 증진하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004612&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004612</servId>
+        <servNm>입양아동 입학지원금 지급</servNm>
+        <sggNm>이천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 미래교육진흥원</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>926</inqNum>
+        <intrsThemaNmArray>서민금융, 교육</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>동두천 관내 거주 초등학생 입학 축하금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002004&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002004</servId>
+        <servNm>동두천시 초등학생 입학 축하금 지원</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1967</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>배변(배뇨)조절 장애를 동반하여 신변처리용품(기저귀)이 일상에서 지속적으로 필요한 심한 지적,자폐성 장애인의 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001680&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001680</servId>
+        <servNm>장애인 신변처리용품(기저귀)지원사업</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 복지문화국 가족지원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1972</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst> ㅇ 다자녀가구의 양육·생활비용 부담을 줄이기 위한 시 자체 다자녀 할인 혜택 대상자를 증명하기 위함
+ ㅇ 가족관계증명서 등 종이서류 제출 번거로움을 줄여 민원인 불편 최소화</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004366&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004366</servId>
+        <servNm>동두천시 다자녀행복카드</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 보건건강국 의료자원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1314</inqNum>
+        <intrsThemaNmArray>임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>중장년, 청년, 임신 · 출산</lifeNmArray>
+        <servDgst>난임부부의 다양한 요구를 수용한 지원정책으로 경제적 부담을 완화하고 임신 출산의 사회의료적 장애를 제거하여 저출산 극복에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003476&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003476</servId>
+        <servNm>한방난임 지원 사업</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 하남시 보건소 미사보건센터</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>4557</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>하남시에 거주하는 임산부와 영아의 건강을 유지·증진 및 출산율 저하에 따른 사회문제에 적극적으로 대처하고 출산장려 분위기를 조성하기 위함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000862&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000862</servId>
+        <servNm>하남시 출산장려금 지원</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 파주시 운정보건소</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1386</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청년, 임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>모자보건 유지 및 증진</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001497&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001497</servId>
+        <servNm>모자보건사업</servNm>
+        <sggNm>파주시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1689</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>구리시에 거주하는 임산부와 영아의 건강관리를 도모하고, 저출산 고령사회 기본법과 건강가정 기본법에 따라 출산율 저하에 따른 노동력 감소와 인구노령화 등의 사회문제에 적극 대처하기 위하여 신생아의 탄생을 축하하고, 출산장려 분위기를 조성하고자 출산 부모를 대상으로 출산지원금을 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003556&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003556</servId>
+        <servNm>첫째아이부터 신생아 출산지원금 확대 지원</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>경기도 수원시 권선구보건소 건강관리과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1549</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>수원시 취약계층 아동을 대상으로 질환예방을 위한 보건교육, 진료상담을 통해 치료가 필요한 아동에게 치료비지원 실시하여 아동의 건강한 성장을 지원합니다.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001375&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001375</servId>
+        <servNm>수원시 아동담당의 의료지원 사업</servNm>
+        <sggNm>수원시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 보건소 보건정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>657</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>저소득층 아동 구강건강을 위한 치과 의료 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001448&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001448</servId>
+        <servNm>광명시 저소득층 아동 치과주치의 의료지원사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 사회복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1454</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>우리 시 모든 출산 가정에 자녀의 출산을 축하하는 출산축하금 지급을 통해 출산친화적 지역사회 분위기 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001541&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001541</servId>
+        <servNm>출산축하금지원 사업</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여성가족국 아동돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3125</inqNum>
+        <intrsThemaNmArray>안전·위기</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>결식 우려가 있는 18세 미만 아동 급식지원을 통한 건강한 성장 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000688&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000688</servId>
+        <servNm>결식아동 급식지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>기타, 전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>383</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 아동, 영유아</lifeNmArray>
+        <servDgst>청각장애인 의료비 부담 경감 및 사회경제 활동 활성화 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003472&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003472</servId>
+        <servNm>청각장애인 인공달팽이관 수술지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 의왕시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1655</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출산장려금 지원으로 출산 가정의 경제적 부담을 완화하고 출산친화적 분위기 조성
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003887&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003887</servId>
+        <servNm>출산장려금 지원</servNm>
+        <sggNm>의왕시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>483</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>저소득층 청각장애인 의료비 부담 경감 및 사회 경제활동 활성화 도모 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000720&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000720</servId>
+        <servNm>저소득층 청각장애인 재활지원</servNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 이천시 복지환경국 여성보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>7084</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동, 청소년</lifeNmArray>
+        <servDgst>저소득한부모가족 자녀의 학원비를 지원하여 사교육비 부담을 덜어주고 교육기회 제공</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000912&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000912</servId>
+        <servNm>저소득한부모가정자녀 특기교육비 지원</servNm>
+        <sggNm>이천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 시흥시 복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>515</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>경기도 청각장애인 인공달팽이관 수술 및 재활지원사업을 통해 인공달팽이관 수술지원을 받은 청각장애아동에게 수술 후 3년간 시비로 재활치료비를 지원하여 장애인 가구의 의료비부담 경감 및 아동 시기 비장애에 가까운 청력회복으로 원활한 사회 활동 도모 및 생활안정 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002504&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002504</servId>
+        <servNm>인공달팽이관재활치료</servNm>
+        <sggNm>시흥시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 파주시 복지정책국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>664</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 중장년, 청년, 아동, 영유아</lifeNmArray>
+        <servDgst>청각장애인 인공달팽이관 재활치료비 지원으로 의료비 부담 경감 사회·경제 활동 활성화 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001570&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001570</servId>
+        <servNm>청각장애인 인공달팽이관 재활치료 지원</servNm>
+        <sggNm>파주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 복지문화국 가족지원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1058</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>저출산,고령사회기본법 및 모자보건법에 따라 출산을 장려하고 동두천시 인구증대를 통하여
+지역경쟁력을 높일 수 있도록 임산부 및 영유아의 건강관리를 증진하고 출산 부모를 지원하고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002596&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002596</servId>
+        <servNm>출산장려금</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 동두천시 자치행정국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3846</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>복지대상가정 자녀 학원 수강 교재비 (매월 최대 80천 원)</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002594&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002594</servId>
+        <servNm>복지대상가정 자녀 학원 수강 교재비</servNm>
+        <sggNm>동두천시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>330</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>도비사업으로 당해연도 청각장애인 인공달팽이관 수술대상자 대하여 다음년도부터 3년간 재활치료비 지원 1인당 300만원이내</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002573&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002573</servId>
+        <servNm>청각장애인 인공달팽이관 치료비</servNm>
+        <sggNm>안양시</sggNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광명시 사회복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>453</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 노년, 영유아, 아동</lifeNmArray>
+        <servDgst>장애인의 생활안정에 기여함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001472&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001472</servId>
+        <servNm>저소득장애인 생활안정지원 사업(청각장애아동 인공달팽이관 재활치료)</servNm>
+        <sggNm>광명시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 이천시 복지환경국 청년아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>351</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 아동</lifeNmArray>
+        <servDgst>일시적 보호가 필요한 요보호아동 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001302&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001302</servId>
+        <servNm>요보호아동 긴급 보호비</servNm>
+        <sggNm>이천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 구리시 복지문화국 노인장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1134</inqNum>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 청년, 중장년, 영유아, 아동, 노년</lifeNmArray>
+        <servDgst>저소득층 장애인의 열악한 주거환경 개선을 도모함으로 쾌적한 삶의 환경 조성</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000996&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000996</servId>
+        <servNm>저소득장애인주거환경 개선 사업</servNm>
+        <sggNm>구리시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 우편</aplyMtdNm>
+        <bizChrDeptNm>경기도 고양시 사회복지국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>476</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250531</lastModYmd>
+        <lifeNmArray>청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>인공달팽이관 수술을 받은 청각장애인에게 재활치료비 지원을 통한 의료비 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001417&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001417</servId>
+        <servNm>저소득층 청각장애인 재활지원</servNm>
+        <sggNm>고양시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 하남시 복지문화국 복지정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>681</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20250307</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 노년, 영유아, 아동</lifeNmArray>
+        <servDgst>국민기초수급자가 아닌 저소득층(한부모가족세대, 장애인세대, 장기요양등급인정자세대)의 국민건강보험료를 지원하여 건강생활도모.</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000859&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000859</servId>
+        <servNm>저소득 틈새계층 국민건강보험료 지원</servNm>
+        <sggNm>하남시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 여성가족국 아동돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>740</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20250114</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>가정위탁 아동이 가정적인 환경에서 건전한 사회인으로 자라날 수 있도록 양육보조금 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000686&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000686</servId>
+        <servNm>가정위탁 양육지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 여성가족국 아동돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>914</inqNum>
+        <intrsThemaNmArray>보호·돌봄, 주거</intrsThemaNmArray>
+        <lastModYmd>20250104</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>시설보호아동의 심리정서지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005845&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005845</servId>
+        <servNm>시설보호아동 마음건강돌봄사업</servNm>
+        <sprtCycNm>반기</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지문화국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>537</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20240723</lastModYmd>
+        <lifeNmArray>영유아, 아동, 중장년, 청년, 청소년, 임신 · 출산</lifeNmArray>
+        <servDgst>산모와 신생아의 건강관리와 장애인가정 생활안정에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000315&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000315</servId>
+        <servNm>장애인가정 출산 지원금 지급</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 광주시 복지문화국 노인장애인과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>789</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20240723</lastModYmd>
+        <lifeNmArray>청소년, 청년, 아동, 영유아, 노년, 중장년</lifeNmArray>
+        <servDgst>장애인의 이동을 위하여 사용하는 휠체어 등을 편리하고 안전하게 이용할 수 있도록 지원시책을 추진함으로써 장애인의 생활안정과 사회활동에 기여</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003403&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003403</servId>
+        <servNm>광주시 장애인휠체어 등 수리 지원</servNm>
+        <sggNm>광주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 양주시 복지문화국 복지지원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>737</inqNum>
+        <lastModYmd>20240704</lastModYmd>
+        <lifeNmArray>청소년, 청년, 노년, 중장년, 아동</lifeNmArray>
+        <servDgst>장애인의 일상생활 및 자립지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004146&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004146</servId>
+        <servNm>장애인활동지원 시추가</servNm>
+        <sggNm>양주시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1213</inqNum>
+        <lastModYmd>20240615</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>출산가정에 산모신생아 건강관리사를 파견하여 산모의 산후관리 및 신생아 양육지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001022&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001022</servId>
+        <servNm>산모신생아 건강관리사 지원 확대</servNm>
+        <sprtCycNm>주</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스), 전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 양평군 문화복지국 가족복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1043</inqNum>
+        <intrsThemaNmArray>교육, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20240614</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst> 어린이집 입학준비금은 보육료 외 학부모가 부담하는 필요경비이기에 저소득 및 다문화 가정 아동이 어린이집 입학 시 해당 가정에 지원하여 어린이집 이용의 부담을 경감시키고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00002613&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00002613</servId>
+        <servNm>저소득 및 다문화가정 아동 입학준비금 지원</servNm>
+        <sggNm>양평군</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 양주시 복지문화국 복지지원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>359</inqNum>
+        <intrsThemaNmArray>서민금융, 신체건강</intrsThemaNmArray>
+        <lastModYmd>20240614</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>청각장애인의 재활치료비 지원으로 삶의 질 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001047&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001047</servId>
+        <servNm>청각장애인 인공달팽이관 재활치료</servNm>
+        <sggNm>양주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1044</inqNum>
+        <intrsThemaNmArray>임신·출산, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20240613</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>다자녀 가정에 출생 축하 및 어린 자녀 동반시 이동 편의 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005218&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005218</servId>
+        <servNm>다자녀 출생 축하 교통비 지원</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1663</inqNum>
+        <intrsThemaNmArray>임신·출산</intrsThemaNmArray>
+        <lastModYmd>20240613</lastModYmd>
+        <lifeNmArray>영유아, 임신 · 출산</lifeNmArray>
+        <servDgst>출생 축하 및 출생 가정의 경제적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000863&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000863</servId>
+        <servNm>출산용품 지원</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>인터넷, 방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1794</inqNum>
+        <intrsThemaNmArray>입양·위탁, 서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20240613</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>출생 가정의 경제적 부담 경감 
+</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001494&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001494</servId>
+        <servNm>출산지원금</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 오산시 복지교육국 가족보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>714</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20240613</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>저출산 극복을 위한 출산장려 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003657&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003657</servId>
+        <servNm>보완적 출산장려지원 (출산축하용품)</servNm>
+        <sggNm>오산시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>지역화폐</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 양주시 복지문화국 복지지원과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>838</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20240608</lastModYmd>
+        <lifeNmArray>임신 · 출산</lifeNmArray>
+        <servDgst> 장애인가정에 출산지원금을 지원하여 산모와 신생아의 건강과 양육환경을 향상시키고 저출산시대의 사회적 문제해소와 장애인가정의 생활안정 및 사회적 통합에 기여하도록 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003101&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003101</servId>
+        <servNm>장애인가정 출산비용지원</servNm>
+        <sggNm>양주시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>416</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20240606</lastModYmd>
+        <lifeNmArray>중장년, 청년, 청소년, 영유아, 아동</lifeNmArray>
+        <servDgst>- 청각장애인 인공달팽이관 재활치료비 지원으로 의료비 부담 경감 및 사회·경제 활동 도모 </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000885&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000885</servId>
+        <servNm>청각장애인 인공달팽이관 재활치료비</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 처인구보건소 건강증진과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>688</inqNum>
+        <intrsThemaNmArray>서민금융, 임신·출산</intrsThemaNmArray>
+        <lastModYmd>20240605</lastModYmd>
+        <lifeNmArray>청년, 임신 · 출산</lifeNmArray>
+        <servDgst>난임부부의 경제적 심리적 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005467&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005467</servId>
+        <servNm>용인시 난임부부 시술비 본인부담금 추가지원 사업</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 아동보육과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>814</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20240605</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>법령에 의해 무상 지원되는 보육료 외에 어린이집에 부모가 추가로 부담하는 필요경비 일부 지원하여 취약계층 보육 부담 완화 및 보육지원 체감 만족도 제고</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001402&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001402</servId>
+        <servNm>취약계층 아동 입학준비금 지원</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손, 장애인, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 도시주택국 주택과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1961</inqNum>
+        <lastModYmd>20240605</lastModYmd>
+        <lifeNmArray>청소년, 청년, 중장년, 아동, 영유아, 노년</lifeNmArray>
+        <servDgst>기초생활보장수급자 및 차상위계층에 속하는 주거환경이 취약한 저소득층에게 전대함으로써 실질적인 자립기반을
+조성할 수 있도록 하기 위함. </servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001276&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001276</servId>
+        <servNm>저소득가구 전세임대 지원</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>년</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 용인시 복지여성국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1974</inqNum>
+        <lastModYmd>20240604</lastModYmd>
+        <lifeNmArray>아동, 중장년, 청소년, 청년</lifeNmArray>
+        <servDgst>활동지원서비스 이용 대상자 중 국비 및 도비 지원 사업만으로는 사용시간이 부족한 대상자들에게 시 자체 추가지원 서비스를 제공하여 자립생활 지원 및 가족 부담을 경감
+
+ - 1~13구간 20시간
+ - 14구간 10시간</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004586&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004586</servId>
+        <servNm>장애인활동지원 (시추가지원)</servNm>
+        <sggNm>용인시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>실물바우처</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 여성가족국 가족다문화과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1116</inqNum>
+        <intrsThemaNmArray>서민금융, 보호·돌봄, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20240531</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>한부모가족복지 시설 퇴소자에 대한 최소한의 자립지원금을 보조하여 자립에 도움을 주고자 함</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003288&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003288</servId>
+        <servNm>경기도 한부모가족복지시설 퇴소자 자립지원금 지원</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>한부모·조손</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여성가족국 보육정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1707</inqNum>
+        <lastModYmd>20230901</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>누리과정 운영의 내실을 기하고 어린이집 이용 부모의 보육비 부담 경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003846&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003846</servId>
+        <servNm>누리과정 차액보육료 지원</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 여성가족국 보육정책과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>844</inqNum>
+        <lastModYmd>20230901</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>방과 후 어린이집을 이용하는 만12세 이하 초등학교 취학아동[차상위 이하(법정저소득층 포함) 밎 장애아동] 보육료 지원으로 저소득 가정의 양육부담 경감 및 부모의 사회활동 지원</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000721&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000721</servId>
+        <servNm>차상위이하 아동 방과후 보육료</servNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인, 한부모·조손, 저소득</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 안양시 복지문화국 장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>496</inqNum>
+        <intrsThemaNmArray>서민금융</intrsThemaNmArray>
+        <lastModYmd>20230728</lastModYmd>
+        <lifeNmArray>청소년, 청년, 아동, 중장년</lifeNmArray>
+        <servDgst>평생 대소변 처리를 위한 기저귀 사용으로 생활의 불편함과 경제적 부담, 이중고에 시달리는 뇌병변 장애인의 삶의 질 향상</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00005364&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00005364</servId>
+        <servNm>저소득 심한 뇌병변장애인 신변처리용품(기저귀) 지원사업</servNm>
+        <sprtCycNm>분기</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2488</inqNum>
+        <intrsThemaNmArray>입양·위탁, 서민금융</intrsThemaNmArray>
+        <lastModYmd>20230728</lastModYmd>
+        <lifeNmArray>영유아</lifeNmArray>
+        <servDgst>저출산 극복을 위한 시책사업으로 자녀양육에 따른 가정경제 부담경감</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001568&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001568</servId>
+        <servNm>다자녀아동양육수당</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>경기도 성남시 복지국 여성가족과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1762</inqNum>
+        <lastModYmd>20230728</lastModYmd>
+        <lifeNmArray>영유아, 아동</lifeNmArray>
+        <servDgst>셋째자녀 이상 출생아에게 상해 및 질병 등에 대비하기 위한 안심보험을 가입하여 영유아의 건전한 성장 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001189&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001189</servId>
+        <servNm>다자녀사랑 안심보험</servNm>
+        <sggNm>성남시</sggNm>
+        <sprtCycNm>수시</sprtCycNm>
+        <srvPvsnNm>기타</srvPvsnNm>
+    </servList>
+    <servList>
+        <bizChrDeptNm>경기도 보건건강국 공공의료과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>2092</inqNum>
+        <lastModYmd>20230526</lastModYmd>
+        <lifeNmArray>아동</lifeNmArray>
+        <servDgst>예방중심의 포괄적 구강건강관리서비스 제공을 통한 경기도 초등학생의 구강건강실현</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00003676&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00003676</servId>
+        <servNm>경기도 초등학생 치과주치의사업</servNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>프로그램/서비스(서비스)</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>경기도 과천시 경제복지국 가족아동과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>829</inqNum>
+        <intrsThemaNmArray>임신·출산, 서민금융, 입양·위탁</intrsThemaNmArray>
+        <lastModYmd>20230526</lastModYmd>
+        <lifeNmArray>임신 · 출산, 영유아</lifeNmArray>
+        <servDgst>  출산장려금 및 입양장려금 지원으로 저출산 극복</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00001514&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00001514</servId>
+        <servNm>출산·입양장려금 지원</servNm>
+        <sggNm>과천시</sggNm>
+        <sprtCycNm>1회성</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 인터넷</aplyMtdNm>
+        <bizChrDeptNm>장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1904</inqNum>
+        <intrsThemaNmArray>생활지원</intrsThemaNmArray>
+        <lastModYmd>20220822</lastModYmd>
+        <lifeNmArray>아동, 중장년, 청년, 청소년</lifeNmArray>
+        <servDgst>일상생활 및 사회활동이 어려운 장애인에게 활동보조서비스를 제공하여 장애인의 자립생활과 사회참여 증진</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000718&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000718</servId>
+        <servNm>장애인활동지원</servNm>
+        <sggNm>-</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>전자바우처(바우처)</srvPvsnNm>
+        <trgterIndvdlNmArray>장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문, 전화</aplyMtdNm>
+        <bizChrDeptNm>장애인복지과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>3397</inqNum>
+        <intrsThemaNmArray>생활지원</intrsThemaNmArray>
+        <lastModYmd>20220801</lastModYmd>
+        <lifeNmArray>노년, 중장년, 영유아, 아동, 청소년, 청년</lifeNmArray>
+        <servDgst>장애인 지원시책 인지도 제고 및 각종 사회경제문화활동 정보 획득 기회 제공</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004142&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00004142</servId>
+        <servNm>장애인 복지신문 보급</servNm>
+        <sggNm>-</sggNm>
+        <sprtCycNm>주</sprtCycNm>
+        <srvPvsnNm>현물지급</srvPvsnNm>
+        <trgterIndvdlNmArray>저소득, 장애인</trgterIndvdlNmArray>
+    </servList>
+    <servList>
+        <aplyMtdNm>방문</aplyMtdNm>
+        <bizChrDeptNm>아동돌봄과</bizChrDeptNm>
+        <ctpvNm>경기도</ctpvNm>
+        <inqNum>1227</inqNum>
+        <intrsThemaNmArray>서민금융, 입양·위탁, 보호·돌봄, 교육</intrsThemaNmArray>
+        <lastModYmd>20220711</lastModYmd>
+        <lifeNmArray>영유아, 아동, 청소년</lifeNmArray>
+        <servDgst>가정위탁 아동의 학습활동에 필요한 교육비 지원으로 경제적 부담을 해소하여 건전한 육성 도모</servDgst>
+        <servDtlLink>https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00000687&amp;wlfareInfoReldBztpCd=02</servDtlLink>
+        <servId>WLF00000687</servId>
+        <servNm>가정위탁 학습활동 지원</servNm>
+        <sggNm>-</sggNm>
+        <sprtCycNm>월</sprtCycNm>
+        <srvPvsnNm>현금지급</srvPvsnNm>
+    </servList>
+</wantedList>

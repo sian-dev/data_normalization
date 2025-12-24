@@ -7,10 +7,12 @@ from dotenv import load_dotenv
 load_dotenv()
 # --- 1. API 및 파일 상수 정의 ---
 
-API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"
+# API_URL = "https://apis.data.go.kr/B554287/NationalWelfareInformationsV001/NationalWelfaredetailedV001"
+API_URL = "https://apis.data.go.kr/B554287/LocalGovernmentWelfareInformations/LcgvWelfaredetailed"
 # 사용자 제공 Service Key
 # SERVICE_KEY = os.getenv('SERVICE_KEY_KAKAO') #  카카오톡 로그인
-SERVICE_KEY = os.getenv('SERVICE_KEY_USER') #  회원 로그인
+SERVICE_KEY = os.getenv('SERVICE_KEY_USER') #  hhm 회원 로그인
+# SERVICE_KEY = os.getenv('SERVICE_KEY_USER2') #  jyj 회원 2 로그인
 
 # 입출력 파일 이름 설정
 # ⚠️ 중요: 이 변수에 이전 실행 결과 파일(부분적으로 업데이트된 파일) 이름을 지정하세요.
