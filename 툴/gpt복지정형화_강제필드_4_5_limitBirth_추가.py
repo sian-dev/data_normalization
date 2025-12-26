@@ -64,7 +64,7 @@ class WelfareParserV4_5:
         "requires_dual_income": <true|null>,
         "requires_disability": <true|null>,
         "requires_parent_disability": <true|null>,
-        "disability_level": <"경증"|"중증"|null>,
+        "child_disability_level": <"경증"|"중증"|null>,
         "child_has_serious_disease": <true|null>,
         "child_has_rare_disease": <true|null>,
         "child_has_chronic_disease": <true|null>,
@@ -109,7 +109,7 @@ class WelfareParserV4_5:
         "requires_dual_income": <true|null>,
         "requires_disability": <true|null>,
         "requires_parent_disability": <true|null>,
-        "disability_level": <["경증", "중증"]|null>,
+        "child_disability_level": <["경증", "중증"]|null>,
         "parent_disability_level": <["경증", "중증"]|null>,
         "child_has_serious_disease": <true|null>,
         "child_has_rare_disease": <true|null>,
@@ -158,7 +158,7 @@ class WelfareParserV4_5:
 
 6. or_conditions 타입 규칙:
    - 카테고리형(household_type, income_type, childcare_type, education_level, housing_type, 
-     disability_level, parent_disability_level)은 배열 형태
+     child_disability_level, parent_disability_level)은 배열 형태
      예: household_type: ["한부모", "맞벌이"]
    - 숫자형(age, income_percent, children, birth_order 등)은 단일값
      예: age_max_months: 36 (배열 아님!)
@@ -222,7 +222,7 @@ JSON만 반환하세요. 설명 없이!
             'children_min', 'children_max', 'birth_order','birth_order_min','birth_order_max',
             'residence_min_months',
             'childcare_type', 'requires_grandparent_care', 'requires_dual_income',
-            'requires_disability', 'requires_parent_disability', 'disability_level',
+            'requires_disability', 'requires_parent_disability', 'child_disability_level',
             'child_has_serious_disease', 'child_has_rare_disease', 'child_has_chronic_disease', 'child_has_cancer',
             'parent_has_serious_disease', 'parent_has_rare_disease', 'parent_has_chronic_disease', 'parent_has_cancer', 'parent_has_infertility',
             'is_violence_victim', 'is_abuse_victim', 'is_defector', 'is_national_merit', 'is_foster_child', 'is_single_mother', 'is_low_income',

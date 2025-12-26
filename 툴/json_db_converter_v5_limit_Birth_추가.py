@@ -76,7 +76,7 @@ class WelfareConverter:
             or_req_dual = self.to_json(or_cond.get('requires_dual_income'))
             or_req_disability = self.to_json(or_cond.get('requires_disability'))
             or_req_parent_disability = self.to_json(or_cond.get('requires_parent_disability'))
-            or_disability_level = self.to_json(or_cond.get('disability_level'))
+            or_disability_level = self.to_json(or_cond.get('child_disability_level'))
             or_parent_disability_level = self.to_json(or_cond.get('parent_disability_level'))
             or_child_serious = self.to_json(or_cond.get('child_has_serious_disease'))
             or_child_rare = self.to_json(or_cond.get('child_has_rare_disease'))

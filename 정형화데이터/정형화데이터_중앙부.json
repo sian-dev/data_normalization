@@ -1240,7 +1240,7 @@
           "and_conditions": {
             "income_max_percent": 50,
             "requires_disability": true,
-            "disability_level": "중증"
+            "child_disability_level": "중증"
           },
           "or_conditions": {
           }
